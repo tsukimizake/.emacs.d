@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: printspacesplitted
+# key: printspacesplitted
+# --
+printspacesplitted :: (Show a) => [a] -> IO ()
+printspacesplitted [] = return ()
+printspacesplitted (x:xs) = putStr $ show x ++ " "

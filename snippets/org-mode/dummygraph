@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: dummygraph
+# key: dummygraph
+# --
+\newpage
+#+CAPTION: $1
+#+NAME: $2
+[[file:ldummy.png]]
+\newpage

@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: qisimbols
+# key: qisimbols
+# --
+struct ${1:NAME} : qi::symbols<char, unsigned> {
+  $1() {
+    add$2;
+  }
+} $1;

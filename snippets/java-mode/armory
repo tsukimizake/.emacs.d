@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: armory
+# key: armory
+# --
+import java.util.*;
+import java.lang.*;
+import java.math.*;

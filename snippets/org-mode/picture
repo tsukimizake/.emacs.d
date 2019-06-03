@@ -1,0 +1,8 @@
+# key: pic
+# name: picture
+# --
+#+CAPTION: $1
+#+NAME: $2
+#+attr_latex: :height 10cm
+[[file:${3:dummy.png}]]
+

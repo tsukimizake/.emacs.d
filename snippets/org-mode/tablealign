@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tablealign
+# key: align
+# --
+#+ATTR_LaTeX: :align ${1:c|c|c}

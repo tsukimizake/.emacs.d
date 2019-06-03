@@ -1,0 +1,19 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: decltype_sfinae
+# key: decltypesfinae
+# --
+struct ${1:name}_impl{
+template<class U>
+static auto check(U*) ->
+  decltype(
+    ${2:expr}
+    std::true_type ()
+  );
+
+template<class U>
+  static auto check(...) -> std::false_type;
+};
+
+template<class T>
+class $1:public decltype($1_impl::template check<T>(nullptr)){};
+

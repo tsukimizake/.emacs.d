@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: forM_
+# key: for
+# --
+forM_ $1 $ \\${2:i} -> do $3

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: array_case
+# key: array
+# --
+\[${1:lhs} = \begin{cases}
+    case1 \\\\
+    case2
+  \end{cases}\]

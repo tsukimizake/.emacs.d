@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: hspec
+# key: hspec
+# --
+main :: IO()
+main = hspec $ do
+    describe ${"Prelude.head"} $ do
+        it ${"is head"} $ do
+            ${head [42..]} \`shouldBe\` ${42}
+    

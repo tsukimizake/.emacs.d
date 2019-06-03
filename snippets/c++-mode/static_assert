@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: static_assert
+# key: sass
+# --
+static_assert($1,"$2");

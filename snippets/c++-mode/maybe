@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: maybe
+# key: maybe
+# --
+${1:ob}?$1.${2:func}:boost::none;

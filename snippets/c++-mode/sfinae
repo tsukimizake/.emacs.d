@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sfinae
+# key: sfinae
+# --
+typename $1* = nullptr

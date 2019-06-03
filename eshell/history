@@ -1,0 +1,26 @@
+mvn
+mvn
+mvn compile
+mvn antrun:run -Dtarget=call
+git add .
+git commit -m "write proposition.tex"
+git push origin master
+ls
+rm -rf ./design.aux ./design.tex 
+mkdir hyvim
+cd hyvim/
+ls
+touch hello.hy
+e hello.hy 
+hello.hy 
+f hello.hy 
+cd
+cd .emacs.d/
+ls
+cd workspace/
+ls
+cd ..
+ls
+pip install jedi
+ls -a
+rm -rf .python-environments/

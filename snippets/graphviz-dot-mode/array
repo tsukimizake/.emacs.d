@@ -1,0 +1,4 @@
+# key: arr
+# name: array
+# --
+"${dom}" -> "${codom}" [label="${label}"]

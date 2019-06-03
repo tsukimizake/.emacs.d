@@ -1,0 +1,8 @@
+# key: ldummy
+# name: ldummy
+# --
+\newpage
+#+CAPTION: $1
+#+NAME: $1
+[[file:ldummy.png]]
+\newpage

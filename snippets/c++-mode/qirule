@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: qirule
+# key: qirule
+# --
+qi::rule<${Iter}, ${out_type()}, ${skip_type}> $1;

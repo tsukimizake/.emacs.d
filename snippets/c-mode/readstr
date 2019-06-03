@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: readstr
+# key: readstr
+# --
+char buf[114514];
+  size_t bufsize = 0;
+  size_t linelen = 1;
+  char * input;
+  size_t linecount = 0;
+  while(1){
+    int len = getline(& input, & linelen, stdin);
+    if(len <= 0){
+      break;
+    }
+    strcat(buf, input);
+    linecount++;
+    bufsize += linelen;
+  };

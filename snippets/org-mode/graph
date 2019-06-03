@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: graph
+# key: graph
+# --
+
+#+begin_src dot :file $1.png
+digraph {
+graph[label=$2, ${rankdir=LR}]
+ 
+}
+#+end_src

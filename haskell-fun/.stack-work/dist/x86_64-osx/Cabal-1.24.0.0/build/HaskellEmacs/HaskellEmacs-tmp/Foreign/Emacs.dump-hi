@@ -1,0 +1,104 @@
+
+==================== FINAL INTERFACE ====================
+2016-10-01 05:41:14.062711 UTC
+
+interface main@main:Foreign.Emacs 8001
+  interface hash: d2fa4735f9485856dcaa28d5a707c161
+  ABI hash: 82df764d9294b8f9ee1851a8151fb5ec
+  export-list hash: d4db43fddc82cadcefbec7cffcb5ae41
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 266fc94d0fe75754c6ebde0a68ce32f1
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Foreign.Emacs.Internal.eval
+  Foreign.Emacs.Internal.eval_
+  Foreign.Emacs.Internal.getBuffer
+  Foreign.Emacs.Internal.modifyBuffer
+  Foreign.Emacs.Internal.putBuffer
+  Data.AttoLisp.Lisp{Data.AttoLisp.DotList Data.AttoLisp.List Data.AttoLisp.Number Data.AttoLisp.String Data.AttoLisp.Symbol}
+  Foreign.Emacs.Internal.Buffer{Foreign.Emacs.Internal.Buffer point text}
+  Foreign.Emacs.Internal.Emacs
+module dependencies: Foreign.Emacs.Internal
+package dependencies: array-0.5.1.1@array-0.5.1.1
+                      atto-lisp-0.2.2.2@atto-lisp-0.2.2.2-pADZfkG2vxA8PuvQIBBrO
+                      attoparsec-0.13.0.2@attoparsec-0.13.0.2-GLM6q4XQBSiI4fJOXoBxlu
+                      base-4.9.0.0 binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-KWDLbdBYSBoALiMW0LHIz1
+                      blaze-textual-0.2.1.0@blaze-textual-0.2.1.0-5TvXaG25I6S46sBk67LFXf
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      scientific-0.3.4.9@scientific-0.3.4.9-6oTYuCcx6H5BsTGU7D2Gk3
+                      text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4
+                      vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6
+orphans: attoparsec-0.13.0.2@attoparsec-0.13.0.2-GLM6q4XQBSiI4fJOXoBxlu:Data.Attoparsec.ByteString.Char8
+         base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G:Data.Hashable.Generic
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Fusion.Bundle
+family instance modules: attoparsec-0.13.0.2@attoparsec-0.13.0.2-GLM6q4XQBSiI4fJOXoBxlu:Data.Attoparsec.Internal.Types
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Functor.Identity base-4.9.0.0:Data.List.NonEmpty
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Semigroup
+                         base-4.9.0.0:Data.Type.Equality base-4.9.0.0:Data.Version
+                         base-4.9.0.0:Data.Void base-4.9.0.0:GHC.Exts
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector
+import  -/  atto-lisp-0.2.2.2@atto-lisp-0.2.2.2-pADZfkG2vxA8PuvQIBBrO:Data.AttoLisp c08cb10972d1d412f22ccb4fe3eb3e1b
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  Foreign.Emacs.Internal d81b1c10e5c14bd59d5c5174a1fc449d
+  exports: 5ae1a49a6133df1ada5872615f01ac05
+  Buffer db7e8f3883d49c43ba9820350585b453
+  Buffer 69985ea0f99969f3a695959894b26a3c
+  Emacs 3ea21ebf8898c3f9d10265d33d055302
+  eval 96d04737727061c93090b4402c97f2b5
+  eval_ 9b66c99634e829d955eef15da94aa894
+  getBuffer dab02671e278f27f5ca2901c8437b0ca
+  modifyBuffer 606c2fd2b5b57d96b26186cd1a1e96d1
+  point 317074f8b40c4a71b7b667f31892b789
+  putBuffer 2defd2050de422ab9f911cbaf924ee83
+  text 9bd2a2e524c2583c1024c81e255ef272
+6453360679489ff550794e0a11715870
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Foreign.Emacs.$trModule2
+                   Foreign.Emacs.$trModule1) -}
+9014255567ebdea5ba34312431bfdac0
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Foreign.Emacs"#) -}
+dd0c7f83f0288ede3f2f3ddbacf97016
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

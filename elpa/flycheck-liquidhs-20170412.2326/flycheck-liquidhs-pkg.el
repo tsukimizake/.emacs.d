@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "flycheck-liquidhs" "20170412.2326" "A flycheck checker for Haskell using liquid (i.e. liquidhaskell)" '((flycheck "0.15")) :commit "c27252ac24d77f4b6eec76a4ba9cd61761a3fba9" :keywords '("convenience" "languages" "tools") :authors '(("Ranjit Jhala" . "jhala@cs.ucsd.edu")) :maintainer '("Ranjit Jhala" . "jhala@cs.ucsd.edu") :url "https://github.com/ucsd-progsys/liquidhaskell/flycheck-liquid.el")

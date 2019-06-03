@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: armory
+# key: armory
+# --
+import Data.List
+import Data.Array
+import Data.Maybe
+import Control.Monad.State
+import Data.IORef
+import Control.Monad
+import Control.Applicative
+import Data.Rational
+
+readInts2 :: IO (Int, Int)
+readInts2 = lst >>= (return . tuplify)
+  where
+    lst :: IO [Int]
+    lst = fmap (read :: String->Int) . words <\$> getLine
+    tuplify :: [a]->(a, a)
+    tuplify [x, y] = (x, y)
+
+readInts3 :: IO (Int, Int, Int)
+readInts3 = lst >>= (return . tuplify)
+  where
+    lst :: IO [Int]
+    lst = fmap (read :: String->Int) . words <\$> getLine
+    tuplify :: [a]->(a, a, a)
+    tuplify [x, y, z] = (x, y, z)

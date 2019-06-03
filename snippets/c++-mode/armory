@@ -1,0 +1,35 @@
+# -*- mode: snippet -*-
+# name: armory
+# key: armory
+# --
+#include <set>
+#include <string>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <stack>
+#include <queue>
+#include <limits>
+#include <map>
+#include <unordered_map>
+static int imin = std::numeric_limits<ll>::min();
+static int imax = std::numeric_limits<ll>::max();
+#define ll long long
+#define rep(i, n) for(int i = 0; i<n; ++i)
+#define rep1(i, n) for(int i = 1; i<n; ++i)
+#define all(v) v.begin(), v.end()
+#define dump(x) cout << #x << ":" << x << "\n";
+template<class T>
+std::ostream& operator << (std::ostream& os, std::vector<T>& vec){
+  std::size_t n = vec.size();
+  if(n == 0){
+    return os;
+  }
+  for(int i = 0; i<n - 1; ++i){
+    os << vec[i] << " ";
+  }
+  os << vec[n - 1];
+  os << std::endl;
+  return os;
+}
+

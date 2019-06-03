@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: newIORef
+# key: nir
+# --
+${1:i} <- newIORef ${2:val}

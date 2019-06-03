@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: digraph
+# key: digraph
+# --
+digraph ${1:name} {
+
+}

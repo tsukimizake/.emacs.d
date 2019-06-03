@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ins
+# key: ins
+# --
+$1 <= '$2';

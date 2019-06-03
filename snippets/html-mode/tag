@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: tag
+# key: tag
+# --
+<$1>$2</$1>

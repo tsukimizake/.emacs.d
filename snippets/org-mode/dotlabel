@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: dotlabel
+# key: dotl
+# --
+[label=$1]

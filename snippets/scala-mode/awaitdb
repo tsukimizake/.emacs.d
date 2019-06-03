@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: awaitdb
+# key: awaitdb
+# --
+Await.result(db.run(DBIO.seq(
+  $1
+)), Duration.Inf)

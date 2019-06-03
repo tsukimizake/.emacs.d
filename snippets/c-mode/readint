@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: readint
+# key: readint
+# --
+int vec[1024];
+int count = 0;
+{
+  int i;
+  while(scanf("%d", & i) != EOF){
+    vec[count] = i;
+    ++count;
+  }
+}

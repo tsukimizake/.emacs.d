@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: cd
+# key: cd
+# --
+#+BEGIN_LaTeX
+$$
+\begin{CD}
+${1:G @> hoge >> F \\
+G @> hoge >> F}
+\end{CD}
+$$
+#+END_LaTeX

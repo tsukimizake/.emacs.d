@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: instance
+# key: instance
+# --
+instance $1 ($2) where

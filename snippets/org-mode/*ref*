@@ -1,0 +1,4 @@
+# key: ref
+# name: ref
+# --
+\\ref\{$1\}

@@ -1,0 +1,7 @@
+# key: stackscript
+# name: stackscript
+# --
+#!/usr/bin/env stack
+-- stack runghc --package=$1
+{-# LANGUAGE OverloadedStrings, FlexibleContexts#-}
+

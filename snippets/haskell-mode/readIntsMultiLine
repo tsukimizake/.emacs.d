@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: readIntsMultiLine
+# key: rimulti
+# --
+${1:nss} <- fmap (fmap (read :: String -> Int) . words) . lines <\$> getContents

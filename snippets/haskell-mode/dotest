@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dotest
+# key: >>>
+# --
+-- >>> ${1:expr}
+-- ${2:res}

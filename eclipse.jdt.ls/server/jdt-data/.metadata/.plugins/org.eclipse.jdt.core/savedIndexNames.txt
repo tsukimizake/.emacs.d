@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+/Users/shomasd/.emacs.d/eclipse.jdt.ls/server/jdt-data/.metadata/.plugins/org.eclipse.jdt.core
+1271342938.index
+2353848150.index
+3842426239.index
+2587947521.index
+1823103826.index
+811023603.index
+979578155.index
+3450454389.index
+2713797458.index
+1666608670.index
+2889055758.index
+3727397022.index
+998375213.index
+2992301778.index
+4158903250.index
+2579549574.index
+314395480.index

@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: readInput
+# key: readi
+# --
+$1 <- read <\$> getLine :: IO $3

@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "play-routes-mode" "20170426.733" "Play Framework Routes File Support" 'nil :commit "22d7b87e0eaf0330f2b2283872f8dc08a3258771" :keywords '("play" "scala") :authors '(("M.Riehl <max@flatmap.ninja>, P.Haun" . "bomgar85@googlemail.com")) :maintainer '("M.Riehl <max@flatmap.ninja>, P.Haun" . "bomgar85@googlemail.com") :url "https://github.com/brocode/play-routes-mode/")

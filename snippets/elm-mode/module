@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: module
+# key: module
+# --
+module `
+(progn
+  (require 'f)
+  (require 's)
+  (let ((modulename (f-no-ext (f-filename (buffer-file-name)))))
+    (upcase-initials modulename)))
+` exposing (..)

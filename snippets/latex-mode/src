@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: src
+# key: src
+# --
+\begin{lstlisting}[caption=$1,label=$2]
+
+\end{lstlisting}

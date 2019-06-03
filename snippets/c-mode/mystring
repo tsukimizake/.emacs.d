@@ -1,0 +1,82 @@
+# -*- mode: snippet -*-
+# name: mystring
+# key: mystring
+# --
+#include <string.h>
+#include <stdlib.h>
+
+typedef struct String{
+  char * _data;
+  int _dataLength;
+  int _bufferLength;
+} String;
+int const strLength (String const* const s);
+char const * strData (String const* const s);
+
+// バッファサイズは余裕をもって増やしていく。
+int _strMinBuffLength(int dataLength){
+  int res = 1;
+  while(res < dataLength){
+    res *= 2;
+  }
+  return res;
+}
+
+String* strCreate(char const* const s){
+  String * tmp = (String*) malloc(sizeof(String));
+  int length = strlen(s);
+  tmp -> _data = malloc(sizeof(char) * length);
+  strcpy(tmp -> _data, s);
+  tmp -> _dataLength = length;
+  tmp -> _bufferLength = length;
+  return tmp;
+}
+
+void _strReallocate(String * s, int newBufSize){
+  char const * tmp = malloc(sizeof(char) * strLength(s));
+  tmp = strData(s);
+  free((void*) s -> _data);
+  s -> _data = malloc(sizeof(char) * newBufSize);
+  s -> _data = (char*)tmp;
+  s -> _bufferLength = newBufSize;
+}
+
+void _strReallocateMaybe(String * s, int newDataSize){
+  if(s -> _bufferLength >= newDataSize){ // バッファサイズが十分なら再確保しない
+    return;
+  }
+  int newBufSize = _strMinBuffLength(newDataSize);
+  _strReallocate(s, newBufSize); // バッファが足りないなら再確保
+}
+
+char const * strData (String const* const s){
+  return s -> _data;
+}
+
+int const strLength (String const* const s){
+  return s -> _dataLength;
+}
+
+void strConcat (String* lhs, String const* const rhs){
+  int newDatLength = strLength(lhs) + strLength(rhs);
+  int newBufLength = _strMinBuffLength(newDatLength);
+  _strReallocateMaybe(lhs, newBufLength);
+  strcat(lhs -> _data, rhs -> _data);
+  lhs -> _dataLength = newDatLength;
+  lhs -> _bufferLength = newBufLength;
+}
+
+void strWriteC(String * dest, char const * const src){
+  _strReallocateMaybe(dest, strlen(src));
+  strcpy(dest -> _data, src);
+}
+
+void strWriteS(String * dest, String const * const src){
+  _strReallocateMaybe(dest, src -> _dataLength);
+  strcpy(dest -> _data, src -> _data);
+}
+
+void strDelete(String const * s){
+  free((void * )s -> _data);
+  free((void * )s);
+}

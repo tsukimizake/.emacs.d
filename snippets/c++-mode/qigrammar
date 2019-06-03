@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: qigrammar
+# key: qigrammar
+# --
+template <class Iter>
+struct ${1:NAME} : qi::grammar<Iter, ${2:RET_TYPE}(), ${3:ascii::space_type}> {
+	$1() : $1::base_type(start) {
+		 $4
+	}
+		qi::rule<Iter, $2(), $3> start;
+};

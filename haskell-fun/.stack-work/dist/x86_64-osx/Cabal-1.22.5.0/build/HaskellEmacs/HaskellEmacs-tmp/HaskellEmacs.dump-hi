@@ -1,0 +1,2299 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-30 12:44:53.438065 UTC
+
+interface main@main:Main 7103
+  interface hash: 0f20ad329cf0b38af56cca562448b96e
+  ABI hash: 127d4aab5ad9bbe8da4a45002ebe2f2e
+  export-list hash: a7faca721c214d05d6d48f8047ccca5f
+  orphan hash: 5d0c62b99c75215b15706ad2cae0cdf1
+  flag hash: a3c4948a71fe8ef1f0fbf35d1478edf9
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.allExports
+  Main.arityFormat
+  Main.arityList
+  Main.declarationNames
+  Main.dispatcher
+  Main.exportFunction
+  Main.exportsFromDecls
+  Main.exportsFromHeader
+  Main.exportsGet
+  Main.formatCode
+  Main.formatResult
+  Main.fromName
+  Main.fullParse
+  Main.getDocumentation
+  Main.main
+  Main.normalize
+  Main.parseInput
+  Main.runInstruction
+  Main.toDispatcher
+  Main.transform
+  Main.traverseLisp
+  Main.unQualifiedName
+  Main.Arity{Main.arity}
+  Main.Instruction{Main.EmacsToHaskell Main.HaskellToEmacs Main.StartDialog}
+module dependencies: Foreign.Emacs.Internal Matrix
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      atto-lisp-0.2.2.2@attol_90yuvSkXUv5KUzI9B7u8hc
+                      attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68 base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-textual-0.2.1.0@blaze_2Mh6jNrscJA0Vy1dvfsxqd
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      cpphs-1.20.1@cpphs_6gGTLZlFKFj65mZSINKWFa
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7
+                      integer-gmp-1.0.0.0 mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      parallel-3.2.1.0@paral_BEbrIfHgHtmEpYU5TfKWK9
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      scientific-0.3.4.8@scien_Elq5IFN7LP733k4M8RTP7H
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Char8
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Annotated.Parser
+         haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Parser
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+family instance modules: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Annotated.Syntax
+                         haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Syntax
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+import  -/  atto-lisp-0.2.2.2@attol_90yuvSkXUv5KUzI9B7u8hc:Data.AttoLisp 1f84105c2a804b51de30cabaf1572ab4
+import  -/  attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Char8 d8bf1ff700ec8f3e84203fbfce8ca3b1
+import  -/  attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Lazy 8d317840b61364ffb67129b6a98bdace
+import  -/  attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Combinator 13b8120c1f5a3491bc6dc73d89959c42
+import  -/  base-4.8.2.0:Control.Applicative a8ebf5ad4932b411ad7725da68be9801
+import  -/  base-4.8.2.0:Control.Arrow ab7f126fed349de468f94ac777dc8f4e
+import  -/  base-4.8.2.0:Control.Concurrent 1268fba2c60b0505ec9e8731d08a8e75
+import  -/  base-4.8.2.0:Control.Concurrent.Chan 3e0d98f93ed95f7883897750719f777f
+import  -/  base-4.8.2.0:Control.Concurrent.MVar 3eafccf954c3dcec07c7712da74a8538
+import  -/  base-4.8.2.0:Control.Monad 480c5067477275068c9b98be08410df9
+import  -/  base-4.8.2.0:Data.Either e8724afd65fd432cfe9a54014f5f762d
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.2.0:Data.Monoid 85b292b52bfd80ed619cddb767d638d3
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
+import  -/  base-4.8.2.0:Data.Traversable 7576318f4ef8587ad947f87012b65abf
+import  -/  base-4.8.2.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Conc.Sync e56817ef33471434aa51ef212cff6db1
+import  -/  base-4.8.2.0:GHC.IO.Handle 631f32e0ad65df940f6a2b3e721d8452
+import  -/  base-4.8.2.0:GHC.IO.Handle.FD 43ef1c409a5b322c789fa1f7098e143b
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.MVar 923ba0fea12c99eadbbf8d2bd3c3ff26
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0899686bfc1d9ef72dff3de85e99862a
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy 7b1dd178b3666e14ba91381002b4b4e3
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy.Char8 3455f4159ac4b644563dfc2b667ec7e5
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy.Internal 372874e1a7c751c0cb07b7dc746f232b
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map bf7758bd12b23a367777a33fd16e39de
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base c921f79770a215e3f4c72c747cb6a28a
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts a2bdfe9a9ce02a234824999aec8e03c4
+import  -/  haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Build dc355e86d4c56d23c2db39a1f229a42d
+import  -/  haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.ParseMonad aeb24e07d83c2f24af4b8479a8301df2
+import  -/  haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Pretty cdfbbee57d08d8b6a67939f4ac70ecc4
+import  -/  haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.SrcLoc f6e48c3eae2328a454dedd9b62cda8d3
+import  -/  haskell-src-exts-1.17.1@haske_4FklJxiwJoAI0XtFimUoU7:Language.Haskell.Exts.Syntax 34c636c8c45fce227153c9198bedecee
+import  -/  Foreign.Emacs.Internal 65f42019e26688e216d86520324ce8e2
+  exports: 527c4c60eb49a7dea8bd161dde2bd0e9
+  Emacs 044b52021573058d9f421e95dae90151
+  EmacsInternal c57be7a551019b81a700a185ac904c8a
+  ToEmacs 6316daf6401762d94b0f485fba3e7de0
+  toEmacs 6af98b8eb058a0cf9b0818641e424970
+import  -/  Matrix d345525763ec8cd45d0a8c30a72cd093
+  exports: deab1b86c60ecf53e3632a9e4b1e1e1d
+  dyadic dc244e376937336b8ba53e00a3939abe
+  identity efa916d8b84978743e9b6ccafedb8b9b
+  isIdentity 4d8b8ae3250cc6571c8ad013fab1473b
+  transpose 6256001a60659d354692278a50991d6e
+import  -/  parallel-3.2.1.0@paral_BEbrIfHgHtmEpYU5TfKWK9:Control.Parallel.Strategies db62c64627dfb42c0cfda5b511e1ee25
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text b53ae191632883b10562be5cbaa0b22b
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+import  -/  transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Reader 70dc71c4262795d29d07da6093fd088a
+import  -/  utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b:Data.ByteString.Lazy.UTF8 81e517f9f47de9f18edde8658afd5a93
+de098759dd4ed970a53db078af794246
+  $fArity(->) :: Main.Arity f => Main.Arity (a -> f)
+  DFunId[0]
+  {- Arity: 2, Strictness: <C(S),1*C1(U(U))><L,1*C1(U)>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fArity(->)_$carity
+                  `cast`
+                (forall a16 f.
+                 <Main.Arity f>_R ->_R Sym (Main.NTCo:Arity[0] <a16 -> f>_N)) -}
+de098759dd4ed970a53db078af794246
+  $fArity(->)_$carity :: Main.Arity f => (a -> f) -> GHC.Types.Int
+  {- Arity: 2, Strictness: <C(S),1*C1(U(U))><L,1*C1(U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a16 @ f $dArity :: Main.Arity f f1 :: a16 -> f ->
+                 case $dArity `cast` (Main.NTCo:Arity[0] <f>_N)
+                        (f1 (GHC.Err.undefined @ a16)) of wild1 { GHC.Types.I# y ->
+                 GHC.Types.I# (GHC.Prim.+# 1 y) }) -}
+de098759dd4ed970a53db078af794246
+  $fArityx :: Main.Arity x
+  DFunId[0]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fArityx_$carity
+                  `cast`
+                (forall x. Sym (Main.NTCo:Arity[0] <x>_N)) -}
+e4a9484d0209f89fd1e3dc0f74284de9
+  $fArityx1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+c96c4d819841668fc1dab034ae3370ff
+  $fArityx_$carity :: x -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x ds1 :: x -> Main.$fArityx1) -}
+11e8ac2ed7476580088b3aabc5348814
+  $sfromList ::
+    [(Data.Text.Internal.Text, a)]
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a16 ds1 :: [(Data.Text.Internal.Text, a16)] ->
+                 case ds1 of wild {
+                   [] -> Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16
+                   : ds2 ds3
+                   -> case ds2 of wild1 { (,) kx x ->
+                      case ds3 of wild2 {
+                        []
+                        -> case kx of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                           Data.Map.Base.Bin
+                             @ Data.Text.Internal.Text
+                             @ a16
+                             1
+                             dt
+                             x
+                             (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16)
+                             (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16) }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds4 ->
+                           case kx of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                           case ky of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                           case Data.Text.$w$ccompare ww1 ww2 ww3 ww5 ww6 ww7 of wild4 {
+                             DEFAULT
+                             -> Main.$sfromList_$spoly_go10
+                                  @ a16
+                                  (Data.Map.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     @ a16
+                                     1
+                                     ww
+                                     x
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16)
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16))
+                                  ww5
+                                  ww6
+                                  ww7
+                                  ds4
+                                  ipv1
+                             GHC.Types.LT
+                             -> Main.$sfromList_$s$wpoly_go10
+                                  @ a16
+                                  1
+                                  (Data.Map.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     @ a16
+                                     1
+                                     ww
+                                     x
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16)
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a16))
+                                  ww5
+                                  ww6
+                                  ww7
+                                  ds4
+                                  ipv1 } } } } } } }) -}
+86dfe5a159a044d702f0f209c181b493
+  $sfromList_$s$wpoly_go10 ::
+    GHC.Prim.Int#
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> a
+    -> [(Data.Text.Internal.Text, a)]
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+  {- Arity: 7, Strictness: <L,U><S,1*U><L,U><L,U><L,U><L,U><L,U> -}
+c753bc9cda6e8a7e9428bf6985bf8680
+  $sfromList_$spoly_go10 ::
+    Data.Map.Base.Map Data.Text.Internal.Text a
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> a
+    -> [(Data.Text.Internal.Text, a)]
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+  {- Arity: 6, Strictness: <S,1*U><L,U><L,U><L,U><L,U><L,U> -}
+7daea3ad3a014cb6be031959ea971b19
+  $sfromString4 ::
+    Data.ByteString.Internal.ByteString
+    ~ Data.ByteString.Internal.ByteString
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ Data.ByteString.Internal.ByteString
+                   @ Data.ByteString.Internal.ByteString
+                   @~ <Data.ByteString.Internal.ByteString>_N) -}
+de2063e108293e9976379e4ccd52c7ef
+  $stoEmacs15 :: [GHC.Types.Int] -> Data.AttoLisp.Lisp
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Data.AttoLisp.$fToLisp[]_$ctoLisp
+                   @ GHC.Types.Int
+                   Data.AttoLisp.$fToLispInt_$ctoLisp
+                     `cast`
+                   (Sym (Data.AttoLisp.NTCo:ToLisp[0] <GHC.Types.Int>_N))) -}
+c3aa64ec3b0005938275e44634ec4a47
+  $w$j ::
+    [Data.AttoLisp.Lisp]
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: [Data.AttoLisp.Lisp][OneShot] ->
+                 case (Main.dispatcher_go3 w)
+                        `cast`
+                      (Data.AttoLisp.NTCo:Parser[0] <[GHC.Base.String]>_R)
+                        @ Data.AttoLisp.Result
+                        @ [GHC.Base.String]
+                        (Data.AttoLisp.Error @ [GHC.Base.String])
+                        (Data.AttoLisp.Success @ [GHC.Base.String]) of wild {
+                   Data.AttoLisp.Error err
+                   -> Data.AttoLisp.Error
+                        @ (Data.Either.Either
+                             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                             Data.AttoLisp.Lisp)
+                        err
+                   Data.AttoLisp.Success a64
+                   -> Data.AttoLisp.Success
+                        @ (Data.Either.Either
+                             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                             Data.AttoLisp.Lisp)
+                        (Data.Either.Right
+                           @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                           @ Data.AttoLisp.Lisp
+                           (Data.AttoLisp.String
+                              (case Main.arityFormat a64 of dt { DEFAULT ->
+                               GHC.ST.runSTRep
+                                 @ Data.Text.Internal.Text
+                                 (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                  case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                                  Main.dispatcher58
+                                    @ s1
+                                    (Data.Text.Array.MArray @ s1 ipv1)
+                                    Main.dispatcher56
+                                    dt
+                                    0
+                                    ipv }) }))) }) -}
+8d43779271eb25023bbec70c72e47aef
+  $w$sgo10 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> a1
+    -> Data.Map.Base.Map Data.Text.Internal.Text a1
+    -> Data.Map.Base.Map Data.Text.Internal.Text a1
+  {- Arity: 5, Strictness: <L,U><L,U><L,U><L,U><S,1*U>,
+     Inline: [0] -}
+5a8af3f3c3d6c4ba8cb32348abc3793a
+  $wa1 ::
+    GHC.Prim.Addr#
+    -> GHC.ForeignPtr.ForeignPtrContents
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Attoparsec.Internal.Types.More
+    -> Data.Attoparsec.Internal.Types.Failure
+         Data.ByteString.Internal.ByteString
+         (Data.Attoparsec.Internal.Types.State
+            Data.ByteString.Internal.ByteString)
+         r
+    -> Data.Attoparsec.Internal.Types.Success
+         Data.ByteString.Internal.ByteString
+         (Data.Attoparsec.Internal.Types.State
+            Data.ByteString.Internal.ByteString)
+         Main.Instruction
+         r
+    -> Data.Attoparsec.Internal.Types.IResult
+         Data.ByteString.Internal.ByteString r
+  {- Arity: 10,
+     Strictness: <L,U><L,U><L,U><L,U><L,U><L,U><L,U><L,U><L,U><L,C(C1(C1(C1(U))))>,
+     Inline: [0] -}
+9f78b32b9acf8e6915f316733bc3f704
+  $wa2 ::
+    GHC.Base.String
+    -> GHC.Types.Int
+    -> (# Language.Haskell.Exts.Annotated.Syntax.Boxed,
+          [Language.Haskell.Exts.Syntax.Exp] #)
+  {- Arity: 2, Strictness: <L,U><L,U(U)>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Base.String ww1 :: GHC.Types.Int ->
+                 (# Language.Haskell.Exts.Annotated.Syntax.Boxed,
+                    GHC.Types.:
+                      @ Language.Haskell.Exts.Syntax.Exp
+                      (Language.Haskell.Exts.Build.strE ww)
+                      (GHC.Types.:
+                         @ Language.Haskell.Exts.Syntax.Exp
+                         (Language.Haskell.Exts.Syntax.App
+                            Main.toDispatcher3
+                            (Language.Haskell.Exts.Syntax.Lambda
+                               Language.Haskell.Exts.SrcLoc.noLoc
+                               (GHC.Types.:
+                                  @ Language.Haskell.Exts.Syntax.Pat
+                                  (Language.Haskell.Exts.Syntax.PTuple
+                                     Language.Haskell.Exts.Annotated.Syntax.Boxed
+                                     (case ww1 of ww2 { GHC.Types.I# ww3 ->
+                                      GHC.Base.map
+                                        @ Language.Haskell.Exts.Syntax.Name
+                                        @ Language.Haskell.Exts.Syntax.Pat
+                                        Language.Haskell.Exts.Syntax.PVar
+                                        (Language.Haskell.Exts.Build.$wgenNames
+                                           Main.dispatcher44
+                                           ww3) }))
+                                  (GHC.Types.[] @ Language.Haskell.Exts.Syntax.Pat))
+                               (case ww1 of ww2 { GHC.Types.I# ww3 ->
+                                Language.Haskell.Exts.Build.appFun
+                                  (Language.Haskell.Exts.Build.function ww)
+                                  (GHC.Base.map
+                                     @ Language.Haskell.Exts.Syntax.Name
+                                     @ Language.Haskell.Exts.Syntax.Exp
+                                     Language.Haskell.Exts.Build.var
+                                     (Language.Haskell.Exts.Build.$wgenNames
+                                        Main.dispatcher44
+                                        ww3)) })))
+                         (GHC.Types.[] @ Language.Haskell.Exts.Syntax.Exp)) #)) -}
+4c54142fe7b9195e58f7ea45e4909aaa
+  $wformatCode ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+  {- Arity: 4, Strictness: <L,U(U,U,U)><L,U(U,U,U)><L,U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ ww :: Data.Text.Internal.Text
+                   ww1 :: Data.Text.Internal.Text
+                   ww2 :: Data.Text.Internal.Text
+                   x :: Data.Text.Internal.Text ->
+                 case Main.formatCode3 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case ww2 of ww7 { Data.Text.Internal.Text ww8 ww9 ww10 ->
+                 case Main.formatCode2 of ww11 { Data.Text.Internal.Text ww12 ww13 ww14 ->
+                 case ww1 of ww15 { Data.Text.Internal.Text ww16 ww17 ww18 ->
+                 case Main.formatCode1 of ww19 { Data.Text.Internal.Text ww20 ww21 ww22 ->
+                 case ww of ww23 { Data.Text.Internal.Text ww24 ww25 ww26 ->
+                 case x of ww27 { Data.Text.Internal.Text ww28 ww29 ww30 ->
+                 case Data.Text.$wreplace
+                        ww20
+                        ww21
+                        ww22
+                        ww24
+                        ww25
+                        ww26
+                        ww28
+                        ww29
+                        ww30 of ww31 { Data.Text.Internal.Text ww32 ww33 ww34 ->
+                 case Data.Text.$wreplace
+                        ww12
+                        ww13
+                        ww14
+                        ww16
+                        ww17
+                        ww18
+                        ww32
+                        ww33
+                        ww34 of ww35 { Data.Text.Internal.Text ww36 ww37 ww38 ->
+                 Data.Text.$wreplace
+                   ww4
+                   ww5
+                   ww6
+                   ww8
+                   ww9
+                   ww10
+                   ww36
+                   ww37
+                   ww38 } } } } } } } } }) -}
+4d8952237ee5d10d30063a0ab3c3cefd
+  $wpoly_go10 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+    -> GHC.Base.Maybe a
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,U><L,U><L,U><S,1*U>,
+     Inline: [0] -}
+de098759dd4ed970a53db078af794246
+  class Arity f where
+    arity :: f -> GHC.Types.Int
+f95d3102f4888be4e9d978d1d2373553
+  data Instruction
+    = EmacsToHaskell Data.AttoLisp.Lisp
+    | HaskellToEmacs Data.ByteString.Lazy.Internal.ByteString
+    | StartDialog (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                  GHC.Types.Int
+ed4ba4244529a9c4bc16e0e8974f6505
+  allExports ::
+    [GHC.Base.String]
+    -> Data.Either.Either
+         GHC.Base.String (GHC.Base.String, [GHC.Base.String])
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ x :: [GHC.Base.String] ->
+                 case Main.allExports_go2 x of wild {
+                   Data.Either.Left x1
+                   -> Data.Either.Left
+                        @ [GHC.Types.Char]
+                        @ (GHC.Base.String, [GHC.Base.String])
+                        x1
+                   Data.Either.Right y
+                   -> Data.Either.Right
+                        @ [GHC.Types.Char]
+                        @ (GHC.Base.String, [GHC.Base.String])
+                        (let {
+                           ys :: [(Language.Haskell.Exts.Syntax.ModuleName,
+                                   [Language.Haskell.Exts.Syntax.Name])]
+                           = GHC.List.filter
+                               @ (Language.Haskell.Exts.Syntax.ModuleName,
+                                  [Language.Haskell.Exts.Syntax.Name])
+                               Main.allExports1
+                               y
+                         } in
+                         (Data.OldList.unlines (Main.allExports_go1 ys),
+                          Main.allExports_go ys)) }) -}
+7b2e33f2d04bd0f37af3632b0c5158b0
+  allExports1 ::
+    (Language.Haskell.Exts.Syntax.ModuleName,
+     [Language.Haskell.Exts.Syntax.Name])
+    -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S(LS),1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: (Language.Haskell.Exts.Syntax.ModuleName,
+                         [Language.Haskell.Exts.Syntax.Name]) ->
+                 case x of wild { (,) ds1 y ->
+                 case y of wild1 {
+                   [] -> GHC.Types.False
+                   : ds2 ds3
+                   -> GHC.Classes.$fEq[]_$s$c/=1
+                        ds1 `cast` (Language.Haskell.Exts.Syntax.NTCo:ModuleName[0])
+                        Main.allExports2 } }) -}
+75504039555826538b2ecc31713f6fc9
+  allExports2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Main"#) -}
+956d13cd7ad6cb15ea7866d3083593eb
+  allExports_go ::
+    [(Language.Haskell.Exts.Syntax.ModuleName,
+      [Language.Haskell.Exts.Syntax.Name])]
+    -> [GHC.Base.String]
+  {- Arity: 1, Strictness: <S,1*U> -}
+5c6da5607ac7efb7ad7403b7af97d7c9
+  allExports_go1 ::
+    [(Language.Haskell.Exts.Syntax.ModuleName,
+      [Language.Haskell.Exts.Syntax.Name])]
+    -> [GHC.Base.String]
+  {- Arity: 1, Strictness: <S,1*U> -}
+dd8b83ac912fa987d53941323588341f
+  allExports_go2 ::
+    [[GHC.Types.Char]]
+    -> Data.Either.Either
+         GHC.Base.String
+         [(Language.Haskell.Exts.Syntax.ModuleName,
+           [Language.Haskell.Exts.Syntax.Name])]
+  {- Arity: 1, Strictness: <S,1*U> -}
+6f5eb543f25817f6646ecd33b6d9e2d8
+  arityFormat :: [GHC.Base.String] -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ x :: [GHC.Base.String] ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   Main.arityFormat6
+                   (Text.PrettyPrint.HughesPJ.fullRender
+                      @ GHC.Base.String
+                      Text.PrettyPrint.HughesPJ.PageMode
+                      Text.PrettyPrint.HughesPJ.$fEqDoc2
+                      Text.PrettyPrint.HughesPJ.$fEqDoc1
+                      Text.PrettyPrint.HughesPJ.txtPrinter
+                      (GHC.Types.[] @ GHC.Types.Char)
+                      ((Language.Haskell.Exts.Pretty.$fPrettyAlt_$cprettyPrec1
+                          Language.Haskell.Exts.Pretty.$fPrettyAlt9
+                          (Language.Haskell.Exts.Syntax.List
+                             (GHC.Base.map
+                                @ [GHC.Types.Char]
+                                @ Language.Haskell.Exts.Syntax.Exp
+                                Main.arityFormat1
+                                x)))
+                         `cast`
+                       (Language.Haskell.Exts.Pretty.NTCo:DocM[0] <Language.Haskell.Exts.Pretty.PPHsMode>_N <Text.PrettyPrint.HughesPJ.Doc>_N)
+                         Language.Haskell.Exts.Pretty.defaultMode))) -}
+df2c0a0c5758d77baf628ffb9becab08
+  arityFormat1 :: GHC.Base.String -> Language.Haskell.Exts.Syntax.Exp
+  {- Arity: 1, Strictness: <L,U>m15,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Base.String ->
+                 Language.Haskell.Exts.Syntax.Tuple
+                   Language.Haskell.Exts.Annotated.Syntax.Boxed
+                   (GHC.Types.:
+                      @ Language.Haskell.Exts.Syntax.Exp
+                      (Language.Haskell.Exts.Build.strE x)
+                      (GHC.Types.:
+                         @ Language.Haskell.Exts.Syntax.Exp
+                         (Language.Haskell.Exts.Syntax.App
+                            Main.arityFormat2
+                            (Language.Haskell.Exts.Build.function x))
+                         (GHC.Types.[] @ Language.Haskell.Exts.Syntax.Exp)))) -}
+eabf645ded15ec9cc7a3a9856aea690d
+  arityFormat2 :: Language.Haskell.Exts.Syntax.Exp
+  {- Strictness: m1,
+     Unfolding: (Language.Haskell.Exts.Syntax.Var Main.arityFormat3) -}
+2b3ac24897a1cebf36e993cb45abf77f
+  arityFormat3 :: Language.Haskell.Exts.Syntax.QName
+  {- Strictness: m2,
+     Unfolding: (Language.Haskell.Exts.Syntax.UnQual
+                   Main.arityFormat4) -}
+799370aa36941fe7b1496d3031e48aee
+  arityFormat4 :: Language.Haskell.Exts.Syntax.Name
+  {- Strictness: m1,
+     Unfolding: (Language.Haskell.Exts.Syntax.Ident
+                   Main.arityFormat5) -}
+cf3f5d82fcabbd43261da245c00f94e1
+  arityFormat5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "arity"#) -}
+876b076d0506487bbcd0e4da7825acb4
+  arityFormat6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "++"#) -}
+680d09408f86064407581df24287adb3
+  arityList :: [(GHC.Base.String, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   Main.arityList12
+                   Main.arityList1) -}
+307dafc5bd3999fc20d03bc070fb55f0
+  arityList1 :: [(GHC.Base.String, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   Main.arityList10
+                   Main.arityList2) -}
+73e3713bd27dc78fda4c0db8093fa10d
+  arityList10 :: ([GHC.Types.Char], GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: ((Main.arityList11, Main.arityList8)) -}
+a271ca78d1094d3830c0425a87cff1ce
+  arityList11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Matrix.identity"#) -}
+198e8e850a0eefffa97f3dbcb17a1ec9
+  arityList12 :: ([GHC.Types.Char], GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: ((Main.arityList13, Main.arityList8)) -}
+02299ba39481ab55de3234bd36ecf80e
+  arityList13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Matrix.transpose"#) -}
+937e4ba19f0360e13aed9daf463df0d9
+  arityList2 :: [(GHC.Base.String, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   Main.arityList7
+                   Main.arityList3) -}
+641b5ca8a5b70f5126e8b47e9d3e1468
+  arityList3 :: [(GHC.Base.String, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   Main.arityList4
+                   (GHC.Types.[] @ (GHC.Base.String, GHC.Types.Int))) -}
+b4c24132d642d61692ccc43d121aaab3
+  arityList4 :: ([GHC.Types.Char], GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: ((Main.arityList6, Main.arityList5)) -}
+ce2d5a844131a3879809c5cb373fa962
+  arityList5 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 2) -}
+805ef3c92768fbd0c8e8a97ac1e9c777
+  arityList6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Matrix.dyadic"#) -}
+e250e063718fca6b04db9515388c99f5
+  arityList7 :: ([GHC.Types.Char], GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: ((Main.arityList9, Main.arityList8)) -}
+06f9f44bacb66fb46bb59b6aebee72b1
+  arityList8 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 1) -}
+126e74b30c9f0ca5b7523cdfc8d2cefb
+  arityList9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Matrix.isIdentity"#) -}
+449254e4712c3811e7f34030a8b21833
+  declarationNames ::
+    Language.Haskell.Exts.Syntax.Decl
+    -> GHC.Base.Maybe Language.Haskell.Exts.Syntax.Name
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ ds1 :: Language.Haskell.Exts.Syntax.Decl ->
+                 case ds1 of wild {
+                   DEFAULT -> GHC.Base.Nothing @ Language.Haskell.Exts.Syntax.Name
+                   Language.Haskell.Exts.Syntax.FunBind ds2
+                   -> case ds2 of wild1 {
+                        [] -> GHC.Base.Nothing @ Language.Haskell.Exts.Syntax.Name
+                        : ds3 ds4
+                        -> case ds3 of wild2 { Language.Haskell.Exts.Syntax.Match ds5 name ds6 ds7 ds8 ds9 ->
+                           GHC.Base.Just @ Language.Haskell.Exts.Syntax.Name name } }
+                   Language.Haskell.Exts.Syntax.PatBind ds2 ds3 ds4 ds5
+                   -> case ds3 of wild1 {
+                        DEFAULT -> GHC.Base.Nothing @ Language.Haskell.Exts.Syntax.Name
+                        Language.Haskell.Exts.Syntax.PVar name
+                        -> GHC.Base.Just @ Language.Haskell.Exts.Syntax.Name name } }) -}
+6c79717f5a8e8ba0d68b9dd7c1bcf2ca
+  dispatcher ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text
+      (Data.AttoLisp.Lisp
+       -> Data.AttoLisp.Result
+            (Data.Either.Either
+               (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+               Data.AttoLisp.Lisp))
+  {- Unfolding: (Main.$sfromList
+                   @ (Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher1) -}
+0beb4904c9c39c34d0533ca957212202
+  dispatcher1 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher54
+                   Main.dispatcher2) -}
+05093a901cc69cd4f8111a64184484b1
+  dispatcher10 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher12, Main.dispatcher11)) -}
+6e44b67a56551422e5e78780401e8b9d
+  dispatcher11 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1 -}
+784321c83e914041b9186d36dcf7bb1f
+  dispatcher12 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Matrix.dyadic"#) -}
+68f32b1e7d915bc2dee3f7d0b54de280
+  dispatcher13 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher19, Main.dispatcher14)) -}
+fc31c00ce37c7acee726473c44d58c56
+  dispatcher14 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1,
+     Unfolding: (\ eta :: Data.AttoLisp.Lisp ->
+                 case eta of wild {
+                   DEFAULT
+                   -> case (Data.AttoLisp.typeMismatch
+                              @ [[GHC.Types.Int]]
+                              Main.dispatcher18
+                              wild)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[[GHC.Types.Int]]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [[GHC.Types.Int]]
+                             (Data.AttoLisp.Error @ [[GHC.Types.Int]])
+                             (Data.AttoLisp.Success @ [[GHC.Types.Int]]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64 -> Main.dispatcher15 a64 }
+                   Data.AttoLisp.List l
+                   -> case (Main.dispatcher_go l)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[[GHC.Types.Int]]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [[GHC.Types.Int]]
+                             (Data.AttoLisp.Error @ [[GHC.Types.Int]])
+                             (Data.AttoLisp.Success @ [[GHC.Types.Int]]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64 -> Main.dispatcher15 a64 } }) -}
+7a8b7f4092f8703b8605270cab754eb5
+  dispatcher15 ::
+    [[GHC.Types.Int]]
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ a64 :: [[GHC.Types.Int]][OneShot] ->
+                 Data.AttoLisp.Success
+                   @ (Data.Either.Either
+                        (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                        Data.AttoLisp.Lisp)
+                   (Data.Either.Right
+                      @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                      @ Data.AttoLisp.Lisp
+                      (case Matrix.isIdentity a64 of wild {
+                         GHC.Types.False -> Data.AttoLisp.nil
+                         GHC.Types.True -> Main.dispatcher16 }))) -}
+6c653f6ce30f869c5bf62dea19971cc5
+  dispatcher16 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.Symbol Main.dispatcher17) -}
+f47cb9e32d0ade4c4f36ef1a648fb522
+  dispatcher17 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "t"#) -}
+84ba57ed7aaad2368dc67e35f72d144c
+  dispatcher18 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "list"#) -}
+162704244c6ea27b2c2779e8a2f0eecd
+  dispatcher19 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "Matrix.isIdentity"#) -}
+08e561b902a8b8165dafc0638f7bf79b
+  dispatcher2 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher50
+                   Main.dispatcher3) -}
+083b8575e6b6f4ccf548a78e58d76ca3
+  dispatcher20 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher23, Main.dispatcher21)) -}
+24f476973e97752c339448910f903f35
+  dispatcher21 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1,
+     Unfolding: (\ eta :: Data.AttoLisp.Lisp ->
+                 case eta of wild {
+                   DEFAULT
+                   -> case (Data.AttoLisp.typeMismatch
+                              @ GHC.Types.Int
+                              Main.dispatcher22
+                              wild)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <GHC.Types.Int>_R)
+                             @ Data.AttoLisp.Result
+                             @ GHC.Types.Int
+                             (Data.AttoLisp.Error @ GHC.Types.Int)
+                             (Data.AttoLisp.Success @ GHC.Types.Int) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Data.Either.Right
+                                @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                @ Data.AttoLisp.Lisp
+                                (Data.AttoLisp.List
+                                   (case a64 of ww { GHC.Types.I# ww1 ->
+                                    GHC.Base.map
+                                      @ [GHC.Types.Int]
+                                      @ Data.AttoLisp.Lisp
+                                      Main.$stoEmacs15
+                                      (Matrix.$widentity ww1) }))) }
+                   Data.AttoLisp.Number n
+                   -> Data.AttoLisp.Success
+                        @ (Data.Either.Either
+                             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                             Data.AttoLisp.Lisp)
+                        (Data.Either.Right
+                           @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                           @ Data.AttoLisp.Lisp
+                           (Data.AttoLisp.List
+                              (case n of wild1 {
+                                 Data.Attoparsec.Number.I a64
+                                 -> case GHC.Integer.Type.integerToInt a64 of wild2 { DEFAULT ->
+                                    GHC.Base.map
+                                      @ [GHC.Types.Int]
+                                      @ Data.AttoLisp.Lisp
+                                      Main.$stoEmacs15
+                                      (Matrix.$widentity wild2) }
+                                 Data.Attoparsec.Number.D dt
+                                 -> case GHC.Float.$w$cproperFraction
+                                           @ GHC.Types.Int
+                                           GHC.Real.$fIntegralInt
+                                           dt of ww2 { (#,#) ww3 ww4 ->
+                                    case ww4 of wild2 { GHC.Types.D# x ->
+                                    case GHC.Prim.tagToEnum#
+                                           @ GHC.Types.Bool
+                                           (GHC.Prim.<## x 0.0) of wild3 {
+                                      GHC.Types.False
+                                      -> case ww3 of ww { GHC.Types.I# ww1 ->
+                                         GHC.Base.map
+                                           @ [GHC.Types.Int]
+                                           @ Data.AttoLisp.Lisp
+                                           Main.$stoEmacs15
+                                           (Matrix.$widentity ww1) }
+                                      GHC.Types.True
+                                      -> case ww3 of wild4 { GHC.Types.I# x1 ->
+                                         GHC.Base.map
+                                           @ [GHC.Types.Int]
+                                           @ Data.AttoLisp.Lisp
+                                           Main.$stoEmacs15
+                                           (Matrix.$widentity (GHC.Prim.-# x1 1)) } } } } }))) }) -}
+fe15caaf913b3b0ce3fd5b6325868318
+  dispatcher22 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Integral"#) -}
+f4c952ee7dd1b15fa890f6884eb1b54f
+  dispatcher23 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Matrix.identity"#) -}
+3f758ef2cf3a62ddf900a32e560c745b
+  dispatcher24 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher26, Main.dispatcher25)) -}
+975753bcd188f246334309f03fbda87b
+  dispatcher25 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1,
+     Unfolding: (\ eta :: Data.AttoLisp.Lisp ->
+                 case eta of wild {
+                   DEFAULT
+                   -> case (Data.AttoLisp.typeMismatch
+                              @ [[GHC.Types.Int]]
+                              Main.dispatcher18
+                              wild)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[[GHC.Types.Int]]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [[GHC.Types.Int]]
+                             (Data.AttoLisp.Error @ [[GHC.Types.Int]])
+                             (Data.AttoLisp.Success @ [[GHC.Types.Int]]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Data.Either.Right
+                                @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                @ Data.AttoLisp.Lisp
+                                (Data.AttoLisp.List
+                                   (GHC.Base.map
+                                      @ [GHC.Types.Int]
+                                      @ Data.AttoLisp.Lisp
+                                      Main.$stoEmacs15
+                                      (Data.OldList.transpose @ GHC.Types.Int a64)))) }
+                   Data.AttoLisp.List l
+                   -> case (Main.dispatcher_go1 l)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[[GHC.Types.Int]]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [[GHC.Types.Int]]
+                             (Data.AttoLisp.Error @ [[GHC.Types.Int]])
+                             (Data.AttoLisp.Success @ [[GHC.Types.Int]]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Data.Either.Right
+                                @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                @ Data.AttoLisp.Lisp
+                                (Data.AttoLisp.List
+                                   (GHC.Base.map
+                                      @ [GHC.Types.Int]
+                                      @ Data.AttoLisp.Lisp
+                                      Main.$stoEmacs15
+                                      (Data.OldList.transpose @ GHC.Types.Int a64)))) } }) -}
+e85d204ffb5919820cd267d35b8d4523
+  dispatcher26 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "Matrix.transpose"#) -}
+bb9b4e526cda94570f055e7a5fd4bccd
+  dispatcher27 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher29, Main.dispatcher28)) -}
+1fd08046da9675b28d5b766195303a7a
+  dispatcher28 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1 -}
+5311c572324119b69ed659e8a4c72dff
+  dispatcher29 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "getDocumentation"#) -}
+42717d90fcfe90889aea049185650909
+  dispatcher3 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher33
+                   Main.dispatcher4) -}
+4562eeac8c62b57c2f0f60310899f739
+  dispatcher30 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher32, Main.dispatcher31)) -}
+a2a1cf03aa97e932db64d2de496a3fbb
+  dispatcher31 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1 -}
+14d3fc5facd1acb3698a782c310ddb79
+  dispatcher32 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "formatCode"#) -}
+900ab957b0218fa320b7bb2a92631c01
+  dispatcher33 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher49, Main.dispatcher34)) -}
+bf00392eb2e354196227e37a7f6e2d88
+  dispatcher34 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1,
+     Unfolding: (\ eta :: Data.AttoLisp.Lisp ->
+                 case Data.AttoLisp.isNull eta of wild {
+                   GHC.Types.False
+                   -> case (Data.AttoLisp.typeMismatch @ () Main.dispatcher48 eta)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <()>_R)
+                             @ Data.AttoLisp.Result
+                             @ ()
+                             (Data.AttoLisp.Error @ ())
+                             (Data.AttoLisp.Success @ ()) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Data.Either.Right
+                                @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                @ Data.AttoLisp.Lisp
+                                (case a64 of wild2 { () -> Main.dispatcher37 })) }
+                   GHC.Types.True -> Main.dispatcher35 }) -}
+7c27ad10b2f34a80490d5eaaeead191d
+  dispatcher35 ::
+    Data.AttoLisp.Result
+      (Data.Either.Either
+         (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+         Data.AttoLisp.Lisp)
+  {- Unfolding: (Data.AttoLisp.Success
+                   @ (Data.Either.Either
+                        (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                        Data.AttoLisp.Lisp)
+                   Main.dispatcher36) -}
+961aa1a82b7c751c95ae6912dac3cf03
+  dispatcher36 ::
+    Data.Either.Either
+      (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+      Data.AttoLisp.Lisp
+  {- Unfolding: (Data.Either.Right
+                   @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                   @ Data.AttoLisp.Lisp
+                   Main.dispatcher37) -}
+e181fe7d62c6db2ed500d53d2e4f9904
+  dispatcher37 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.List Main.dispatcher38) -}
+f6ea5c665ecfd011e7f355f1be4b887f
+  dispatcher38 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Main.dispatcher46
+                   Main.dispatcher39) -}
+9ab8286a31127b774db189a7f579275c
+  dispatcher39 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Main.dispatcher40
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+3dcfeb87a61117a6ef4a691b9675b026
+  dispatcher4 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher30
+                   Main.dispatcher5) -}
+e2e02c84b08e645873cb94262a1933ac
+  dispatcher40 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.List Main.dispatcher41) -}
+6501e866bf18ab44a1059d67406b81cd
+  dispatcher41 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ Data.AttoLisp.Lisp
+                   Data.AttoLisp.$fToLisp[]0_$ctoLisp
+                   Main.dispatcher42) -}
+9e849ad84d5b6236cacf4b78fa54f9f1
+  dispatcher42 :: [[GHC.Types.Char]]
+  {- Unfolding: (GHC.Base.map
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   @ [GHC.Types.Char]
+                   Main.dispatcher43
+                   Main.arityList) -}
+bbc158f4fc6bceb5c471d8ad096910c7
+  dispatcher43 ::
+    (GHC.Base.String, GHC.Types.Int) -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,1*U(A,1*U(U))>,
+     Unfolding: (\ x :: (GHC.Base.String, GHC.Types.Int) ->
+                 GHC.List.filter
+                   @ GHC.Types.Char
+                   Main.dispatcher45
+                   (Text.PrettyPrint.HughesPJ.fullRender
+                      @ GHC.Base.String
+                      Text.PrettyPrint.HughesPJ.PageMode
+                      Text.PrettyPrint.HughesPJ.$fEqDoc2
+                      Text.PrettyPrint.HughesPJ.$fEqDoc1
+                      Text.PrettyPrint.HughesPJ.txtPrinter
+                      (GHC.Types.[] @ GHC.Types.Char)
+                      ((Language.Haskell.Exts.Pretty.$fPrettyAlt_$cprettyPrec2
+                          Language.Haskell.Exts.Pretty.$fPrettyAlt9
+                          (Language.Haskell.Exts.Syntax.PTuple
+                             Language.Haskell.Exts.Annotated.Syntax.Boxed
+                             (case x of wild { (,) ds1 y ->
+                              case y of ww { GHC.Types.I# ww1 ->
+                              GHC.Base.map
+                                @ Language.Haskell.Exts.Syntax.Name
+                                @ Language.Haskell.Exts.Syntax.Pat
+                                Language.Haskell.Exts.Syntax.PVar
+                                (Language.Haskell.Exts.Build.$wgenNames
+                                   Main.dispatcher44
+                                   ww1) } })))
+                         `cast`
+                       (Language.Haskell.Exts.Pretty.NTCo:DocM[0] <Language.Haskell.Exts.Pretty.PPHsMode>_N <Text.PrettyPrint.HughesPJ.Doc>_N)
+                         Language.Haskell.Exts.Pretty.defaultMode))) -}
+ca14e7f75f6a0fa0680b46b052c7a1b5
+  dispatcher44 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "x"#) -}
+8932fb81891bc11ff2624d48013a6313
+  dispatcher45 :: GHC.Types.Char -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Types.Char ->
+                 case x of wild { GHC.Types.C# c1 ->
+                 case c1 of wild1 {
+                   DEFAULT -> GHC.Types.True
+                   '\n' -> GHC.Types.False
+                   ',' -> GHC.Types.False } }) -}
+c9d08b551352cf2bf9addd87a7b13c94
+  dispatcher46 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.String Main.dispatcher47) -}
+201aec790d49c1bd27c04bf715dc8236
+  dispatcher47 :: Data.Text.Internal.Text
+e2b89a5d1406773ae30cbaf679d38892
+  dispatcher48 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "()"#) -}
+4953c9e620f3d1d3935cbd47ec4c57b3
+  dispatcher49 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "arityList"#) -}
+7cf7ee5f13cf228031a836538cb0f59a
+  dispatcher5 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher27
+                   Main.dispatcher6) -}
+130b73c12576763c22416eef56ce62bf
+  dispatcher50 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher53, Main.dispatcher51)) -}
+49858f47dce1c2b1ae8c13abb765da48
+  dispatcher51 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1,
+     Unfolding: (\ eta :: Data.AttoLisp.Lisp ->
+                 case eta of wild {
+                   DEFAULT
+                   -> case (Data.AttoLisp.typeMismatch
+                              @ [[GHC.Types.Char]]
+                              Main.dispatcher18
+                              wild)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[GHC.Base.String]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [GHC.Base.String]
+                             (Data.AttoLisp.Error @ [GHC.Base.String])
+                             (Data.AttoLisp.Success @ [GHC.Base.String]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Main.dispatcher52 (Main.allExports a64)) }
+                   Data.AttoLisp.List l
+                   -> case (Main.dispatcher_go2 l)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[GHC.Base.String]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [GHC.Base.String]
+                             (Data.AttoLisp.Error @ [GHC.Base.String])
+                             (Data.AttoLisp.Success @ [GHC.Base.String]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Main.dispatcher52 (Main.allExports a64)) } }) -}
+2924f7d58603ac86e25707f1df6918c1
+  dispatcher52 ::
+    Data.Either.Either
+      GHC.Base.String (GHC.Base.String, [GHC.Base.String])
+    -> Data.Either.Either
+         (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+         Data.AttoLisp.Lisp
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ eta :: Data.Either.Either
+                            GHC.Base.String (GHC.Base.String, [GHC.Base.String]) ->
+                 Data.Either.Right
+                   @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                   @ Data.AttoLisp.Lisp
+                   (case eta of wild {
+                      Data.Either.Left a64 -> Data.AttoLisp.$fToLisp[]0_$ctoLisp a64
+                      Data.Either.Right b1
+                      -> case b1 of wild1 { (,) a64 b2 ->
+                         Data.AttoLisp.List
+                           (GHC.Types.:
+                              @ Data.AttoLisp.Lisp
+                              (Data.AttoLisp.$fToLisp[]0_$ctoLisp a64)
+                              (GHC.Types.:
+                                 @ Data.AttoLisp.Lisp
+                                 (Data.AttoLisp.List
+                                    (GHC.Base.map
+                                       @ [GHC.Types.Char]
+                                       @ Data.AttoLisp.Lisp
+                                       Data.AttoLisp.$fToLisp[]0_$ctoLisp
+                                       b2))
+                                 (GHC.Types.[] @ Data.AttoLisp.Lisp))) } })) -}
+b4ff9ec49b56e93181a959f97c33d62f
+  dispatcher53 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "allExports"#) -}
+0f98f716ffae4244349d2f0c79125a56
+  dispatcher54 ::
+    (Data.Text.Internal.Text,
+     Data.AttoLisp.Lisp
+     -> Data.AttoLisp.Result
+          (Data.Either.Either
+             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+             Data.AttoLisp.Lisp))
+  {- Unfolding: ((Main.dispatcher59, Main.dispatcher55)) -}
+473f71c01d24767b5459d210cdba7a1b
+  dispatcher55 ::
+    Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1,
+     Unfolding: (\ x :: Data.AttoLisp.Lisp ->
+                 case x of wild {
+                   DEFAULT
+                   -> Main.$w$j
+                        (GHC.Types.:
+                           @ Data.AttoLisp.Lisp
+                           wild
+                           (GHC.Types.[] @ Data.AttoLisp.Lisp))
+                   Data.AttoLisp.List ds1 -> Main.$w$j ds1
+                   Data.AttoLisp.DotList ds1 ds2
+                   -> case (Data.AttoLisp.typeMismatch
+                              @ [[GHC.Types.Char]]
+                              Main.dispatcher18
+                              wild)
+                             `cast`
+                           (Data.AttoLisp.NTCo:Parser[0] <[GHC.Base.String]>_R)
+                             @ Data.AttoLisp.Result
+                             @ [GHC.Base.String]
+                             (Data.AttoLisp.Error @ [GHC.Base.String])
+                             (Data.AttoLisp.Success @ [GHC.Base.String]) of wild1 {
+                        Data.AttoLisp.Error err
+                        -> Data.AttoLisp.Error
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             err
+                        Data.AttoLisp.Success a64
+                        -> Data.AttoLisp.Success
+                             @ (Data.Either.Either
+                                  (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                  Data.AttoLisp.Lisp)
+                             (Data.Either.Right
+                                @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                @ Data.AttoLisp.Lisp
+                                (Data.AttoLisp.String
+                                   (case Main.arityFormat a64 of dt { DEFAULT ->
+                                    GHC.ST.runSTRep
+                                      @ Data.Text.Internal.Text
+                                      (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                       case GHC.Prim.newByteArray#
+                                              @ s1
+                                              8
+                                              s2 of ds3 { (#,#) ipv ipv1 ->
+                                       Main.dispatcher57
+                                         @ s1
+                                         (Data.Text.Array.MArray @ s1 ipv1)
+                                         Main.dispatcher56
+                                         dt
+                                         0
+                                         ipv }) }))) } }) -}
+7ed7aade1b237f30a362739a8481a7b6
+  dispatcher56 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+112b8514071a56cc86444e6ba17ab0b0
+  dispatcher57 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+0e7859305827baa7094aee05edaf1b39
+  dispatcher58 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+1e57df668fd6df0267c8f2ab5f1e8307
+  dispatcher59 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "arityFormat"#) -}
+cadc57648477e9a1b53858d77c218ca8
+  dispatcher6 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher24
+                   Main.dispatcher7) -}
+5a43ff01884fef06fe2d5b6e99c3da47
+  dispatcher7 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher20
+                   Main.dispatcher8) -}
+43fac53c51a0b7cd345068043616e8b5
+  dispatcher8 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher13
+                   Main.dispatcher9) -}
+d274882febffb3789169e1ea34ff7015
+  dispatcher9 ::
+    [(Data.Text.Internal.Text,
+      Data.AttoLisp.Lisp
+      -> Data.AttoLisp.Result
+           (Data.Either.Either
+              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+              Data.AttoLisp.Lisp))]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text,
+                      Data.AttoLisp.Lisp
+                      -> Data.AttoLisp.Result
+                           (Data.Either.Either
+                              (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                              Data.AttoLisp.Lisp))
+                   Main.dispatcher10
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text,
+                         Data.AttoLisp.Lisp
+                         -> Data.AttoLisp.Result
+                              (Data.Either.Either
+                                 (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                                 Data.AttoLisp.Lisp)))) -}
+3fa3b15b3adb4feb86e581ea96241053
+  dispatcher_go ::
+    [Data.AttoLisp.Lisp] -> Data.AttoLisp.Parser [[GHC.Types.Int]]
+  {- Arity: 1, Strictness: <S,1*U> -}
+cc548bc4a242db34084f9f67a0200c29
+  dispatcher_go1 ::
+    [Data.AttoLisp.Lisp] -> Data.AttoLisp.Parser [[GHC.Types.Int]]
+  {- Arity: 1, Strictness: <S,1*U> -}
+a5f032bdcf6858f09ea0e102d56ed9dd
+  dispatcher_go2 ::
+    [Data.AttoLisp.Lisp] -> Data.AttoLisp.Parser [[GHC.Types.Char]]
+  {- Arity: 1, Strictness: <S,1*U> -}
+3f3732a43aba1585d5ce0ca49f578f6f
+  dispatcher_go3 ::
+    [Data.AttoLisp.Lisp] -> Data.AttoLisp.Parser [[GHC.Types.Char]]
+  {- Arity: 1, Strictness: <S,1*U> -}
+460be555eadeef679c49e267e0e78ed3
+  exportFunction ::
+    Language.Haskell.Exts.Syntax.ExportSpec
+    -> GHC.Base.Maybe Language.Haskell.Exts.Syntax.Name
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds1 :: Language.Haskell.Exts.Syntax.ExportSpec ->
+                 case ds1 of wild {
+                   DEFAULT -> GHC.Base.Nothing @ Language.Haskell.Exts.Syntax.Name
+                   Language.Haskell.Exts.Syntax.EVar qname
+                   -> Main.unQualifiedName qname }) -}
+89a776a96038d16ebdfa694fc218e573
+  exportsFromDecls ::
+    [Language.Haskell.Exts.Syntax.Decl]
+    -> [Language.Haskell.Exts.Syntax.Name]
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Data.Maybe.mapMaybe
+                   @ Language.Haskell.Exts.Syntax.Decl
+                   @ Language.Haskell.Exts.Syntax.Name
+                   Main.declarationNames) -}
+26c84f3886e6729b57b699efe9adeac6
+  exportsFromHeader ::
+    [Language.Haskell.Exts.Syntax.ExportSpec]
+    -> [Language.Haskell.Exts.Syntax.Name]
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Data.Maybe.mapMaybe
+                   @ Language.Haskell.Exts.Syntax.ExportSpec
+                   @ Language.Haskell.Exts.Syntax.Name
+                   Main.exportFunction) -}
+92caa1b6f119cb7ea2dbd7189013b109
+  exportsGet ::
+    GHC.Base.String
+    -> Data.Either.Either
+         GHC.Base.String
+         (Language.Haskell.Exts.Syntax.ModuleName,
+          [Language.Haskell.Exts.Syntax.Name])
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ content :: GHC.Base.String ->
+                 case Language.Haskell.Exts.$wparseFileContentsWithMode
+                        Language.Haskell.Exts.ParseMonad.defaultParseMode2
+                        Language.Haskell.Exts.Extension.Haskell2010
+                        (GHC.Types.[] @ Language.Haskell.Exts.Extension.Extension)
+                        GHC.Types.False
+                        GHC.Types.True
+                        (GHC.Base.Nothing @ [Language.Haskell.Exts.Fixity.Fixity])
+                        GHC.Types.False
+                        content of wild {
+                   Language.Haskell.Exts.ParseMonad.ParseOk ds1
+                   -> case ds1 of wild1 { Language.Haskell.Exts.Syntax.Module ds2 name ds3 ds4 header ds5 decls ->
+                      Data.Either.Right
+                        @ GHC.Base.String
+                        @ (Language.Haskell.Exts.Syntax.ModuleName,
+                           [Language.Haskell.Exts.Syntax.Name])
+                        (name,
+                         case header of wild2 {
+                           GHC.Base.Nothing
+                           -> Data.Maybe.mapMaybe
+                                @ Language.Haskell.Exts.Syntax.Decl
+                                @ Language.Haskell.Exts.Syntax.Name
+                                Main.declarationNames
+                                decls
+                           GHC.Base.Just x
+                           -> Data.Maybe.mapMaybe
+                                @ Language.Haskell.Exts.Syntax.ExportSpec
+                                @ Language.Haskell.Exts.Syntax.Name
+                                Main.exportFunction
+                                x }) }
+                   Language.Haskell.Exts.ParseMonad.ParseFailed ds1 msg
+                   -> Data.Either.Left
+                        @ GHC.Base.String
+                        @ (Language.Haskell.Exts.Syntax.ModuleName,
+                           [Language.Haskell.Exts.Syntax.Name])
+                        msg }) -}
+d7069b3c172a26b48d14fcf147ed3260
+  formatCode ::
+    (Data.Text.Internal.Text,
+     Data.Text.Internal.Text,
+     Data.Text.Internal.Text)
+    -> Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U(U(U,U,U),U(U,U,U),U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: (Data.Text.Internal.Text,
+                         Data.Text.Internal.Text,
+                         Data.Text.Internal.Text) ->
+                 case w of ww { (,,) ww1 ww2 ww3 ->
+                 Main.$wformatCode ww1 ww2 ww3 }) -}
+cd0b4e4496bd89c7772d94ae2eaad0b3
+  formatCode1 :: Data.Text.Internal.Text
+4d54bfe64912912d830b066660a0e5a5
+  formatCode2 :: Data.Text.Internal.Text
+e09db914d30ce5ad7c2ec9e05ad5a6f9
+  formatCode3 :: Data.Text.Internal.Text
+088a24394ce3771f0c535ed5cd97f306
+  formatResult ::
+    GHC.Types.Int
+    -> Data.AttoLisp.Result Data.AttoLisp.Lisp
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,1*U(U)><S,1*U>,
+     Unfolding: (\ i :: GHC.Types.Int
+                   l :: Data.AttoLisp.Result Data.AttoLisp.Lisp ->
+                 case l of wild {
+                   Data.AttoLisp.Error s
+                   -> Main.formatResult4
+                        (GHC.Base.Nothing @ Data.AttoLisp.Lisp)
+                        (Data.ByteString.Builder.toLazyByteString
+                           (Data.AttoLisp.fromLispExpr
+                              (Data.AttoLisp.List
+                                 (GHC.Types.:
+                                    @ Data.AttoLisp.Lisp
+                                    Main.formatResult2
+                                    (GHC.Types.:
+                                       @ Data.AttoLisp.Lisp
+                                       (Data.AttoLisp.String
+                                          (GHC.ST.runSTRep
+                                             @ Data.Text.Internal.Text
+                                             (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                              case GHC.Prim.newByteArray#
+                                                     @ s1
+                                                     8
+                                                     s2 of ds1 { (#,#) ipv ipv1 ->
+                                              Main.formatResult1
+                                                @ s1
+                                                (Data.Text.Array.MArray @ s1 ipv1)
+                                                Main.dispatcher56
+                                                s
+                                                0
+                                                ipv })))
+                                       (GHC.Types.[] @ Data.AttoLisp.Lisp))))))
+                   Data.AttoLisp.Success s
+                   -> Main.formatResult4
+                        (GHC.Base.Just
+                           @ Data.AttoLisp.Lisp
+                           (Data.AttoLisp.Number
+                              (case i of wild1 { GHC.Types.I# i1 ->
+                               case GHC.Integer.Type.smallInteger i1 of vx { DEFAULT ->
+                               Data.Attoparsec.Number.I vx } })))
+                        (Data.ByteString.Builder.toLazyByteString
+                           (Data.AttoLisp.fromLispExpr s)) }) -}
+36fb132fc06eb264697c1e035858d303
+  formatResult1 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+ec9e5c2dcb0bdd844bc013aee0fcfc42
+  formatResult2 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol Main.formatResult3) -}
+2c18c7fe3d62bb3ffbb0629b4398b7a0
+  formatResult3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "error"#) -}
+1e231ddd7334121cbbd6466b556743c5
+  formatResult4 ::
+    GHC.Base.Maybe Data.AttoLisp.Lisp
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,1*U><L,U>,
+     Unfolding: (\ procNum :: GHC.Base.Maybe Data.AttoLisp.Lisp[OneShot]
+                   t :: Data.ByteString.Lazy.Internal.ByteString[OneShot] ->
+                 letrec {
+                   go28 :: Data.ByteString.Lazy.Internal.ByteString
+                           -> Data.ByteString.Lazy.Internal.ByteString
+                     {- Arity: 1, Strictness: <S,1*U> -}
+                   = \ ds1 :: Data.ByteString.Lazy.Internal.ByteString ->
+                     case ds1 of wild {
+                       Data.ByteString.Lazy.Internal.Empty -> t
+                       Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 cs
+                       -> Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 (go28 cs) }
+                 } in
+                 go28
+                   (Data.ByteString.Builder.toLazyByteString
+                      (Data.AttoLisp.fromLispExpr
+                         (Data.AttoLisp.List
+                            (GHC.Types.:
+                               @ Data.AttoLisp.Lisp
+                               (Data.AttoLisp.Number
+                                  (case Data.ByteString.Lazy.UTF8.length_loop
+                                          Data.ByteString.Lazy.UTF8.length1
+                                          t of wild { GHC.Types.I# i ->
+                                   case GHC.Integer.Type.smallInteger i of vx { DEFAULT ->
+                                   Data.Attoparsec.Number.I vx } }))
+                               (case procNum of wild {
+                                  GHC.Base.Nothing -> GHC.Types.[] @ Data.AttoLisp.Lisp
+                                  GHC.Base.Just x
+                                  -> GHC.Types.:
+                                       @ Data.AttoLisp.Lisp
+                                       x
+                                       (GHC.Types.[] @ Data.AttoLisp.Lisp) })))))) -}
+6d8fde5d9cd23af76fd0cdd4f2070843
+  fromName :: Language.Haskell.Exts.Syntax.Name -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds1 :: Language.Haskell.Exts.Syntax.Name ->
+                 case ds1 of wild {
+                   Language.Haskell.Exts.Syntax.Ident str -> str
+                   Language.Haskell.Exts.Syntax.Symbol str -> str }) -}
+e180349b661a95b5c8979b31c73826c1
+  fullParse ::
+    Data.ByteString.Lazy.Internal.ByteString -> [Main.Instruction]
+  {- Arity: 1, Strictness: <S,1*U> -}
+a844cff79faeba06e16f280abfae5f33
+  getDocumentation ::
+    [Data.Text.Internal.Text]
+    -> Data.Text.Internal.Text -> [Data.Text.Internal.Text]
+  {- Arity: 2, Strictness: <S,1*U><L,1*U(U,U,U)> -}
+d99dfcc8717e8d22413008098e1fc285
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+d5cc879270aab6e5d434752a3e31f72f
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.Prim.newMVar#
+                        @ GHC.Prim.RealWorld
+                        @ (Control.Concurrent.Chan.ChItem
+                             Data.ByteString.Lazy.Internal.ByteString)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Prim.newMVar#
+                        @ GHC.Prim.RealWorld
+                        @ (GHC.MVar.MVar
+                             (Control.Concurrent.Chan.ChItem
+                                Data.ByteString.Lazy.Internal.ByteString))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 let {
+                   hole :: GHC.MVar.MVar
+                             (Control.Concurrent.Chan.ChItem
+                                Data.ByteString.Lazy.Internal.ByteString)
+                     {- Strictness: m -}
+                   = GHC.MVar.MVar
+                       @ (Control.Concurrent.Chan.ChItem
+                            Data.ByteString.Lazy.Internal.ByteString)
+                       ipv1
+                 } in
+                 case GHC.Prim.putMVar#
+                        @ GHC.Prim.RealWorld
+                        @ (GHC.MVar.MVar
+                             (Control.Concurrent.Chan.ChItem
+                                Data.ByteString.Lazy.Internal.ByteString))
+                        ipv3
+                        hole
+                        ipv2 of s2# { DEFAULT ->
+                 case GHC.Prim.newMVar#
+                        @ GHC.Prim.RealWorld
+                        @ (GHC.MVar.MVar
+                             (Control.Concurrent.Chan.ChItem
+                                Data.ByteString.Lazy.Internal.ByteString))
+                        s2# of ds3 { (#,#) ipv4 ipv5 ->
+                 case GHC.Prim.putMVar#
+                        @ GHC.Prim.RealWorld
+                        @ (GHC.MVar.MVar
+                             (Control.Concurrent.Chan.ChItem
+                                Data.ByteString.Lazy.Internal.ByteString))
+                        ipv5
+                        hole
+                        ipv4 of s2#1 { DEFAULT ->
+                 case GHC.Prim.newMVar#
+                        @ GHC.Prim.RealWorld
+                        @ Data.AttoLisp.Lisp
+                        s2#1 of ds4 { (#,#) ipv7 ipv8 ->
+                 case GHC.Prim.newMVar#
+                        @ GHC.Prim.RealWorld
+                        @ ()
+                        ipv7 of ds5 { (#,#) ipv9 ipv10 ->
+                 case GHC.Prim.putMVar#
+                        @ GHC.Prim.RealWorld
+                        @ ()
+                        ipv10
+                        GHC.Tuple.()
+                        ipv9 of s2#2 { DEFAULT ->
+                 case GHC.Prim.fork#
+                        @ (GHC.Types.IO ())
+                        (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                         GHC.Prim.catch#
+                           @ ()
+                           @ GHC.Exception.SomeException
+                           (\ eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                            letrec {
+                              a16 :: GHC.Prim.State# GHC.Prim.RealWorld
+                                     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                                {- Arity: 1, Strictness: <L,U> -}
+                              = \ s1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                case Control.Concurrent.Chan.$wa
+                                       @ Data.ByteString.Lazy.Internal.ByteString
+                                       ipv3
+                                       ipv5
+                                       s1 of ds6 { (#,#) ipv11 ipv12 ->
+                                case Data.ByteString.Lazy.appendFile2
+                                       GHC.IO.Handle.FD.stdout
+                                       ipv12
+                                       ipv11 of ds7 { (#,#) ipv13 ipv14 ->
+                                case GHC.IO.Handle.Internals.wantWritableHandle1
+                                       @ ()
+                                       GHC.IO.Handle.hFlush2
+                                       GHC.IO.Handle.FD.stdout
+                                       GHC.IO.Handle.Internals.flushWriteBuffer1
+                                         `cast`
+                                       (<GHC.IO.Handle.Types.Handle__>_R
+                                        ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                                       ipv13 of ds8 { (#,#) ipv15 ipv16 ->
+                                a16 ipv15 } } }
+                            } in
+                            a16 eta1)
+                           GHC.Conc.Sync.childHandler1
+                           eta)
+                          `cast`
+                        (Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        s2#2 of ds6 { (#,#) ipv11 ipv12 ->
+                 case Data.ByteString.Lazy.getContents2
+                        GHC.IO.Handle.FD.stdin
+                        ipv11 of ds7 { (#,#) ipv13 ipv14 ->
+                 let {
+                   printer :: Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString
+                     {- Strictness: m -}
+                   = Control.Concurrent.Chan.Chan
+                       @ Data.ByteString.Lazy.Internal.ByteString
+                       ipv3
+                       ipv5
+                 } in
+                 let {
+                   getter :: GHC.MVar.MVar Data.AttoLisp.Lisp {- Strictness: m -}
+                   = GHC.MVar.MVar @ Data.AttoLisp.Lisp ipv8
+                 } in
+                 let {
+                   lock :: GHC.MVar.MVar () {- Strictness: m -}
+                   = GHC.MVar.MVar @ () ipv10
+                 } in
+                 letrec {
+                   a16 :: [Main.Instruction]
+                          -> GHC.Prim.State# GHC.Prim.RealWorld
+                          -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 2, Strictness: <S,1*U><L,U> -}
+                   = \ ds8 :: [Main.Instruction]
+                       eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                     case ds8 of wild {
+                       [] -> (# eta, GHC.Tuple.() #)
+                       : y ys
+                       -> case GHC.Prim.fork#
+                                 @ (GHC.Types.IO ())
+                                 (\ eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                  GHC.Prim.catch#
+                                    @ ()
+                                    @ GHC.Exception.SomeException
+                                    (Main.main2 lock getter printer y)
+                                    GHC.Conc.Sync.childHandler1
+                                    eta1)
+                                   `cast`
+                                 (Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                                 eta of ds9 { (#,#) ipv15 ipv16 ->
+                          a16 ys ipv15 } }
+                 } in
+                 a16 (Main.fullParse ipv14) ipv13 } } } } } } } } } }) -}
+eb6c1fbb59cda7687b7181fa745c4484
+  main2 ::
+    GHC.MVar.MVar ()
+    -> GHC.MVar.MVar Data.AttoLisp.Lisp
+    -> Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString
+    -> Main.Instruction
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 5, Strictness: <L,1*U(U)><L,U(U)><L,U(U,U)><S,1*U><L,U>,
+     Unfolding: (\ ds1 :: GHC.MVar.MVar ()
+                   g :: GHC.MVar.MVar Data.AttoLisp.Lisp
+                   ds2 :: Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString
+                   ds3 :: Main.Instruction
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds3 of wild {
+                   Main.EmacsToHaskell ls
+                   -> case ls of vx { DEFAULT ->
+                      case g of wild1 { GHC.MVar.MVar mvar# ->
+                      case GHC.Prim.putMVar#
+                             @ GHC.Prim.RealWorld
+                             @ Data.AttoLisp.Lisp
+                             mvar#
+                             vx
+                             eta of s2# { DEFAULT ->
+                      (# s2#, GHC.Tuple.() #) } } }
+                   Main.HaskellToEmacs msg
+                   -> case msg of vx { DEFAULT ->
+                      case ds2 of ww { Control.Concurrent.Chan.Chan ww1 ww2 ->
+                      Control.Concurrent.Chan.$wa3
+                        @ Data.ByteString.Lazy.Internal.ByteString
+                        ww1
+                        ww2
+                        vx
+                        eta } }
+                   Main.StartDialog ds4 n
+                   -> case GHC.Prim.getMaskingState# eta of ds5 { (#,#) ipv ipv1 ->
+                      let {
+                        a16 :: GHC.Prim.State# GHC.Prim.RealWorld
+                               -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                          {- Arity: 1, Strictness: <L,U> -}
+                        = \ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                          case (ds4
+                                  `cast`
+                                (Trans
+                                     (Foreign.Emacs.Internal.NTCo:Emacs[0] <Data.AttoLisp.Lisp>_N)
+                                     (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                          <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                            Control.Concurrent.Chan.Chan
+                                              Data.ByteString.Lazy.Internal.ByteString)>_R
+                                          <GHC.Types.IO>_R
+                                          <Data.AttoLisp.Lisp>_N))
+                                  (g, ds2))
+                                 `cast`
+                               (GHC.Types.NTCo:IO[0] <Data.AttoLisp.Lisp>_R)
+                                 s of ds6 { (#,#) ipv2 ipv3 ->
+                          case ds2 of ww { Control.Concurrent.Chan.Chan ww1 ww2 ->
+                          Control.Concurrent.Chan.$wa3
+                            @ Data.ByteString.Lazy.Internal.ByteString
+                            ww1
+                            ww2
+                            (Main.formatResult
+                               n
+                               (Data.AttoLisp.Success @ Data.AttoLisp.Lisp ipv3))
+                            ipv2 } }
+                      } in
+                      case ipv1 of ds6 {
+                        DEFAULT
+                        -> case ds1 of wild1 { GHC.MVar.MVar mvar# ->
+                           case GHC.Prim.takeMVar#
+                                  @ GHC.Prim.RealWorld
+                                  @ ()
+                                  mvar#
+                                  ipv of ds7 { (#,#) ipv2 ipv3 ->
+                           case GHC.Prim.catch#
+                                  @ ()
+                                  @ GHC.Exception.SomeException
+                                  (GHC.Prim.maskAsyncExceptions# @ () a16)
+                                  (\ e1 :: GHC.Exception.SomeException[OneShot]
+                                     eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                   case GHC.Prim.putMVar#
+                                          @ GHC.Prim.RealWorld
+                                          @ ()
+                                          mvar#
+                                          ipv3
+                                          eta1 of s2# { DEFAULT ->
+                                   GHC.Prim.raiseIO# @ GHC.Exception.SomeException @ () e1 s2# })
+                                  ipv2 of ds8 { (#,#) ipv4 ipv5 ->
+                           case GHC.Prim.putMVar#
+                                  @ GHC.Prim.RealWorld
+                                  @ ()
+                                  mvar#
+                                  ipv3
+                                  ipv4 of s2# { DEFAULT ->
+                           (# s2#, ipv5 #) } } } }
+                        0
+                        -> GHC.Prim.maskAsyncExceptions#
+                             @ ()
+                             (\ eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                              case ds1 of wild1 { GHC.MVar.MVar mvar# ->
+                              case GHC.Prim.takeMVar#
+                                     @ GHC.Prim.RealWorld
+                                     @ ()
+                                     mvar#
+                                     eta1 of ds7 { (#,#) ipv2 ipv3 ->
+                              case GHC.Prim.catch#
+                                     @ ()
+                                     @ GHC.Exception.SomeException
+                                     (GHC.Prim.unmaskAsyncExceptions# @ () a16)
+                                     (\ e1 :: GHC.Exception.SomeException[OneShot]
+                                        eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                      case GHC.Prim.putMVar#
+                                             @ GHC.Prim.RealWorld
+                                             @ ()
+                                             mvar#
+                                             ipv3
+                                             eta2 of s2# { DEFAULT ->
+                                      GHC.Prim.raiseIO# @ GHC.Exception.SomeException @ () e1 s2# })
+                                     ipv2 of ds8 { (#,#) ipv4 ipv5 ->
+                              case GHC.Prim.putMVar#
+                                     @ GHC.Prim.RealWorld
+                                     @ ()
+                                     mvar#
+                                     ipv3
+                                     ipv4 of s2# { DEFAULT ->
+                              (# s2#, ipv5 #) } } } })
+                             ipv
+                        1
+                        -> case ds1 of wild1 { GHC.MVar.MVar mvar# ->
+                           case GHC.Prim.takeMVar#
+                                  @ GHC.Prim.RealWorld
+                                  @ ()
+                                  mvar#
+                                  ipv of ds7 { (#,#) ipv2 ipv3 ->
+                           case GHC.Prim.catch#
+                                  @ ()
+                                  @ GHC.Exception.SomeException
+                                  (GHC.Prim.maskUninterruptible# @ () a16)
+                                  (\ e1 :: GHC.Exception.SomeException[OneShot]
+                                     eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                   case GHC.Prim.putMVar#
+                                          @ GHC.Prim.RealWorld
+                                          @ ()
+                                          mvar#
+                                          ipv3
+                                          eta1 of s2# { DEFAULT ->
+                                   GHC.Prim.raiseIO# @ GHC.Exception.SomeException @ () e1 s2# })
+                                  ipv2 of ds8 { (#,#) ipv4 ipv5 ->
+                           case GHC.Prim.putMVar#
+                                  @ GHC.Prim.RealWorld
+                                  @ ()
+                                  mvar#
+                                  ipv3
+                                  ipv4 of s2# { DEFAULT ->
+                           (# s2#, ipv5 #) } } } } } } }) -}
+713bf0ec133b2c3ff784c1976060925b
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+98953aa686969db196e9c047f924b79d
+  normalize :: Data.AttoLisp.Lisp -> Data.AttoLisp.Lisp
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ l :: Data.AttoLisp.Lisp ->
+                 case l of wild {
+                   DEFAULT
+                   -> Data.AttoLisp.List
+                        (GHC.Types.:
+                           @ Data.AttoLisp.Lisp
+                           wild
+                           (GHC.Types.[] @ Data.AttoLisp.Lisp))
+                   Data.AttoLisp.List ds1 -> wild
+                   Data.AttoLisp.DotList ds1 ds2 -> wild }) -}
+e9a1a767c7cc2aa65f3f91c1cf6a0ef3
+  parseInput ::
+    Data.ByteString.Lazy.Internal.ByteString
+    -> Data.Attoparsec.ByteString.Lazy.Result Main.Instruction
+  {- Arity: 1,
+     Unfolding: (Data.Attoparsec.ByteString.Lazy.parse
+                   @ Main.Instruction
+                   Main.parseInput1
+                     `cast`
+                   (Sym (Data.Attoparsec.Internal.Types.NTCo:Parser[0]
+                             <Data.ByteString.Internal.ByteString>_N <Main.Instruction>_R))) -}
+c2d373671b1e4e29b0ce3d855b069de3
+  parseInput1 ::
+    Data.Attoparsec.Internal.Types.State
+      Data.ByteString.Internal.ByteString
+    -> Data.Attoparsec.Internal.Types.Pos
+    -> Data.Attoparsec.Internal.Types.More
+    -> Data.Attoparsec.Internal.Types.Failure
+         Data.ByteString.Internal.ByteString
+         (Data.Attoparsec.Internal.Types.State
+            Data.ByteString.Internal.ByteString)
+         r
+    -> Data.Attoparsec.Internal.Types.Success
+         Data.ByteString.Internal.ByteString
+         (Data.Attoparsec.Internal.Types.State
+            Data.ByteString.Internal.ByteString)
+         Main.Instruction
+         r
+    -> Data.Attoparsec.Internal.Types.IResult
+         Data.ByteString.Internal.ByteString r
+  {- Arity: 5,
+     Strictness: <S,1*U(U,U,U,U,U,U)><S,1*U(U)><L,U><L,U><L,C(C1(C1(C1(U))))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (5, True, False)
+                (\ @ r
+                   w :: Data.Attoparsec.Internal.Types.State
+                          Data.ByteString.Internal.ByteString
+                   w1 :: Data.Attoparsec.Internal.Types.Pos
+                   w2 :: Data.Attoparsec.Internal.Types.More
+                   w3 :: Data.Attoparsec.Internal.Types.Failure
+                           Data.ByteString.Internal.ByteString
+                           (Data.Attoparsec.Internal.Types.State
+                              Data.ByteString.Internal.ByteString)
+                           r
+                   w4 :: Data.Attoparsec.Internal.Types.Success
+                           Data.ByteString.Internal.ByteString
+                           (Data.Attoparsec.Internal.Types.State
+                              Data.ByteString.Internal.ByteString)
+                           Main.Instruction
+                           r ->
+                 case w `cast`
+                      (Sub (Data.Attoparsec.Internal.Types.TFCo:R:StateByteString[0])) of ww { Data.Attoparsec.ByteString.Buffer.Buf ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 case w1
+                        `cast`
+                      (Data.Attoparsec.Internal.Types.NTCo:Pos[0]) of ww7 { GHC.Types.I# ww8 ->
+                 Main.$wa1 @ r ww1 ww2 ww3 ww4 ww5 ww6 ww8 w2 w3 w4 } }) -}
+3aa5289055b8d19de44e5a9136e2dbcb
+  runInstruction ::
+    GHC.MVar.MVar ()
+    -> GHC.MVar.MVar Data.AttoLisp.Lisp
+    -> Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString
+    -> Main.Instruction
+    -> GHC.Types.IO ()
+  {- Arity: 5, Strictness: <L,1*U(U)><L,U(U)><L,U(U,U)><S,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main2
+                  `cast`
+                (<GHC.MVar.MVar ()>_R
+                 ->_R <GHC.MVar.MVar Data.AttoLisp.Lisp>_R
+                 ->_R <Control.Concurrent.Chan.Chan
+                         Data.ByteString.Lazy.Internal.ByteString>_R
+                 ->_R <Main.Instruction>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+1137f0ace10cd4e3dc3131ff0998e2be
+  toDispatcher ::
+    [(GHC.Base.String, GHC.Types.Int)]
+    -> (GHC.Base.String, [GHC.Base.String])
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: [(GHC.Base.String, GHC.Types.Int)] ->
+                 (Main.toDispatcher1 x,
+                  GHC.Base.build
+                    @ [GHC.Types.Char]
+                    (\ @ b1
+                       c :: [GHC.Types.Char] -> b1 -> b1[OneShot]
+                       n :: b1[OneShot] ->
+                     GHC.Base.foldr
+                       @ (GHC.Base.String, GHC.Types.Int)
+                       @ b1
+                       (GHC.Base.mapFB
+                          @ [GHC.Types.Char]
+                          @ b1
+                          @ (GHC.Base.String, GHC.Types.Int)
+                          c
+                          Main.dispatcher43)
+                       n
+                       x))) -}
+6234728fe2237bfd0e71a3034d7e9fcb
+  toDispatcher1 ::
+    [(GHC.Base.String, GHC.Types.Int)] -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ x :: [(GHC.Base.String, GHC.Types.Int)] ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   Main.arityFormat6
+                   (Text.PrettyPrint.HughesPJ.fullRender
+                      @ GHC.Base.String
+                      Text.PrettyPrint.HughesPJ.PageMode
+                      Text.PrettyPrint.HughesPJ.$fEqDoc2
+                      Text.PrettyPrint.HughesPJ.$fEqDoc1
+                      Text.PrettyPrint.HughesPJ.txtPrinter
+                      (GHC.Types.[] @ GHC.Types.Char)
+                      ((Language.Haskell.Exts.Pretty.$fPrettyAlt_$cprettyPrec1
+                          Language.Haskell.Exts.Pretty.$fPrettyAlt9
+                          (Language.Haskell.Exts.Syntax.List
+                             (GHC.Base.map
+                                @ (GHC.Base.String, GHC.Types.Int)
+                                @ Language.Haskell.Exts.Syntax.Exp
+                                Main.toDispatcher2
+                                x)))
+                         `cast`
+                       (Language.Haskell.Exts.Pretty.NTCo:DocM[0] <Language.Haskell.Exts.Pretty.PPHsMode>_N <Text.PrettyPrint.HughesPJ.Doc>_N)
+                         Language.Haskell.Exts.Pretty.defaultMode))) -}
+db68db8191a7eb75a033052b03148b74
+  toDispatcher2 ::
+    (GHC.Base.String, GHC.Types.Int)
+    -> Language.Haskell.Exts.Syntax.Exp
+  {- Arity: 1, Strictness: <S,1*U(U,U(U))>m15, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: (GHC.Base.String, GHC.Types.Int) ->
+                 case w of ww { (,) ww1 ww2 ->
+                 case Main.$wa2 ww1 ww2 of ww3 { (#,#) ww4 ww5 ->
+                 Language.Haskell.Exts.Syntax.Tuple ww4 ww5 } }) -}
+377070aeb5e4b7e9a2805729e2249e89
+  toDispatcher3 :: Language.Haskell.Exts.Syntax.Exp
+  {- Strictness: m1,
+     Unfolding: (Language.Haskell.Exts.Syntax.Var Main.toDispatcher4) -}
+c4babe4e8ef3aedb74d8cbf0a7427456
+  toDispatcher4 :: Language.Haskell.Exts.Syntax.QName
+  {- Strictness: m2,
+     Unfolding: (Language.Haskell.Exts.Syntax.UnQual
+                   Main.toDispatcher5) -}
+0cd9139d0077e64773b8bf58de6aa6b2
+  toDispatcher5 :: Language.Haskell.Exts.Syntax.Name
+  {- Strictness: m1,
+     Unfolding: (Language.Haskell.Exts.Syntax.Ident
+                   Main.toDispatcher6) -}
+dd7f6a34ff6a67ac54d53aa36d927ec1
+  toDispatcher6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "transform"#) -}
+7b76cafe1a5678c869c4bdf97b0873e0
+  transform ::
+    (Data.AttoLisp.FromLisp a, Foreign.Emacs.Internal.ToEmacs b) =>
+    (a -> b)
+    -> Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(C(S))),1*C1(C1(C1(U)))><L,1*C1(U)><L,1*C1(U)><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a16
+                   @ b
+                   $dFromLisp :: Data.AttoLisp.FromLisp a16
+                   $dToEmacs :: Foreign.Emacs.Internal.ToEmacs b
+                   eta :: a16 -> b
+                   eta1 :: Data.AttoLisp.Lisp ->
+                 case ($dFromLisp `cast` (Data.AttoLisp.NTCo:FromLisp[0] <a16>_N)
+                         eta1)
+                        `cast`
+                      (Data.AttoLisp.NTCo:Parser[0] <a16>_R)
+                        @ Data.AttoLisp.Result
+                        @ a16
+                        (Data.AttoLisp.Error @ a16)
+                        (Data.AttoLisp.Success @ a16) of wild {
+                   Data.AttoLisp.Error err
+                   -> Data.AttoLisp.Error
+                        @ (Data.Either.Either
+                             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                             Data.AttoLisp.Lisp)
+                        err
+                   Data.AttoLisp.Success a64
+                   -> Data.AttoLisp.Success
+                        @ (Data.Either.Either
+                             (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                             Data.AttoLisp.Lisp)
+                        ($dToEmacs `cast` (Foreign.Emacs.Internal.NTCo:ToEmacs[0] <b>_N)
+                           (eta a64)) }) -}
+86c2b7b111febaa7b9a0d54be6122547
+  traverseLisp ::
+    Data.Either.Either
+      (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+      Data.AttoLisp.Lisp
+    -> Data.AttoLisp.Result
+         (Data.Either.Either
+            (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+            Data.AttoLisp.Lisp)
+  {- Arity: 1, Strictness: <S,1*U> -}
+2c25a8043e2d63a381678fb31621b221
+  unQualifiedName ::
+    Language.Haskell.Exts.Syntax.QName
+    -> GHC.Base.Maybe Language.Haskell.Exts.Syntax.Name
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds1 :: Language.Haskell.Exts.Syntax.QName ->
+                 case ds1 of wild {
+                   Language.Haskell.Exts.Syntax.Qual ds2 name
+                   -> GHC.Base.Just @ Language.Haskell.Exts.Syntax.Name name
+                   Language.Haskell.Exts.Syntax.UnQual name
+                   -> GHC.Base.Just @ Language.Haskell.Exts.Syntax.Name name
+                   Language.Haskell.Exts.Syntax.Special ipv
+                   -> GHC.Base.Nothing @ Language.Haskell.Exts.Syntax.Name }) -}
+instance [overlap ok] Main.Arity [(->)] = Main.$fArity(->)
+instance Main.Arity [.] = Main.$fArityx
+"SPEC/Main fromList @ Text _" [ALWAYS] forall @ a16
+                                              $dOrd :: GHC.Classes.Ord Data.Text.Internal.Text
+  Data.Map.Base.fromList @ Data.Text.Internal.Text @ a16 $dOrd
+  = Main.$sfromList @ a16
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

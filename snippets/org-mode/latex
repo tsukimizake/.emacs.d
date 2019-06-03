@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: latex
+# key: latex
+# --
+
+#+BEGIN_EXPORT latex
+$0
+#+END_EXPORT

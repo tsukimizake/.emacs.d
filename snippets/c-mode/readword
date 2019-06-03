@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: readword
+# key: readword
+# --
+  int count = 0;
+
+  {
+    char s[100];
+    while(scanf("%s", s) != EOF){
+      printf("%s\n", s);
+      ++count;
+    }
+  }

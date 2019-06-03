@@ -1,0 +1,29 @@
+;; -*- emacs-lisp -*- <19/02/18 14:55:24 /Users/shomasd/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+(((tramp-file-name "ssh" "shomasd" nil "rollot" nil nil nil)
+  ("uname" "Linux 4.3.0-gentoo")
+  ("locale" "LC_ALL=C")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/shomasd")
+  ("file-exists" "test -e")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 10001)
+  ("gid-string" "member")
+  ("case-insensitive" nil)
+  ("readlink" "\\readlink")
+  ("git" "\\git"))
+ ((tramp-file-name "ssh" "parallels" nil "10.9.88.200" nil nil nil)
+  nil)
+ ((tramp-file-name "ssh" nil nil "narita" nil nil nil)
+  nil)
+ ((tramp-file-name "ssh" "narita" nil "124.33.178.182" nil nil nil)
+  nil))

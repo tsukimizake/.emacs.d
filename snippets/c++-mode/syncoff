@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: syncoff
+# key: syncoff
+# --
+std::cout.std::basic_ios<char>::setf(std::ios_base::sync_with_stdio(false));

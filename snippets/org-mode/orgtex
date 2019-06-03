@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: orgtex
+# key: orgtex
+# --
+#+TITLE: $1
+#+AUTHOR: $2
+#+LATEX_CLASS: $3
+#+OPTIONS: $4

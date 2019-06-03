@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: verbose
+# key: verbose
+# --
+set(CMAKE_VERBOSE_MAKEFILE 1)

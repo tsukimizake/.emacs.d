@@ -1,0 +1,154 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-30 12:44:35.686548 UTC
+
+interface main@main:Matrix 7103
+  interface hash: f31d7e5d0a4a31b844083a34cef157ae
+  ABI hash: d345525763ec8cd45d0a8c30a72cd093
+  export-list hash: deab1b86c60ecf53e3632a9e4b1e1e1d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 7b7df1b41c465c4b88686b9490bd2d2b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Matrix.dyadic
+  Matrix.identity
+  Matrix.isIdentity
+  Matrix.transpose
+module dependencies:
+package dependencies: base-4.8.2.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+50f6fcd1f0c5238fc8036b0e1e6e637c
+  $widentity :: GHC.Prim.Int# -> [[GHC.Types.Int]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int# ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># ww 1) of wild {
+                   GHC.Types.False -> Matrix.identity2
+                   GHC.Types.True
+                   -> let {
+                        a :: [GHC.Types.Int]
+                        = let {
+                            y :: GHC.Prim.Int# = GHC.Prim.-# ww 1
+                          } in
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.<# 0 y) of wild1 {
+                            GHC.Types.False -> GHC.Types.[] @ GHC.Types.Int
+                            GHC.Types.True -> Matrix.$wxs y }
+                      } in
+                      let {
+                        xs0 :: [GHC.Types.Int]
+                        = GHC.Types.: @ GHC.Types.Int Matrix.identity1 a
+                      } in
+                      Data.OldList.nubBy
+                        @ [GHC.Types.Int]
+                        GHC.Classes.$fEq[]_$s$c==
+                        (GHC.Types.:
+                           @ [GHC.Types.Int]
+                           xs0
+                           (Data.OldList.permutations1
+                              @ GHC.Types.Int
+                              xs0
+                              (GHC.Types.[] @ GHC.Types.Int))) }) -}
+57ca3bd150601fb44ce6cad3ee1927b5
+  $wxs :: GHC.Prim.Int# -> [GHC.Types.Int]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+dc244e376937336b8ba53e00a3939abe
+  dyadic :: [GHC.Types.Int] -> [GHC.Types.Int] -> [[GHC.Types.Int]]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ xs :: [GHC.Types.Int] ys :: [GHC.Types.Int] ->
+                 GHC.Base.build
+                   @ [GHC.Types.Int]
+                   (\ @ b1
+                      c :: [GHC.Types.Int] -> b1 -> b1[OneShot]
+                      n :: b1[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Int
+                      @ b1
+                      (GHC.Base.mapFB
+                         @ [GHC.Types.Int]
+                         @ b1
+                         @ GHC.Types.Int
+                         c
+                         (\ x :: GHC.Types.Int ->
+                          GHC.Base.build
+                            @ GHC.Types.Int
+                            (\ @ b2
+                               c1 :: GHC.Types.Int -> b2 -> b2[OneShot]
+                               n1 :: b2[OneShot] ->
+                             GHC.Base.foldr
+                               @ GHC.Types.Int
+                               @ b2
+                               (GHC.Base.mapFB
+                                  @ GHC.Types.Int
+                                  @ b2
+                                  @ GHC.Types.Int
+                                  c1
+                                  (GHC.Num.$fNumInt_$c* x))
+                               n1
+                               ys)))
+                      n
+                      xs)) -}
+efa916d8b84978743e9b6ccafedb8b9b
+  identity :: GHC.Types.Int -> [[GHC.Types.Int]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 -> Matrix.$widentity ww1 }) -}
+0edabf28e10a84a580db56fbf51bfb5a
+  identity1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1) -}
+328789dee3a3a15d40990850dec4ddbb
+  identity2 :: [[GHC.Types.Int]]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Int]
+                   Matrix.identity3
+                   (GHC.Types.[] @ [GHC.Types.Int])) -}
+7c01e17adb1cd5116d14d7a7a908b501
+  identity3 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Matrix.identity1
+                   (GHC.Types.[] @ GHC.Types.Int)) -}
+4d8b8ae3250cc6571c8ad013fab1473b
+  isIdentity :: [[GHC.Types.Int]] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ xs :: [[GHC.Types.Int]] ->
+                 case GHC.List.$wlenAcc @ [GHC.Types.Int] xs 0 of ww2 { DEFAULT ->
+                 GHC.Classes.$fEq[]_$c==
+                   @ [GHC.Types.Int]
+                   GHC.Classes.$fEq[]_$s$fEq[]
+                   xs
+                   (Matrix.$widentity ww2) }) -}
+6256001a60659d354692278a50991d6e
+  transpose :: [[GHC.Types.Int]] -> [[GHC.Types.Int]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                (Data.OldList.transpose @ GHC.Types.Int) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

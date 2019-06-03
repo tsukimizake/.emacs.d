@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: reportheader
+# key: report
+# --
+#+OPTIONS:
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_HEADER: \setlength {\textheight} {42\baselineskip }
+#+LATEX_HEADER: \setlength {\textwidth} {45zw }
+#+LATEX_HEADER: \renewcommand{\figurename}{図}
+#+LATEX_HEADER: \renewcommand{\tablename}{表}
+#+LATEX_HEADER: \usepackage{indentfirst} \usepackage{amsmath}
+#+LATEX_HEADER: \makeatletter
+
+#+LATEX_HEADER: \renewcommand{\thefigure}{
+#+LATEX_HEADER: \thesection.\arabic{figure}}
+#+LATEX_HEADER: \@addtoreset{figure}{section}
+
+#+LATEX_HEADER: \renewcommand{\thetable}{
+#+LATEX_HEADER: \thesection.\arabic{table}}
+#+LATEX_HEADER: \@addtoreset{table}{section}
+
+#+LATEX_HEADER: \renewcommand{\theequation}{
+#+LATEX_HEADER: \thesection.\arabic{equation}}
+#+LATEX_HEADER: \@addtoreset{equation}{section}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{listings}
+
+#+LATEX_HEADER: \def\@maketitle{ \begin{flushright} \@author \end{flushright} }
+#+LATEX_HEADER: \makeatother
+
+#+Title: nil
+#+Author: 1w14c801-7 増田 翔仁
+#+Date: nil
+

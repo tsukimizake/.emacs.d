@@ -1,0 +1,7 @@
+alias eu=clang++ -std=c++11 xoreasy.cpp
+alias dx direx:find-directory-other-window .
+alias dfa describe-function {intern-soft $1}
+alias f find-file $1
+alias buf <#$1#>
+alias brewud= brew update;brew upgrade
+alias brewud brew update;brew upgrade

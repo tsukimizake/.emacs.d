@@ -1,0 +1,43 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: translation-compiler
+# key: translation
+# --
+
+# 以下コメントなど
+
+#+begin_src elisp
+  ;; コンパイルコマンド(仮)
+  (progn
+    (setq lexical-binding t)
+    (defun compose (fn &rest functions)
+      "関数合成"
+      (reduce
+       (lambda (f g)
+                (lambda (&rest args)
+                  (funcall f (apply g args))))
+              functions
+              :initial-value fn))
+    (defun remove-tail-comment(s) (replace-regexp-in-string (rx "# 以下コメントなど" (* anything)) "" s))
+    (defun remove-inline-comment(s) (replace-regexp-in-string (rx "#" (not (any "+")) (* nonl) "\n") "" s))
+    (defun remove-org-heading(s) (replace-regexp-in-string (rx (and bol "* " (* nonl) "\n")) "" s))
+    (defun replace-hs-src-head(s) (replace-regexp-in-string (rx "#+begin_src haskell") "```hs" s))
+    (defun replace-hs-src-end(s) (replace-regexp-in-string (rx "#+end_src") "```" s))
+  
+    (require 'rx)
+    (let* ((buf (get-buffer-create "output.txt"))
+           (content (buffer-string))
+         
+           (compiled (funcall (compose
+                               'remove-inline-comment
+                               'remove-tail-comment
+                               'replace-hs-src-head
+                               'replace-hs-src-end
+			       'remove-org-heading) content)))
+          (with-current-buffer buf
+            (erase-buffer)
+            (insert compiled)
+            (display-buffer buf))
+          ))
+
+#+end_src
+

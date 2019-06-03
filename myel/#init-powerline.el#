@@ -1,0 +1,69 @@
+;;; init-powerline.el --- conifg of powerline.el -*- coding: utf-8; lexical-binding: t %google-translate-at-point
+;; Copyright (C) 2014  Ken Okada
+
+;; Author: Ken Okada <keno.ss57@gmail.com>
+
+;; Apache License, Version 2.0
+
+;;; Commentary:
+
+;;
+
+;;; Code:
+
+(eval-when-compile
+  (setq byte-compile-warnings '(not cl-functions))
+  (require 'cl)
+  (require 'erfi-macros)
+  (erfi:use-short-macro-name))
+
+(require 'cl-lib)
+
+(require 'powerline)
+
+
+
+;;;
+;;; `powerline-angle-left' and `powerline-angle-right'
+;;;
+
+;; To avoid a compile error. This function is only used in macro `pl/angle'.
+;; I think this is not a good idea; this funcion and macros `pl/foobar' are called only once
+;; at the compile time.  However, I follow the way of original `powerline.el'.
+(eval-when-compile
+  (defun pl/wrap-defun* (name dir width let-vars body &optional face-i)
+    "A generalization of `pl/wrap-defun'. If FACE-I is non-nil, it is used instead of interpolated color."
+    (let* ((src-face (if (eq dir 'left) 'face1 'face2))
+	   (dst-face (if (eq dir 'left) 'face2 'face1)))
+      `(defun ,(intern (format "powerline-%s-%s" name (symbol-name dir)))
+	   (face1 &optional face2 height)
+	 (setq face2 (or face2 face1))
+	 (when window-system           (unless height
+					 (setq height (pl/separator-height)))
+	       (let* ,(append `((color1 (when ,src-face
+					  (pl/hex-color (face-attribute ,src-face :background))))
+				(color2 (when ,dst-face
+					  (pl/hex-color (face-attribute ,dst-face :background))))
+				(colori (if ',face-i                                        (pl/hex-color (face-attribute ',face-i :background))
+					  (when (and color1 color2) (pl/interpolate color1 color2))))
+				(color1 (or color1 "None"))
+				(color2 (or color2 "None"))
+				(colori (or colori "None")))
+			      let-vars)
+		 (create-image ,(append `(concat (format "/* XPM */ static char * %s_%s[] = { \"%s %s 3 1\", \"0 c %s\", \"1 c %s\", \"2 c %s\","
+							 ,(replace-regexp-in-string "-" "_" name)
+							 (symbol-name ',dir)
+							 ,width
+							 height
+							 color1
+							 color2
+							 colori))
+					body
+					'("};"))
+			       'xpm t                           :ascent 'center-line                           :face (when (and face1 face2)
+														       ,dst-face)))))))
+  )
+
+(defmacro pl/angle (dir)
+  "Generate an angle XPM function for DIR."
+    (l

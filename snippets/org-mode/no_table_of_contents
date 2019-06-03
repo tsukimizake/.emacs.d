@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: no_table_of_contents
+# key: notoc
+# --
+#+OPTIONS: toc:nil

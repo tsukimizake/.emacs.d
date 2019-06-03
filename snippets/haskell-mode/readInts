@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: readInts
+# key: readints
+# --
+${1:ns} <- fmap (read :: String -> Int) . words <\$> getLine

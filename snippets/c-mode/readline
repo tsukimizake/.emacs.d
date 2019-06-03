@@ -1,0 +1,13 @@
+# key: readline
+# name: readline
+# --
+  size_t linelen = 1;
+  char * input;
+  size_t linecount = 0;
+  while(1){
+    int len = getline(& input, & linelen, stdin);
+    if(len <= 0){
+      break;
+    }
+    linecount++;
+  };

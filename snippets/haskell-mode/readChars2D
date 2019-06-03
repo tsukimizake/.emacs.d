@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: readChars2D
+# key: readChars2D
+# --
+readVars :: [[Char]] -> [[${1:type}]]
+readVars xss = fmap (fmap ((read :: String ->${1:type}) . (\c -> [c]))) replaced
+  where 
+    replaced :: [[Char]]
+    replaced = fmap ${1:id} xss

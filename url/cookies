@@ -1,0 +1,23 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".github.com"
+  [url-cookie "_octo" "GH1.1.782178414.1465125427" "Tue, 05 Jun 2018 11:17:07 -0000" "/" ".github.com" nil])
+ ("cafy.jp"
+  [url-cookie "app_cafy_uuid" "e2e1a2a6-22ae-42c7-8db3-b1e2bc873b84" "Wed, 27 Aug 2036 04:07:15 -0000" "/" "cafy.jp" nil])
+ (".hatena.ne.jp"
+  [url-cookie "b" "$1$EQXNoNTc$QoQ.ELBVvq1Z/ssTmFKM8/" "18 Jun 35 14:45:37 [GMT]" "/" ".hatena.ne.jp" nil])
+ (".atlassian.com"
+  [url-cookie "__atl_path" "172.24.36.107.1469762503526919" "27 Jul 26 03:21:43 [GMT]" "/" ".atlassian.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".github.com"
+  [url-cookie "HttpOnly" nil "Sat, 28 Jul 2035 14:23:16 -0000" "/" ".github.com" t]
+  [url-cookie "logged_in" "no" "Sat, 28 Jul 2035 14:23:16 -0000" "/" ".github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

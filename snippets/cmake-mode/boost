@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: boost
+# key: boost
+# --
+include_directory(/usr/local/include/boost)
+set(Boost_USE_STATIC_LIBS OFF) 
+set(Boost_USE_MULTITHREADED ON)  
+set(Boost_USE_STATIC_RUNTIME OFF)
+
+find_package(boost 1.55.0 REQUIRED {${LIB_TO_LINK}}) 
+
+if(Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIRS})
+    target_link_libraries(boost_signal ${Boost_LIBRARIES})
+    target_link_libraries(boost_multiprecition_test ${Boost_LIBRARIES})
+endif()

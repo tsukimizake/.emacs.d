@@ -1,0 +1,109 @@
+Configuring atto-lisp-0.2.2.2...
+Building atto-lisp-0.2.2.2...
+Preprocessing library atto-lisp-0.2.2.2...
+
+Data/AttoLisp.hs:4:57: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[1 of 1] Compiling Data.AttoLisp    ( Data/AttoLisp.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.0.0/build/Data/AttoLisp.o )
+
+Data/AttoLisp.hs:37:1: warning: [-Wdeprecations]
+    Module ‘Data.Attoparsec.Number’ is deprecated:
+      This module will be removed in the next major release.
+
+Data/AttoLisp.hs:42:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Data/AttoLisp.hs:68:12: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Number’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:320:10: warning: [-Wredundant-constraints]
+    • Redundant constraints: (IsFunction b f, ParseList' f b c)
+    • In the instance declaration for ‘ParseList' HTrue (a -> b) c’
+
+Data/AttoLisp.hs:336:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: TypeCast f HTrue
+    • In the instance declaration for ‘IsFunction (x -> y) f’
+
+Data/AttoLisp.hs:337:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: TypeCast f HFalse
+    • In the instance declaration for ‘IsFunction a f’
+
+Data/AttoLisp.hs:340:3: warning: [-Wunused-top-binds]
+    Defined but not used: ‘typeCast’
+
+Data/AttoLisp.hs:467:21: warning: [-Wdeprecations]
+    In the use of data constructor ‘D’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:473:7: warning: [-Wdeprecations]
+    In the use of data constructor ‘D’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:474:7: warning: [-Wdeprecations]
+    In the use of data constructor ‘I’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:486:7: warning: [-Wdeprecations]
+    In the use of data constructor ‘D’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:487:7: warning: [-Wdeprecations]
+    In the use of data constructor ‘I’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:492:17: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Number’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:496:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Number’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:498:34: warning: [-Wdeprecations]
+    In the use of data constructor ‘D’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:509:7: warning: [-Wdeprecations]
+    In the use of data constructor ‘D’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:510:7: warning: [-Wdeprecations]
+    In the use of data constructor ‘I’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:663:20: warning: [-Wdeprecations]
+    In the use of ‘number’
+    (imported from Data.Attoparsec.ByteString.Char8):
+    Deprecated: "Use 'scientific' instead."
+
+Data/AttoLisp.hs:841:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Number’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:842:13: warning: [-Wdeprecations]
+    In the use of data constructor ‘I’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+
+Data/AttoLisp.hs:843:13: warning: [-Wdeprecations]
+    In the use of data constructor ‘D’
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+Installing library in
+/Users/shomasd/.emacs.d/haskell-fun/.stack-work/install/x86_64-osx/lts-7.0/8.0.1/lib/x86_64-osx-ghc-8.0.1/atto-lisp-0.2.2.2-pADZfkG2vxA8PuvQIBBrO
+Registering atto-lisp-0.2.2.2...

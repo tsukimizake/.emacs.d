@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "flex-autopair" "20120809.1218" "Automatically insert pair braces and quotes, insertion conditions & actions are highly customizable." 'nil :commit "4bb757f2556a4a51828e2fed8fb81e31e83052cb" :keywords '("keyboard" "input") :authors '(("Yuuki Arisawa" . "yuuki.ari@gmail.com")) :maintainer '("Yuuki Arisawa" . "yuuki.ari@gmail.com") :url "https://github.com/uk-ar/flex-autopair.el")

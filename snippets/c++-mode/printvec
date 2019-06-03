@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: printvec
+# key: printvec
+# --
+template<class T>
+void printvec(std::vector<T> vec){
+  std::size_t n = vec.size();
+  for(int i = 0; i<n - 1; ++i){
+    std::cout << vec[i] << " ";
+  }
+  std::cout << vec[n - 1] << std::endl;
+}

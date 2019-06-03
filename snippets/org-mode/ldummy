@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ldummy
+# key: ldummy
+# --
+\newline
+#+CAPTION: $1
+#+NAME: $1
+[[file:ldummy.png]]
+\newline

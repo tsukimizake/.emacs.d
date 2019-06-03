@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nextLine
+# key: nl
+# --
+String $2 = sc.nextLine();

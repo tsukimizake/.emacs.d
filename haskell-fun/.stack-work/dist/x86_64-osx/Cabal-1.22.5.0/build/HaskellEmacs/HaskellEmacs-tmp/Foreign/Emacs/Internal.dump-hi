@@ -1,0 +1,1973 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-30 12:44:48.634545 UTC
+
+interface main@main:Foreign.Emacs.Internal 7103
+  interface hash: a9cf0f2b2812b0d8669cec80c456fd7a
+  ABI hash: 65f42019e26688e216d86520324ce8e2
+  export-list hash: 527c4c60eb49a7dea8bd161dde2bd0e9
+  orphan hash: e0cd1cbc15e0cfb889f7a563efa223b7
+  flag hash: 0f192b9738947685bb1d92c2cdb0a1cd
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Foreign.Emacs.Internal.eval
+  Foreign.Emacs.Internal.eval_
+  Foreign.Emacs.Internal.getBuffer
+  Foreign.Emacs.Internal.modifyBuffer
+  Foreign.Emacs.Internal.putBuffer
+  Foreign.Emacs.Internal.Buffer{Foreign.Emacs.Internal.Buffer Foreign.Emacs.Internal.point Foreign.Emacs.Internal.text}
+  Foreign.Emacs.Internal.Emacs{Foreign.Emacs.Internal.EmacsInternal Foreign.Emacs.Internal.fromEmacs}
+  Foreign.Emacs.Internal.ToEmacs{Foreign.Emacs.Internal.toEmacs}
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      atto-lisp-0.2.2.2@attol_90yuvSkXUv5KUzI9B7u8hc
+                      attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68 base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-textual-0.2.1.0@blaze_2Mh6jNrscJA0Vy1dvfsxqd
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I integer-gmp-1.0.0.0
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      scientific-0.3.4.8@scien_Elq5IFN7LP733k4M8RTP7H
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Char8
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+family instance modules: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+import  -/  atto-lisp-0.2.2.2@attol_90yuvSkXUv5KUzI9B7u8hc:Data.AttoLisp 1f84105c2a804b51de30cabaf1572ab4
+import  -/  base-4.8.2.0:Control.Applicative a8ebf5ad4932b411ad7725da68be9801
+import  -/  base-4.8.2.0:Control.Concurrent 1268fba2c60b0505ec9e8731d08a8e75
+import  -/  base-4.8.2.0:Control.Concurrent.Chan 3e0d98f93ed95f7883897750719f777f
+import  -/  base-4.8.2.0:Data.Either e8724afd65fd432cfe9a54014f5f762d
+import  -/  base-4.8.2.0:Data.Monoid 85b292b52bfd80ed619cddb767d638d3
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.MVar 923ba0fea12c99eadbbf8d2bd3c3ff26
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy.Char8 3455f4159ac4b644563dfc2b667ec7e5
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy.Internal 372874e1a7c751c0cb07b7dc746f232b
+import  -/  deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59:Control.DeepSeq 246a9f10b3a819aeaf083ff6e16b5dcc
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8:Control.Monad.Trans 4d23abd3cae3e67a6d0c68ce1db838ec
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text b53ae191632883b10562be5cbaa0b22b
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+import  -/  transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.IO.Class 37487179a2f5eb2ea7922b911abcae56
+import  -/  transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Reader 70dc71c4262795d29d07da6093fd088a
+import  -/  utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b:Data.ByteString.Lazy.UTF8 81e517f9f47de9f18edde8658afd5a93
+044b52021573058d9f421e95dae90151
+  $fApplicativeEmacs ::
+    GHC.Base.Applicative Foreign.Emacs.Internal.Emacs
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Foreign.Emacs.Internal.Emacs
+                  Foreign.Emacs.Internal.$fFunctorEmacs
+                  Foreign.Emacs.Internal.$fApplicativeEmacs_$creturn
+                  Foreign.Emacs.Internal.$fApplicativeEmacs_$c<*>
+                  Foreign.Emacs.Internal.$fApplicativeEmacs_$c*>
+                  Foreign.Emacs.Internal.$fApplicativeEmacs_$c<* -}
+6c7e2437a5b14f7411495564cbbbd423
+  $fApplicativeEmacs1 ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,U)))><L,1*C1(C1(U(U,A)))><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a4
+                   @ b
+                   eta :: Control.Monad.Trans.Reader.ReaderT
+                            (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)
+                            GHC.Types.IO
+                            a4
+                   eta1 :: Control.Monad.Trans.Reader.ReaderT
+                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)
+                             GHC.Types.IO
+                             b
+                   eta2 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (eta
+                         `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <a4>_N)
+                         eta2)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <a4>_R)
+                        eta3 of ds { (#,#) ipv ipv1 ->
+                 case (eta1
+                         `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <b>_N)
+                         eta2)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <b>_R)
+                        ipv of ds1 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, ipv1 #) } }) -}
+48106c1f351d79a6f08817e66a19852c
+  $fApplicativeEmacs2 ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, b #)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,A)))><L,1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a4
+                   @ b
+                   eta :: Control.Monad.Trans.Reader.ReaderT
+                            (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)
+                            GHC.Types.IO
+                            a4
+                   eta1 :: Control.Monad.Trans.Reader.ReaderT
+                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)
+                             GHC.Types.IO
+                             b
+                   eta2 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (eta
+                         `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <a4>_N)
+                         eta2)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <a4>_R)
+                        eta3 of ds { (#,#) ipv ipv1 ->
+                 (eta1
+                    `cast`
+                  (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                       <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                         Control.Concurrent.Chan.Chan
+                           Data.ByteString.Lazy.Internal.ByteString)>_R
+                       <GHC.Types.IO>_R
+                       <b>_N)
+                    eta2)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <b>_R)
+                   ipv }) -}
+ab45cf7c11838a12a0f0a44b940d9d33
+  $fApplicativeEmacs3 ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         a
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, b #)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,1*C1(U))))><L,1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a4
+                   @ b
+                   f :: Control.Monad.Trans.Reader.ReaderT
+                          (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                          GHC.Types.IO
+                          (a4 -> b)
+                   v :: Control.Monad.Trans.Reader.ReaderT
+                          (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                          GHC.Types.IO
+                          a4
+                   r1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                          Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString)
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (f `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <a4 -> b>_N)
+                         r1)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <a4 -> b>_R)
+                        s of ds { (#,#) ipv ipv1 ->
+                 case (v `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <a4>_N)
+                         r1)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <a4>_R)
+                        ipv of ds1 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, ipv1 ipv3 #) } }) -}
+d498c7c17b782e26393b7a2890fd748b
+  $fApplicativeEmacs4 ::
+    a
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a4
+                   eta :: a4
+                   eta1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta2, eta #)) -}
+044b52021573058d9f421e95dae90151
+  $fApplicativeEmacs_$c*> ::
+    Foreign.Emacs.Internal.Emacs a
+    -> Foreign.Emacs.Internal.Emacs b -> Foreign.Emacs.Internal.Emacs b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,A)))><L,1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fApplicativeEmacs2
+                  `cast`
+                (forall a4 b.
+                 Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <b>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <b>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fApplicativeEmacs_$c<* ::
+    Foreign.Emacs.Internal.Emacs a
+    -> Foreign.Emacs.Internal.Emacs b -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,U)))><L,1*C1(C1(U(U,A)))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fApplicativeEmacs1
+                  `cast`
+                (forall a4 b.
+                 Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <a4>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fApplicativeEmacs_$c<*> ::
+    Foreign.Emacs.Internal.Emacs (a -> b)
+    -> Foreign.Emacs.Internal.Emacs a -> Foreign.Emacs.Internal.Emacs b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,1*C1(U))))><L,1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fApplicativeEmacs3
+                  `cast`
+                (forall a4 b.
+                 Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4 -> b>_N
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <b>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <b>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fApplicativeEmacs_$creturn :: a -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fApplicativeEmacs4
+                  `cast`
+                (forall a4.
+                 <a4>_R
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <a4>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fFunctorEmacs :: GHC.Base.Functor Foreign.Emacs.Internal.Emacs
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Foreign.Emacs.Internal.Emacs
+                  Foreign.Emacs.Internal.$fFunctorEmacs_$cfmap
+                  Foreign.Emacs.Internal.$fFunctorEmacs_$c<$ -}
+86ed28abd511aaffe258d490edd20aa0
+  $fFunctorEmacs1 ::
+    a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,U><C(C(S)),1*C1(C1(U(U,A)))><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a4
+                   @ b
+                   eta :: a4
+                   eta1 :: Control.Monad.Trans.Reader.ReaderT
+                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)
+                             GHC.Types.IO
+                             b
+                   eta2 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (eta1
+                         `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <b>_N)
+                         eta2)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <b>_R)
+                        eta3 of ds { (#,#) ipv ipv1 ->
+                 (# ipv, eta #) }) -}
+7ee2a074f6de1b7b33d1cdee30da3aa3
+  $fFunctorEmacs2 ::
+    (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         a
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, b #)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,1*C1(U)><C(C(S)),1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a4
+                   @ b
+                   f :: a4 -> b
+                   eta :: Control.Monad.Trans.Reader.ReaderT
+                            (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)
+                            GHC.Types.IO
+                            a4
+                   eta1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (eta
+                         `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <a4>_N)
+                         eta1)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <a4>_R)
+                        eta2 of ds { (#,#) ipv ipv1 ->
+                 (# ipv, f ipv1 #) }) -}
+044b52021573058d9f421e95dae90151
+  $fFunctorEmacs_$c<$ ::
+    a
+    -> Foreign.Emacs.Internal.Emacs b -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,U><C(C(S)),1*C1(C1(U(U,A)))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fFunctorEmacs1
+                  `cast`
+                (forall a4 b.
+                 <a4>_R
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <a4>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fFunctorEmacs_$cfmap ::
+    (a -> b)
+    -> Foreign.Emacs.Internal.Emacs a -> Foreign.Emacs.Internal.Emacs b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,1*C1(U)><C(C(S)),1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fFunctorEmacs2
+                  `cast`
+                (forall a4 b.
+                 <a4 -> b>_R
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <b>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <b>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fMonadEmacs :: GHC.Base.Monad Foreign.Emacs.Internal.Emacs
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Foreign.Emacs.Internal.Emacs
+                  Foreign.Emacs.Internal.$fApplicativeEmacs
+                  Foreign.Emacs.Internal.$fMonadEmacs_$c>>=
+                  Foreign.Emacs.Internal.$fMonadEmacs_$c>>
+                  Foreign.Emacs.Internal.$fApplicativeEmacs_$creturn
+                  Foreign.Emacs.Internal.$fMonadEmacs_$cfail -}
+ee2c5664224ef6caf3a7069398dbce72
+  $fMonadEmacs1 ::
+    GHC.Base.String
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+  {- Arity: 3, Strictness: <B,U><B,A><B,U>b,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a4
+                   msg :: GHC.Base.String
+                   eta :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.IO.failIO1 @ a4 msg eta1) -}
+3c872fda88878cbec61be5d07e804e70
+  $fMonadEmacs2 ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+  {- Arity: 2,
+     Unfolding: (\ @ a4 @ b ->
+                 Control.Monad.Trans.Reader.$fMonadReaderT_$c>>
+                   @ (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                      Control.Concurrent.Chan.Chan
+                        Data.ByteString.Lazy.Internal.ByteString)
+                   @ GHC.Types.IO
+                   Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT
+                   GHC.Base.$fMonadIO
+                   @ a4
+                   @ b) -}
+0a5389e438230f239b11d14bae28ae83
+  $fMonadEmacs3 ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                (Foreign.Emacs.Internal.$fMonadEmacs_$s$fFunctorReaderT
+                   @ (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                      Control.Concurrent.Chan.Chan
+                        Data.ByteString.Lazy.Internal.ByteString)) -}
+f187c70ade1154ca589af5b7d0456d99
+  $fMonadEmacs4 ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      a
+    -> (a
+        -> Control.Monad.Trans.Reader.ReaderT
+             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+              Control.Concurrent.Chan.Chan
+                Data.ByteString.Lazy.Internal.ByteString)
+             GHC.Types.IO
+             b)
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, b #)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,U)))><L,1*C1(C1(C1(U(U,U))))><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a4
+                   @ b
+                   m1 :: Control.Monad.Trans.Reader.ReaderT
+                           (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                           GHC.Types.IO
+                           a4
+                   k :: a4
+                        -> Control.Monad.Trans.Reader.ReaderT
+                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)
+                             GHC.Types.IO
+                             b
+                   r1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                          Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString)
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (m1
+                         `cast`
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <a4>_N)
+                         r1)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <a4>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 ((k ipv1)
+                    `cast`
+                  (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                       <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                         Control.Concurrent.Chan.Chan
+                           Data.ByteString.Lazy.Internal.ByteString)>_R
+                       <GHC.Types.IO>_R
+                       <b>_N)
+                    r1)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <b>_R)
+                   ipv }) -}
+044b52021573058d9f421e95dae90151
+  $fMonadEmacs_$c>> ::
+    Foreign.Emacs.Internal.Emacs a
+    -> Foreign.Emacs.Internal.Emacs b -> Foreign.Emacs.Internal.Emacs b
+  {- Arity: 2,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fMonadEmacs2
+                  `cast`
+                (forall a4 b.
+                 Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N) -}
+044b52021573058d9f421e95dae90151
+  $fMonadEmacs_$c>>= ::
+    Foreign.Emacs.Internal.Emacs a
+    -> (a -> Foreign.Emacs.Internal.Emacs b)
+    -> Foreign.Emacs.Internal.Emacs b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,U)))><L,1*C1(C1(C1(U(U,U))))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fMonadEmacs4
+                  `cast`
+                (forall a4 b.
+                 Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N
+                 ->_R (<a4>_R ->_R Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N)
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <b>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <b>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <b>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fMonadEmacs_$cfail ::
+    GHC.Base.String -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 3, Strictness: <B,U><B,A><B,U>b,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fMonadEmacs1
+                  `cast`
+                (forall a4.
+                 <[GHC.Types.Char]>_R
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <a4>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N))) -}
+98ae15a5aab24fa09b30a0806e857113
+  $fMonadEmacs_$s$fApplicativeReaderT ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Reader.ReaderT
+                       (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                        Control.Concurrent.Chan.Chan
+                          Data.ByteString.Lazy.Internal.ByteString)
+                       GHC.Types.IO)
+                  Foreign.Emacs.Internal.$fMonadEmacs3
+                  Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT_$cpure
+                  (Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<*>
+                     @ (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                        Control.Concurrent.Chan.Chan
+                          Data.ByteString.Lazy.Internal.ByteString)
+                     @ GHC.Types.IO
+                     Foreign.Emacs.Internal.$fMonadEmacs3
+                     GHC.Base.$fApplicativeIO)
+                  Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT_$c*>
+                  Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT_$c<* -}
+005adcfff05fbfb389e2431ab3c24d98
+  $fMonadEmacs_$s$fApplicativeReaderT_$c*> ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,A)))><L,1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a4
+                   @ b
+                   eta :: Control.Monad.Trans.Reader.ReaderT
+                            (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)
+                            GHC.Types.IO
+                            a4
+                   eta1 :: Control.Monad.Trans.Reader.ReaderT
+                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)
+                             GHC.Types.IO
+                             b ->
+                 let {
+                   f :: Control.Monad.Trans.Reader.ReaderT
+                          (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                          GHC.Types.IO
+                          (b -> b)
+                   = Control.Monad.Trans.Reader.$fFunctorReaderT_$c<$
+                       @ (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                          Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString)
+                       @ GHC.Types.IO
+                       GHC.Base.$fFunctorIO
+                       @ (b -> b)
+                       @ a4
+                       (GHC.Base.id @ b)
+                       eta
+                 } in
+                 (\ r1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString) ->
+                  GHC.Base.$fApplicativeIO_$sap
+                    @ b
+                    @ b
+                    (f `cast`
+                     (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                          <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)>_R
+                          <GHC.Types.IO>_R
+                          <b -> b>_N)
+                       r1)
+                    (eta1
+                       `cast`
+                     (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                          <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)>_R
+                          <GHC.Types.IO>_R
+                          <b>_N)
+                       r1))
+                   `cast`
+                 (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                           <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           <GHC.Types.IO>_R
+                           <b>_N))) -}
+fa54853ae3586276d90f61e6674d00a8
+  $fMonadEmacs_$s$fApplicativeReaderT_$c<* ::
+    Control.Monad.Trans.Reader.ReaderT
+      (GHC.MVar.MVar Data.AttoLisp.Lisp,
+       Control.Concurrent.Chan.Chan
+         Data.ByteString.Lazy.Internal.ByteString)
+      GHC.Types.IO
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,U)))><L,1*C1(C1(U(U,A)))><L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a4
+                   @ b
+                   eta :: Control.Monad.Trans.Reader.ReaderT
+                            (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)
+                            GHC.Types.IO
+                            a4
+                   eta1 :: Control.Monad.Trans.Reader.ReaderT
+                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)
+                             GHC.Types.IO
+                             b
+                   eta2 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.$fApplicativeIO_$sap
+                    @ b
+                    @ a4
+                    ((Foreign.Emacs.Internal.$fMonadEmacs_$s$fFunctorReaderT_$cfmap
+                        @ (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                        @ a4
+                        @ (b -> a4)
+                        (GHC.Base.const @ a4 @ b)
+                        eta)
+                       `cast`
+                     (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                          <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)>_R
+                          <GHC.Types.IO>_R
+                          <b -> a4>_N)
+                       eta2)
+                    (eta1
+                       `cast`
+                     (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                          <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)>_R
+                          <GHC.Types.IO>_R
+                          <b>_N)
+                       eta2))
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <a4>_R)
+                   eta3)
+                  `cast`
+                (forall a4 b.
+                 <Control.Monad.Trans.Reader.ReaderT
+                    (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                     Control.Concurrent.Chan.Chan
+                       Data.ByteString.Lazy.Internal.ByteString)
+                    GHC.Types.IO
+                    a4>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT
+                         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                          Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString)
+                         GHC.Types.IO
+                         b>_R
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                          (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                      Control.Concurrent.Chan.Chan
+                                        Data.ByteString.Lazy.Internal.ByteString)>_R
+                                    <GHC.Types.IO>_R
+                                    <a4>_N))) -}
+46fd21dbc47e4515176bdbb232f09860
+  $fMonadEmacs_$s$fApplicativeReaderT_$cpure ::
+    a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a4
+                   eta :: a4
+                   eta1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                            Control.Concurrent.Chan.Chan
+                              Data.ByteString.Lazy.Internal.ByteString)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.returnIO @ a4 eta) `cast` (GHC.Types.NTCo:IO[0] <a4>_R)
+                   eta2)
+                  `cast`
+                (forall a4.
+                 <a4>_R
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                          (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                      Control.Concurrent.Chan.Chan
+                                        Data.ByteString.Lazy.Internal.ByteString)>_R
+                                    <GHC.Types.IO>_R
+                                    <a4>_N))) -}
+421fd8bd33be2e26d307cd9f8d720db4
+  $fMonadEmacs_$s$fFunctorReaderT ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Foreign.Emacs.Internal.$fMonadEmacs_$s$fFunctorReaderT_$cfmap @ r)
+                  (Control.Monad.Trans.Reader.$fFunctorReaderT_$c<$
+                     @ r
+                     @ GHC.Types.IO
+                     GHC.Base.$fFunctorIO) -}
+d07b22bf861053a26a34d2a021904f70
+  $fMonadEmacs_$s$fFunctorReaderT_$cfmap ::
+    (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,1*C1(U)><C(C(S)),1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ r
+                   @ a4
+                   @ b
+                   f :: a4 -> b
+                   m1 :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a4
+                   x :: r
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.$fFunctorIO_$cfmap
+                    @ a4
+                    @ b
+                    f
+                    (m1
+                       `cast`
+                     (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                          <r>_R <GHC.Types.IO>_R <a4>_N)
+                       x))
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <b>_R)
+                   eta)
+                  `cast`
+                (forall r a4 b.
+                 <a4 -> b>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a4>_R
+                 ->_R Trans
+                          (<r>_R ->_R Sym (GHC.Types.NTCo:IO[0] <b>_R))
+                          (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <r>_R <GHC.Types.IO>_R <b>_N))) -}
+044b52021573058d9f421e95dae90151
+  $fMonadIOEmacs ::
+    Control.Monad.IO.Class.MonadIO Foreign.Emacs.Internal.Emacs
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Foreign.Emacs.Internal.Emacs
+                  Foreign.Emacs.Internal.$fMonadEmacs
+                  Foreign.Emacs.Internal.$fMonadIOEmacs_$cliftIO -}
+0cab682c472ca1cc74933f48f1b2cadd
+  $fMonadIOEmacs1 ::
+    GHC.Types.IO a
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Types.IO a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (2, True, True)
+                (\ @ a4
+                   eta :: GHC.Types.IO a4
+                   ds :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                          Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString) ->
+                 eta) -}
+044b52021573058d9f421e95dae90151
+  $fMonadIOEmacs_$cliftIO ::
+    GHC.Types.IO a -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.$fMonadIOEmacs1
+                  `cast`
+                (forall a4.
+                 <GHC.Types.IO a4>_R
+                 ->_R Trans
+                          (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                      Control.Concurrent.Chan.Chan
+                                        Data.ByteString.Lazy.Internal.ByteString)>_R
+                                    <GHC.Types.IO>_R
+                                    <a4>_N))
+                          (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N)) -}
+044b52021573058d9f421e95dae90151
+  $fNFDataEmacs ::
+    Control.DeepSeq.NFData
+      (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+  DFunId[0]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Foreign.Emacs.Internal.$fNFDataEmacs_$crnf
+                  `cast`
+                (Sym (Control.DeepSeq.NTCo:NFData[0]
+                          <Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp>_N)) -}
+044b52021573058d9f421e95dae90151
+  $fNFDataEmacs_$crnf ::
+    Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp ->
+                 GHC.Tuple.()) -}
+6316daf6401762d94b0f485fba3e7de0
+  $fToEmacsEmacs ::
+    Data.AttoLisp.ToLisp a =>
+    Foreign.Emacs.Internal.ToEmacs (Foreign.Emacs.Internal.Emacs a)
+  DFunId[0]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,C(U)><L,C(C1(U(U,U)))>m1,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Foreign.Emacs.Internal.$fToEmacsEmacs_$ctoEmacs
+                  `cast`
+                (forall a4.
+                 <Data.AttoLisp.ToLisp a4>_R
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:ToEmacs[0]
+                               <Foreign.Emacs.Internal.Emacs a4>_N)) -}
+5ab6b22c34f4a52372a09020256ae188
+  $fToEmacsEmacs_$ctoEmacs ::
+    Data.AttoLisp.ToLisp a =>
+    Foreign.Emacs.Internal.Emacs a
+    -> Data.Either.Either
+         (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+         Data.AttoLisp.Lisp
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,C(U)><L,C(C1(U(U,U)))>m1,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a4
+                   $dToLisp :: Data.AttoLisp.ToLisp a4
+                   eta :: Foreign.Emacs.Internal.Emacs a4 ->
+                 Data.Either.Left
+                   @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                   @ Data.AttoLisp.Lisp
+                   (\ eta1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                               Control.Concurrent.Chan.Chan
+                                 Data.ByteString.Lazy.Internal.ByteString)
+                      eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                    case (eta
+                            `cast`
+                          (Trans
+                               (Foreign.Emacs.Internal.NTCo:Emacs[0] <a4>_N)
+                               (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                      Control.Concurrent.Chan.Chan
+                                        Data.ByteString.Lazy.Internal.ByteString)>_R
+                                    <GHC.Types.IO>_R
+                                    <a4>_N))
+                            eta1)
+                           `cast`
+                         (GHC.Types.NTCo:IO[0] <a4>_R)
+                           eta2 of ds { (#,#) ipv ipv1 ->
+                    (# ipv,
+                       $dToLisp `cast` (Data.AttoLisp.NTCo:ToLisp[0] <a4>_N) ipv1 #) })
+                     `cast`
+                   (Trans
+                        (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                         ->_R Sym (GHC.Types.NTCo:IO[0] <Data.AttoLisp.Lisp>_R))
+                        (Trans
+                             (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                       <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                         Control.Concurrent.Chan.Chan
+                                           Data.ByteString.Lazy.Internal.ByteString)>_R
+                                       <GHC.Types.IO>_R
+                                       <Data.AttoLisp.Lisp>_N))
+                             (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <Data.AttoLisp.Lisp>_N)))) -}
+6316daf6401762d94b0f485fba3e7de0
+  $fToEmacsa ::
+    Data.AttoLisp.ToLisp a => Foreign.Emacs.Internal.ToEmacs a
+  DFunId[0]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*C1(U)><L,U>m2,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Foreign.Emacs.Internal.$fToEmacsa_$ctoEmacs
+                  `cast`
+                (forall a4.
+                 <Data.AttoLisp.ToLisp a4>_R
+                 ->_R Sym (Foreign.Emacs.Internal.NTCo:ToEmacs[0] <a4>_N)) -}
+0b2d55870cda0dbe98f2123a5c67e171
+  $fToEmacsa_$ctoEmacs ::
+    Data.AttoLisp.ToLisp a =>
+    a
+    -> Data.Either.Either
+         (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+         Data.AttoLisp.Lisp
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*C1(U)><L,U>m2,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a4 $dToLisp :: Data.AttoLisp.ToLisp a4 eta :: a4 ->
+                 Data.Either.Right
+                   @ (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+                   @ Data.AttoLisp.Lisp
+                   ($dToLisp `cast` (Data.AttoLisp.NTCo:ToLisp[0] <a4>_N) eta)) -}
+7eff6f1a71d3b1f2811e178b845d0ba6
+  $wa ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+  {- Arity: 1, Strictness: <B,U>b, Inline: [0] -}
+2de82a9aa8b07b65ce12d36cef95df46
+  $weval ::
+    Data.AttoLisp.FromLisp a =>
+    [Data.AttoLisp.Lisp] -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 2, Strictness: <L,C(C1(C1(U)))><L,U>, Inline: [0],
+     Unfolding: (\ @ a4
+                   w :: Data.AttoLisp.FromLisp a4
+                   w1 :: [Data.AttoLisp.Lisp] ->
+                 let {
+                   cmd :: Data.ByteString.Lazy.Internal.ByteString
+                   = let {
+                       x :: Data.ByteString.Lazy.Internal.ByteString
+                       = Data.ByteString.Builder.toLazyByteString
+                           (Data.AttoLisp.fromLispExpr
+                              (Data.AttoLisp.List
+                                 (GHC.Types.:
+                                    @ Data.AttoLisp.Lisp
+                                    Foreign.Emacs.Internal.eval11
+                                    (GHC.Types.:
+                                       @ Data.AttoLisp.Lisp
+                                       Foreign.Emacs.Internal.eval9
+                                       (GHC.Types.:
+                                          @ Data.AttoLisp.Lisp
+                                          (Data.AttoLisp.List
+                                             (GHC.Types.:
+                                                @ Data.AttoLisp.Lisp
+                                                Foreign.Emacs.Internal.eval7
+                                                (GHC.Types.:
+                                                   @ Data.AttoLisp.Lisp
+                                                   Foreign.Emacs.Internal.eval5
+                                                   (GHC.Types.:
+                                                      @ Data.AttoLisp.Lisp
+                                                      (Data.AttoLisp.List
+                                                         (GHC.Types.:
+                                                            @ Data.AttoLisp.Lisp
+                                                            Foreign.Emacs.Internal.eval3
+                                                            (GHC.Types.:
+                                                               @ Data.AttoLisp.Lisp
+                                                               (Data.AttoLisp.List
+                                                                  (GHC.Types.:
+                                                                     @ Data.AttoLisp.Lisp
+                                                                     Foreign.Emacs.Internal.eval1
+                                                                     (GHC.Types.:
+                                                                        @ Data.AttoLisp.Lisp
+                                                                        (Data.AttoLisp.List w1)
+                                                                        (GHC.Types.[]
+                                                                           @ Data.AttoLisp.Lisp))))
+                                                               (GHC.Types.[]
+                                                                  @ Data.AttoLisp.Lisp))))
+                                                      (GHC.Types.[] @ Data.AttoLisp.Lisp)))))
+                                          (GHC.Types.[] @ Data.AttoLisp.Lisp))))))
+                     } in
+                     letrec {
+                       go1 :: Data.ByteString.Lazy.Internal.ByteString
+                              -> Data.ByteString.Lazy.Internal.ByteString
+                         {- Arity: 1, Strictness: <S,1*U> -}
+                       = \ ds :: Data.ByteString.Lazy.Internal.ByteString ->
+                         case ds of wild {
+                           Data.ByteString.Lazy.Internal.Empty -> x
+                           Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 cs
+                           -> Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 (go1 cs) }
+                     } in
+                     go1
+                       (Data.ByteString.Builder.toLazyByteString
+                          (Data.AttoLisp.fromLispExpr
+                             (Data.AttoLisp.List
+                                (GHC.Types.:
+                                   @ Data.AttoLisp.Lisp
+                                   (Data.AttoLisp.Number
+                                      (case Data.ByteString.Lazy.UTF8.length_loop
+                                              Data.ByteString.Lazy.UTF8.length1
+                                              x of wild { GHC.Types.I# i ->
+                                       case GHC.Integer.Type.smallInteger i of vx { DEFAULT ->
+                                       Data.Attoparsec.Number.I vx } }))
+                                   (GHC.Types.[] @ Data.AttoLisp.Lisp)))))
+                 } in
+                 (\ r1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                    s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                  case r1 of wild { (,) mvar chan ->
+                  case chan of ww { Control.Concurrent.Chan.Chan ww1 ww2 ->
+                  case Control.Concurrent.Chan.$wa3
+                         @ Data.ByteString.Lazy.Internal.ByteString
+                         ww1
+                         ww2
+                         cmd
+                         s of ds1 { (#,#) ipv ipv1 ->
+                  case mvar of wild1 { GHC.MVar.MVar mvar# ->
+                  case GHC.Prim.takeMVar#
+                         @ GHC.Prim.RealWorld
+                         @ Data.AttoLisp.Lisp
+                         mvar#
+                         ipv of ds2 { (#,#) ipv2 ipv3 ->
+                  case ipv3 of wild2 {
+                    DEFAULT -> Foreign.Emacs.Internal.$wa @ a4 ipv2
+                    Data.AttoLisp.List ds
+                    -> case ds of wild3 {
+                         [] -> Foreign.Emacs.Internal.$wa @ a4 ipv2
+                         : a5 ds3
+                         -> case (w `cast` (Data.AttoLisp.NTCo:FromLisp[0] <a4>_N) a5)
+                                   `cast`
+                                 (Data.AttoLisp.NTCo:Parser[0] <a4>_R)
+                                   @ Data.AttoLisp.Result
+                                   @ a4
+                                   (Data.AttoLisp.Error @ a4)
+                                   (Data.AttoLisp.Success @ a4) of wild4 {
+                              Data.AttoLisp.Error msg
+                              -> case GHC.Err.error
+                                        @ (Control.Monad.Trans.Reader.ReaderT
+                                             (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                              Control.Concurrent.Chan.Chan
+                                                Data.ByteString.Lazy.Internal.ByteString)
+                                             GHC.Types.IO
+                                             a4)
+                                        msg
+                                 ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld, a4 #)
+                                 of {}
+                              Data.AttoLisp.Success b -> (# ipv2, b #) } } } } } } } })
+                   `cast`
+                 (Trans
+                      (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                         Control.Concurrent.Chan.Chan
+                           Data.ByteString.Lazy.Internal.ByteString)>_R
+                       ->_R Sym (GHC.Types.NTCo:IO[0] <a4>_R))
+                      (Trans
+                           (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                     <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                       Control.Concurrent.Chan.Chan
+                                         Data.ByteString.Lazy.Internal.ByteString)>_R
+                                     <GHC.Types.IO>_R
+                                     <a4>_N))
+                           (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <a4>_N)))) -}
+cb10800ecb6c527d8de0ed9518d05fcc
+  $wputBuffer ::
+    Data.Text.Internal.Text
+    -> GHC.Types.Int -> Foreign.Emacs.Internal.Emacs ()
+  {- Arity: 2, Strictness: <L,U><L,1*U(U)>, Inline: [0],
+     Unfolding: (\ ww :: Data.Text.Internal.Text ww1 :: GHC.Types.Int ->
+                 Foreign.Emacs.Internal.eval_
+                   (GHC.Types.:
+                      @ Data.AttoLisp.Lisp
+                      Foreign.Emacs.Internal.eval1
+                      (GHC.Types.:
+                         @ Data.AttoLisp.Lisp
+                         Foreign.Emacs.Internal.modifyBuffer8
+                         (GHC.Types.:
+                            @ Data.AttoLisp.Lisp
+                            (Data.AttoLisp.List
+                               (GHC.Types.:
+                                  @ Data.AttoLisp.Lisp
+                                  Foreign.Emacs.Internal.modifyBuffer6
+                                  (GHC.Types.:
+                                     @ Data.AttoLisp.Lisp
+                                     (Data.AttoLisp.String ww)
+                                     (GHC.Types.[] @ Data.AttoLisp.Lisp))))
+                            (GHC.Types.:
+                               @ Data.AttoLisp.Lisp
+                               (Data.AttoLisp.List
+                                  (GHC.Types.:
+                                     @ Data.AttoLisp.Lisp
+                                     Foreign.Emacs.Internal.modifyBuffer4
+                                     (GHC.Types.:
+                                        @ Data.AttoLisp.Lisp
+                                        (Data.AttoLisp.List
+                                           (GHC.Types.:
+                                              @ Data.AttoLisp.Lisp
+                                              Foreign.Emacs.Internal.modifyBuffer2
+                                              (GHC.Types.:
+                                                 @ Data.AttoLisp.Lisp
+                                                 (Data.AttoLisp.Number
+                                                    (case ww1 of wild { GHC.Types.I# x ->
+                                                     case GHC.Integer.Type.smallInteger
+                                                            (GHC.Prim.-# x 1) of vx { DEFAULT ->
+                                                     Data.Attoparsec.Number.I vx } }))
+                                                 Foreign.Emacs.Internal.getBuffer6)))
+                                        (GHC.Types.[] @ Data.AttoLisp.Lisp))))
+                               (GHC.Types.[] @ Data.AttoLisp.Lisp)))))) -}
+cb81a75d725f2700960444f935fd8fa0
+  data Buffer
+    = Buffer {text :: Data.Text.Internal.Text, point :: GHC.Types.Int}
+044b52021573058d9f421e95dae90151
+  type role Emacs nominal
+  newtype Emacs a
+    = EmacsInternal {fromEmacs :: Control.Monad.Trans.Reader.ReaderT
+                                    (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                     Control.Concurrent.Chan.Chan
+                                       Data.ByteString.Lazy.Internal.ByteString)
+                                    GHC.Types.IO
+                                    a}
+6316daf6401762d94b0f485fba3e7de0
+  class ToEmacs a where
+    toEmacs ::
+      a
+      -> Data.Either.Either
+           (Foreign.Emacs.Internal.Emacs Data.AttoLisp.Lisp)
+           Data.AttoLisp.Lisp
+d29e8a38b78aefcda1fa7dbab42d7811
+  eval ::
+    (Data.AttoLisp.ToLisp a, Data.AttoLisp.FromLisp a) =>
+    [Data.AttoLisp.Lisp] -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 3, Strictness: <L,A><L,C(C1(C1(U)))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a4
+                   w :: Data.AttoLisp.ToLisp a4
+                   w1 :: Data.AttoLisp.FromLisp a4
+                   w2 :: [Data.AttoLisp.Lisp] ->
+                 Foreign.Emacs.Internal.$weval @ a4 w1 w2) -}
+20c6513cbb5b9a349e6d281b56fd7d78
+  eval1 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol Foreign.Emacs.Internal.eval2) -}
+08246b404577becfd595ab9a906bde03
+  eval10 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "haskell-emacs--proc"#) -}
+c98442da26e4d76999efee80ef8e6abc
+  eval11 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol Foreign.Emacs.Internal.eval12) -}
+bf686b06d87b629cc1adc26023f36a86
+  eval12 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "process-send-string"#) -}
+69eb80e191c1d4548ccb2b77ea9dd258
+  eval2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "list"#) -}
+b8711edace7a191cf5119863c13c206b
+  eval3 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol Foreign.Emacs.Internal.eval4) -}
+25f4de6d8563272810c5d6addb24a221
+  eval4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "haskell-emacs--no-properties"#) -}
+6953dddb86e350d8879bd85a482f2afb
+  eval5 :: Data.AttoLisp.Lisp
+  {- Strictness: m2,
+     Unfolding: (Data.AttoLisp.String Foreign.Emacs.Internal.eval6) -}
+16918a16a2f16794a3a37113dcd04ae8
+  eval6 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "|%S"#) -}
+e8eafaa3bc890b4fa34327bb1168fadc
+  eval7 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol Foreign.Emacs.Internal.eval8) -}
+cbb553829de66d892367b44acb274594
+  eval8 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "format"#) -}
+69c1cdb2d926a43aacf41b4dacb34673
+  eval9 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol Foreign.Emacs.Internal.eval10) -}
+7823618088ffda423baf102fc6278e9c
+  eval_ :: [Data.AttoLisp.Lisp] -> Foreign.Emacs.Internal.Emacs ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ lsp :: [Data.AttoLisp.Lisp] ->
+                 let {
+                   cmd :: Data.ByteString.Lazy.Internal.ByteString
+                   = let {
+                       x :: Data.ByteString.Lazy.Internal.ByteString
+                       = Data.ByteString.Builder.toLazyByteString
+                           (Data.AttoLisp.fromLispExpr (Data.AttoLisp.List lsp))
+                     } in
+                     letrec {
+                       go1 :: Data.ByteString.Lazy.Internal.ByteString
+                              -> Data.ByteString.Lazy.Internal.ByteString
+                         {- Arity: 1, Strictness: <S,1*U> -}
+                       = \ ds :: Data.ByteString.Lazy.Internal.ByteString ->
+                         case ds of wild {
+                           Data.ByteString.Lazy.Internal.Empty -> x
+                           Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 cs
+                           -> Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 (go1 cs) }
+                     } in
+                     go1
+                       (Data.ByteString.Builder.toLazyByteString
+                          (Data.AttoLisp.fromLispExpr
+                             (Data.AttoLisp.List
+                                (GHC.Types.:
+                                   @ Data.AttoLisp.Lisp
+                                   (Data.AttoLisp.Number
+                                      (case Data.ByteString.Lazy.UTF8.length_loop
+                                              Data.ByteString.Lazy.UTF8.length1
+                                              x of wild { GHC.Types.I# i ->
+                                       case GHC.Integer.Type.smallInteger i of vx { DEFAULT ->
+                                       Data.Attoparsec.Number.I vx } }))
+                                   (GHC.Types.[] @ Data.AttoLisp.Lisp)))))
+                 } in
+                 (\ r1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                    s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                  case r1 of wild { (,) ds chan ->
+                  Control.Concurrent.Chan.writeChan1
+                    @ Data.ByteString.Lazy.Internal.ByteString
+                    chan
+                    cmd
+                    s })
+                   `cast`
+                 (Trans
+                      (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                         Control.Concurrent.Chan.Chan
+                           Data.ByteString.Lazy.Internal.ByteString)>_R
+                       ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                      (Trans
+                           (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                     <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                       Control.Concurrent.Chan.Chan
+                                         Data.ByteString.Lazy.Internal.ByteString)>_R
+                                     <GHC.Types.IO>_R
+                                     <()>_N))
+                           (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <()>_N)))) -}
+26e5fb0a61d678145cbebe7bbbec471b
+  eval_$seval ::
+    [Data.AttoLisp.Lisp]
+    -> Foreign.Emacs.Internal.Emacs
+         (Data.Text.Internal.Text, GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 1, Strictness: <L,U> -}
+eafcd936e39388667e1d69b5a28bcfc5
+  fromEmacs ::
+    Foreign.Emacs.Internal.Emacs a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (GHC.MVar.MVar Data.AttoLisp.Lisp,
+          Control.Concurrent.Chan.Chan
+            Data.ByteString.Lazy.Internal.ByteString)
+         GHC.Types.IO
+         a
+  RecSel Foreign.Emacs.Internal.Emacs
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.fromEmacs1
+                  `cast`
+                (forall a4.
+                 <Foreign.Emacs.Internal.Emacs a4>_R
+                 ->_R Foreign.Emacs.Internal.NTCo:Emacs[0] <a4>_N) -}
+c94c84f5b416a2623cd6a37b0033a24d
+  fromEmacs1 ::
+    Foreign.Emacs.Internal.Emacs a -> Foreign.Emacs.Internal.Emacs a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a4 ds :: Foreign.Emacs.Internal.Emacs a4 -> ds) -}
+a5d85b145ed4c0c93bc232dbeb5cf852
+  getBuffer ::
+    Foreign.Emacs.Internal.Emacs Foreign.Emacs.Internal.Buffer
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.getBuffer1
+                  `cast`
+                (Trans
+                     (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                        Control.Concurrent.Chan.Chan
+                          Data.ByteString.Lazy.Internal.ByteString)>_R
+                      ->_R Sym (GHC.Types.NTCo:IO[0] <Foreign.Emacs.Internal.Buffer>_R))
+                     (Trans
+                          (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                      Control.Concurrent.Chan.Chan
+                                        Data.ByteString.Lazy.Internal.ByteString)>_R
+                                    <GHC.Types.IO>_R
+                                    <Foreign.Emacs.Internal.Buffer>_N))
+                          (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <Foreign.Emacs.Internal.Buffer>_N))) -}
+322a4c9aa3a51e88c1dad687f6403f74
+  getBuffer1 ::
+    (GHC.MVar.MVar Data.AttoLisp.Lisp,
+     Control.Concurrent.Chan.Chan
+       Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Foreign.Emacs.Internal.Buffer #)
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ r1 :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                          Control.Concurrent.Chan.Chan
+                            Data.ByteString.Lazy.Internal.ByteString)
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (Foreign.Emacs.Internal.getBuffer2
+                         `cast`
+                       (Trans
+                            (Foreign.Emacs.Internal.NTCo:Emacs[0] <(Data.Text.Internal.Text,
+                                                                    GHC.Types.Int,
+                                                                    GHC.Types.Int)>_N)
+                            (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                 <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                   Control.Concurrent.Chan.Chan
+                                     Data.ByteString.Lazy.Internal.ByteString)>_R
+                                 <GHC.Types.IO>_R
+                                 <(Data.Text.Internal.Text, GHC.Types.Int, GHC.Types.Int)>_N))
+                         r1)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0]
+                           <(Data.Text.Internal.Text, GHC.Types.Int, GHC.Types.Int)>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild { (,,) t p pm ->
+                 (# ipv,
+                    Foreign.Emacs.Internal.Buffer
+                      t
+                      (case p of wild1 { GHC.Types.I# x ->
+                       case pm of wild2 { GHC.Types.I# y ->
+                       GHC.Types.I# (GHC.Prim.+# (GHC.Prim.-# x y) 1) } }) #) } }) -}
+2de6046535f33a2e9b661fc2aca35c38
+  getBuffer10 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "point-min"#) -}
+3f2609b79f92988722061520220a3c46
+  getBuffer11 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.List
+                   Foreign.Emacs.Internal.getBuffer12) -}
+ed72a70ad00173494c5c0429ee138f65
+  getBuffer12 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer13
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+f9ea8c405753d5c1a1aa11a445ad49a6
+  getBuffer13 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.getBuffer14) -}
+85c5cd6f5e43490a4107d9e7c6044e31
+  getBuffer14 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "point"#) -}
+377de9702c32da1c6dca81873d2dc345
+  getBuffer15 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.List
+                   Foreign.Emacs.Internal.getBuffer16) -}
+f7a6d0e95cd98c9f7201c68a16b256fc
+  getBuffer16 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer17
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+cb0d5f9d8177850f1815e358040c5ae2
+  getBuffer17 :: Data.AttoLisp.Lisp
+  {- Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.getBuffer18) -}
+b86103ff72cbda858c13c1dbcaac3db2
+  getBuffer18 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "buffer-string"#) -}
+49308215be0cdd46210014f28cb927df
+  getBuffer2 ::
+    Foreign.Emacs.Internal.Emacs
+      (Data.Text.Internal.Text, GHC.Types.Int, GHC.Types.Int)
+  {- Unfolding: (Foreign.Emacs.Internal.eval_$seval
+                   Foreign.Emacs.Internal.getBuffer3) -}
+a55685149f7da4dbf2d0f2995250ac54
+  getBuffer3 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.eval1
+                   Foreign.Emacs.Internal.getBuffer4) -}
+65736235db39fcfdc390bcae33702096
+  getBuffer4 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer15
+                   Foreign.Emacs.Internal.getBuffer5) -}
+104eb2f4eb52c4052c540626ce41aa53
+  getBuffer5 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer11
+                   Foreign.Emacs.Internal.getBuffer6) -}
+3da1feb5e19ee6dda5e9917282778e0b
+  getBuffer6 :: [Data.AttoLisp.Lisp]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer7
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+ab87905767b304ed8634df5afc1f1714
+  getBuffer7 :: Data.AttoLisp.Lisp
+  {- Strictness: m4,
+     Unfolding: (Data.AttoLisp.List
+                   Foreign.Emacs.Internal.getBuffer8) -}
+586286d530857dab331fee34ce2f233e
+  getBuffer8 :: [Data.AttoLisp.Lisp]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer9
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+150dcc72a9dc80634453c52501654582
+  getBuffer9 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.getBuffer10) -}
+f9c6b35b70ef95769895e3772e9610c4
+  modifyBuffer ::
+    (Foreign.Emacs.Internal.Buffer -> Foreign.Emacs.Internal.Buffer)
+    -> Foreign.Emacs.Internal.Emacs ()
+  {- Arity: 3, Strictness: <L,1*C1(U(U,1*U(U)))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Foreign.Emacs.Internal.modifyBuffer1
+                  `cast`
+                (<Foreign.Emacs.Internal.Buffer -> Foreign.Emacs.Internal.Buffer>_R
+                 ->_R Trans
+                          (<(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                             Control.Concurrent.Chan.Chan
+                               Data.ByteString.Lazy.Internal.ByteString)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                         <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                           Control.Concurrent.Chan.Chan
+                                             Data.ByteString.Lazy.Internal.ByteString)>_R
+                                         <GHC.Types.IO>_R
+                                         <()>_N))
+                               (Sym (Foreign.Emacs.Internal.NTCo:Emacs[0]) <()>_N))) -}
+5e30befcf6901fbdc03d74296b905c16
+  modifyBuffer1 ::
+    (Foreign.Emacs.Internal.Buffer -> Foreign.Emacs.Internal.Buffer)
+    -> (GHC.MVar.MVar Data.AttoLisp.Lisp,
+        Control.Concurrent.Chan.Chan
+          Data.ByteString.Lazy.Internal.ByteString)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,1*C1(U(U,1*U(U)))><L,U><L,U>,
+     Unfolding: (\ f :: Foreign.Emacs.Internal.Buffer
+                        -> Foreign.Emacs.Internal.Buffer
+                   eta :: (GHC.MVar.MVar Data.AttoLisp.Lisp,
+                           Control.Concurrent.Chan.Chan
+                             Data.ByteString.Lazy.Internal.ByteString)
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (Foreign.Emacs.Internal.getBuffer2
+                         `cast`
+                       (Trans
+                            (Foreign.Emacs.Internal.NTCo:Emacs[0] <(Data.Text.Internal.Text,
+                                                                    GHC.Types.Int,
+                                                                    GHC.Types.Int)>_N)
+                            (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                 <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                                   Control.Concurrent.Chan.Chan
+                                     Data.ByteString.Lazy.Internal.ByteString)>_R
+                                 <GHC.Types.IO>_R
+                                 <(Data.Text.Internal.Text, GHC.Types.Int, GHC.Types.Int)>_N))
+                         eta)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0]
+                           <(Data.Text.Internal.Text, GHC.Types.Int, GHC.Types.Int)>_R)
+                        eta1 of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild { (,,) t p pm ->
+                 case f (Foreign.Emacs.Internal.Buffer
+                           t
+                           (case p of wild1 { GHC.Types.I# x ->
+                            case pm of wild2 { GHC.Types.I# y ->
+                            GHC.Types.I#
+                              (GHC.Prim.+#
+                                 (GHC.Prim.-# x y)
+                                 1) } })) of ww { Foreign.Emacs.Internal.Buffer ww1 ww2 ->
+                 ((Foreign.Emacs.Internal.$wputBuffer ww1 ww2)
+                    `cast`
+                  (Trans
+                       (Foreign.Emacs.Internal.NTCo:Emacs[0] <()>_N)
+                       (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                            <(GHC.MVar.MVar Data.AttoLisp.Lisp,
+                              Control.Concurrent.Chan.Chan
+                                Data.ByteString.Lazy.Internal.ByteString)>_R
+                            <GHC.Types.IO>_R
+                            <()>_N))
+                    eta)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <()>_R)
+                   ipv } } }) -}
+553d64c1f9f4b6c5f44fce9846ccc070
+  modifyBuffer10 :: [Data.AttoLisp.Lisp]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.getBuffer7
+                   Foreign.Emacs.Internal.modifyBuffer11) -}
+890abc7693362fafdd1482ab9f943982
+  modifyBuffer11 :: [Data.AttoLisp.Lisp]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.modifyBuffer12
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+796737447a9caad333ea508b6f38a7c2
+  modifyBuffer12 :: Data.AttoLisp.Lisp
+  {- Strictness: m4,
+     Unfolding: (Data.AttoLisp.List
+                   Foreign.Emacs.Internal.modifyBuffer13) -}
+369e9a7318b6022f265e48d3ea530c59
+  modifyBuffer13 :: [Data.AttoLisp.Lisp]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.modifyBuffer14
+                   (GHC.Types.[] @ Data.AttoLisp.Lisp)) -}
+49348a61ee89eb17a0a8b09ad12d35b9
+  modifyBuffer14 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.modifyBuffer15) -}
+d610599eef5c8be440db55d2a1588714
+  modifyBuffer15 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "point-max"#) -}
+0017dcba461d4b675726b9ed4e1f3ffd
+  modifyBuffer16 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.modifyBuffer17) -}
+a7b800ed579dc3d3c1cce2f0d90838ef
+  modifyBuffer17 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "delete-region"#) -}
+6add30e7ebc860df1e0e0521bbf9b1d1
+  modifyBuffer2 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.modifyBuffer3) -}
+6c6c80f645e8f3502aa9217f4b5edf49
+  modifyBuffer3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "+"#) -}
+4c14e46e9791fa395d94297ad32adcdc
+  modifyBuffer4 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.modifyBuffer5) -}
+bc690873e37dbdfb33855f32e9b7bfa8
+  modifyBuffer5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "goto-char"#) -}
+b89d175e6723475da45b5e7c9830b135
+  modifyBuffer6 :: Data.AttoLisp.Lisp
+  {- Strictness: m1,
+     Unfolding: (Data.AttoLisp.Symbol
+                   Foreign.Emacs.Internal.modifyBuffer7) -}
+ad4fb8444073f74765ee8656c0d19a10
+  modifyBuffer7 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "insert"#) -}
+1029fe3ee97f07cdfe512deec844885d
+  modifyBuffer8 :: Data.AttoLisp.Lisp
+  {- Strictness: m4,
+     Unfolding: (Data.AttoLisp.List
+                   Foreign.Emacs.Internal.modifyBuffer9) -}
+37680efc417e639c65bb40a4eb66ddb7
+  modifyBuffer9 :: [Data.AttoLisp.Lisp]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.AttoLisp.Lisp
+                   Foreign.Emacs.Internal.modifyBuffer16
+                   Foreign.Emacs.Internal.modifyBuffer10) -}
+b4e7fe969ede8fc551da45f80306627f
+  point :: Foreign.Emacs.Internal.Buffer -> GHC.Types.Int
+  RecSel Foreign.Emacs.Internal.Buffer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Foreign.Emacs.Internal.Buffer ->
+                 case ds of wild { Foreign.Emacs.Internal.Buffer ds1 ds2 ->
+                 ds2 }) -}
+431424108951fb41829b672906ad47b7
+  putBuffer ::
+    Foreign.Emacs.Internal.Buffer -> Foreign.Emacs.Internal.Emacs ()
+  {- Arity: 1, Strictness: <S,1*U(U,1*U(U))>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Foreign.Emacs.Internal.Buffer ->
+                 case w of ww { Foreign.Emacs.Internal.Buffer ww1 ww2 ->
+                 Foreign.Emacs.Internal.$wputBuffer ww1 ww2 }) -}
+fca709b32c5f59d4bf879fda44c1ddef
+  text :: Foreign.Emacs.Internal.Buffer -> Data.Text.Internal.Text
+  RecSel Foreign.Emacs.Internal.Buffer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U,U,U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Foreign.Emacs.Internal.Buffer ->
+                 case ds of wild { Foreign.Emacs.Internal.Buffer ds1 ds2 ->
+                 ds1 }) -}
+instance GHC.Base.Applicative [Foreign.Emacs.Internal.Emacs]
+  = Foreign.Emacs.Internal.$fApplicativeEmacs
+instance GHC.Base.Functor [Foreign.Emacs.Internal.Emacs]
+  = Foreign.Emacs.Internal.$fFunctorEmacs
+instance GHC.Base.Monad [Foreign.Emacs.Internal.Emacs]
+  = Foreign.Emacs.Internal.$fMonadEmacs
+instance Control.Monad.IO.Class.MonadIO [Foreign.Emacs.Internal.Emacs]
+  = Foreign.Emacs.Internal.$fMonadIOEmacs
+instance Control.DeepSeq.NFData [Foreign.Emacs.Internal.Emacs]
+  = Foreign.Emacs.Internal.$fNFDataEmacs
+instance [overlap ok] Foreign.Emacs.Internal.ToEmacs [Foreign.Emacs.Internal.Emacs]
+  = Foreign.Emacs.Internal.$fToEmacsEmacs
+instance Foreign.Emacs.Internal.ToEmacs [.]
+  = Foreign.Emacs.Internal.$fToEmacsa
+"SPEC eval @ (Text, Int, Int)" [ALWAYS] forall $dToLisp :: Data.AttoLisp.ToLisp
+                                                             (Data.Text.Internal.Text,
+                                                              GHC.Types.Int,
+                                                              GHC.Types.Int)
+                                               $dFromLisp :: Data.AttoLisp.FromLisp
+                                                               (Data.Text.Internal.Text,
+                                                                GHC.Types.Int,
+                                                                GHC.Types.Int)
+  Foreign.Emacs.Internal.eval @ (Data.Text.Internal.Text,
+                                 GHC.Types.Int,
+                                 GHC.Types.Int)
+                              $dToLisp
+                              $dFromLisp
+  = Foreign.Emacs.Internal.eval_$seval
+"SPEC/Foreign.Emacs.Internal $fApplicativeReaderT @ (MVar Lisp,
+                                                    Chan ByteString) @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                                                                                                          (Control.Monad.Trans.Reader.ReaderT
+                                                                                                                                                                             (GHC.MVar.MVar
+                                                                                                                                                                                Data.AttoLisp.Lisp,
+                                                                                                                                                                              Control.Concurrent.Chan.Chan
+                                                                                                                                                                                Data.ByteString.Lazy.Internal.ByteString)
+                                                                                                                                                                             GHC.Types.IO)
+                                                                                                                                                           $dApplicative :: GHC.Base.Applicative
+                                                                                                                                                                              GHC.Types.IO
+  Control.Monad.Trans.Reader.$fApplicativeReaderT @ (GHC.MVar.MVar
+                                                       Data.AttoLisp.Lisp,
+                                                     Control.Concurrent.Chan.Chan
+                                                       Data.ByteString.Lazy.Internal.ByteString)
+                                                  @ GHC.Types.IO
+                                                  $dFunctor
+                                                  $dApplicative
+  = Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT
+"SPEC/Foreign.Emacs.Internal $fApplicativeReaderT_$c*> @ (MVar Lisp,
+                                                         Chan ByteString) @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                                                                                                                    (Control.Monad.Trans.Reader.ReaderT
+                                                                                                                                                                                       (GHC.MVar.MVar
+                                                                                                                                                                                          Data.AttoLisp.Lisp,
+                                                                                                                                                                                        Control.Concurrent.Chan.Chan
+                                                                                                                                                                                          Data.ByteString.Lazy.Internal.ByteString)
+                                                                                                                                                                                       GHC.Types.IO)
+                                                                                                                                                                     $dApplicative :: GHC.Base.Applicative
+                                                                                                                                                                                        GHC.Types.IO
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$c*> @ (GHC.MVar.MVar
+                                                            Data.AttoLisp.Lisp,
+                                                          Control.Concurrent.Chan.Chan
+                                                            Data.ByteString.Lazy.Internal.ByteString)
+                                                       @ GHC.Types.IO
+                                                       $dFunctor
+                                                       $dApplicative
+  = Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT_$c*>
+"SPEC/Foreign.Emacs.Internal $fApplicativeReaderT_$c<* @ (MVar Lisp,
+                                                         Chan ByteString) @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                                                                                                                    (Control.Monad.Trans.Reader.ReaderT
+                                                                                                                                                                                       (GHC.MVar.MVar
+                                                                                                                                                                                          Data.AttoLisp.Lisp,
+                                                                                                                                                                                        Control.Concurrent.Chan.Chan
+                                                                                                                                                                                          Data.ByteString.Lazy.Internal.ByteString)
+                                                                                                                                                                                       GHC.Types.IO)
+                                                                                                                                                                     $dApplicative :: GHC.Base.Applicative
+                                                                                                                                                                                        GHC.Types.IO
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<* @ (GHC.MVar.MVar
+                                                            Data.AttoLisp.Lisp,
+                                                          Control.Concurrent.Chan.Chan
+                                                            Data.ByteString.Lazy.Internal.ByteString)
+                                                       @ GHC.Types.IO
+                                                       $dFunctor
+                                                       $dApplicative
+  = Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT_$c<*
+"SPEC/Foreign.Emacs.Internal $fApplicativeReaderT_$cpure @ (MVar
+                                                             Lisp,
+                                                           Chan ByteString) @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                                                                                                                                                                                     (Control.Monad.Trans.Reader.ReaderT
+                                                                                                                                                                                                                                                        (GHC.MVar.MVar
+                                                                                                                                                                                                                                                           Data.AttoLisp.Lisp,
+                                                                                                                                                                                                                                                         Control.Concurrent.Chan.Chan
+                                                                                                                                                                                                                                                           Data.ByteString.Lazy.Internal.ByteString)
+                                                                                                                                                                                                                                                        GHC.Types.IO)
+                                                                                                                                                                                                                                      $dApplicative :: GHC.Base.Applicative
+                                                                                                                                                                                                                                                         GHC.Types.IO
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$cpure @ (GHC.MVar.MVar
+                                                              Data.AttoLisp.Lisp,
+                                                            Control.Concurrent.Chan.Chan
+                                                              Data.ByteString.Lazy.Internal.ByteString)
+                                                         @ GHC.Types.IO
+                                                         $dFunctor
+                                                         $dApplicative
+  = Foreign.Emacs.Internal.$fMonadEmacs_$s$fApplicativeReaderT_$cpure
+"SPEC/Foreign.Emacs.Internal $fFunctorReaderT _ @ IO" [ALWAYS] forall @ r
+                                                                      $dFunctor :: GHC.Base.Functor
+                                                                                     GHC.Types.IO
+  Control.Monad.Trans.Reader.$fFunctorReaderT @ r
+                                              @ GHC.Types.IO
+                                              $dFunctor
+  = Foreign.Emacs.Internal.$fMonadEmacs_$s$fFunctorReaderT @ r
+"SPEC/Foreign.Emacs.Internal $fFunctorReaderT_$cfmap _ @ IO" [ALWAYS] forall @ r
+                                                                             $dFunctor :: GHC.Base.Functor
+                                                                                            GHC.Types.IO
+  Control.Monad.Trans.Reader.$fFunctorReaderT_$cfmap @ r
+                                                     @ GHC.Types.IO
+                                                     $dFunctor
+  = Foreign.Emacs.Internal.$fMonadEmacs_$s$fFunctorReaderT_$cfmap @ r
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

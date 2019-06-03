@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: GADTs
+# key: GADTs
+# --
+{-# LANGUAGE GADTs #-}

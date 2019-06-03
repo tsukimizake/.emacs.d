@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nextInt
+# key: ni
+# --
+int $1 = sc.nextInt();

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: name
+# key: name
+# --
+#+CAPTION: ${1:caption}
+#+NAME: ${2:name}

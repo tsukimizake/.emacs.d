@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: list2array
+# key: list2array
+# --
+listToArray :: [a] -> Array Int a
+listToArray xs = listArray (0, length xs) xs

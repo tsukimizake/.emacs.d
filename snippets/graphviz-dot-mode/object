@@ -1,0 +1,4 @@
+# key: ob
+# name: object
+# --
+"${1:name}" [label="${2:label}"];

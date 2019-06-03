@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: main
+# key: main
+# --
+
+#ifndef BOOST_TEST_MAIN
+int main(${1:int const argc, char const** argv}){
+$2
+}
+#endif

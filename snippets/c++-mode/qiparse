@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: qiparse
+# key: qiparse
+# --
+template <class Iter>
+bool parse(Iter beg, Iter end, ${RET_TYPE} &e) {
+	${PARSER_NAME}<Iter> parser;
+	bool r = qi::phrase_parse(beg, end, parser, ${SKIP}, e);
+	
+	if (beg != end) {
+		return false;
+	}
+	return r;
+}

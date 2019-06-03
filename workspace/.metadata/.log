@@ -1,0 +1,3384 @@
+!SESSION 2018-04-13 14:14:37.917 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Command-line arguments:  -data /Users/shomasd/.emacs.d/workspace/
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:39.674
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:39.868
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:39.889
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:39.892
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:41.365
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.core.net 1 0 2018-04-13 14:14:41.399
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:41.475
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:43.657
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:43.686
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:43.696
+!MESSAGE Workspace initialized in 2355ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:43.818
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:43.832
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:44.224
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///Users/shomasd/lmntal-compiler/src/compile/Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:45.814
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:45.816
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:45.821
+!MESSAGE Reconciled 0, validated: 1. Took 531 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:51.985
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:51.990
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:54.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:54.799
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:54.916
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.210
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.373
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.374
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.375
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.400
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.400
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:55.402
+!MESSAGE Reconciled 0, validated: 1. Took 195 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:56.326
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:56.331
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:56.332
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:56.557
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:56.992
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.113
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.114
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.115
+!MESSAGE Reconciled 0, validated: 1. Took 149 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.150
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.406
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.536
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.672
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.909
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.910
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:57.917
+!MESSAGE Reconciled 0, validated: 1. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:58.282
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:58.285
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:59.842
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:14:59.977
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:00.265
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:00.473
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:00.474
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:00.477
+!MESSAGE Reconciled 0, validated: 1. Took 91 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.071
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.077
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.555
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.556
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.561
+!MESSAGE Reconciled 0, validated: 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.587
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.666
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.873
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.962
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.966
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:02.999
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:03.224
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:03.226
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:03.228
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:03.451
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:03.452
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:03.454
+!MESSAGE Reconciled 0, validated: 1. Took 83 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.024
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.029
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.031
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.182
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.261
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.495
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.617
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.639
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.968
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.969
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:04.971
+!MESSAGE Reconciled 0, validated: 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:05.216
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:05.218
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:05.970
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:05.973
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.057
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.061
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.065
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.068
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.073
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.079
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.083
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.587
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.587
+!MESSAGE 4 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:06.588
+!MESSAGE Reconciled 0, validated: 1. Took 97 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.259
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.263
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.267
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.271
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.275
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.278
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.748
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.749
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:09.751
+!MESSAGE Reconciled 0, validated: 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.130
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.246
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.265
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.595
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.596
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.597
+!MESSAGE Reconciled 0, validated: 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.843
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.847
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:12.853
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.077
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.080
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.083
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.105
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.108
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.111
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.116
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.120
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.123
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.127
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.609
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.609
+!MESSAGE 4 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:13.610
+!MESSAGE Reconciled 0, validated: 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.273
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.277
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.281
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.285
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.288
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.291
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.294
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.297
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.301
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.305
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.841
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.842
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:15.846
+!MESSAGE Reconciled 0, validated: 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:16.163
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:16.507
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:16.753
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:16.968
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:16.968
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:15:16.969
+!MESSAGE Reconciled 0, validated: 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:05.067
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:05.069
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:05.611
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:05.614
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.162
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.279
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.301
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.630
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.631
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.632
+!MESSAGE Reconciled 0, validated: 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:07.814
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.284
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.284
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.285
+!MESSAGE Reconciled 0, validated: 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.440
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.442
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.444
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.526
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.538
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.558
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.563
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.566
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:08.836
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.139
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.602
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.603
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.605
+!MESSAGE Reconciled 0, validated: 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.655
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.658
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.660
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:09.849
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:10.312
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:10.313
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:10.314
+!MESSAGE Reconciled 0, validated: 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:10.559
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:11.070
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:11.070
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:11.072
+!MESSAGE Reconciled 0, validated: 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:11.917
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.254
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.599
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.925
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.928
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.930
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.934
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.937
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:12.940
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.198
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.651
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.652
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.654
+!MESSAGE Reconciled 0, validated: 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.837
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.945
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.954
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:13.957
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.069
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.077
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.420
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.421
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.422
+!MESSAGE Reconciled 0, validated: 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.658
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.661
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.663
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.788
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.792
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.795
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.811
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.813
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.816
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:14.819
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:15.343
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:15.344
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:15.346
+!MESSAGE Reconciled 0, validated: 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:15.551
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:15.774
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:15.868
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.029
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.096
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.099
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.142
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.485
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.487
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.489
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.548
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.549
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:16.551
+!MESSAGE Reconciled 0, validated: 1. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.006
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.009
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.011
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.371
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.470
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.487
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.631
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.732
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.749
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.891
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:17.995
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.013
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.342
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.342
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.345
+!MESSAGE Reconciled 0, validated: 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.417
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.488
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.521
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.523
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.567
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.568
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.641
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.660
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.789
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.919
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:18.925
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.245
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.246
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.249
+!MESSAGE Reconciled 0, validated: 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.581
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.585
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.640
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.744
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:19.751
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.089
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.090
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.094
+!MESSAGE Reconciled 0, validated: 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.285
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.289
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.294
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.373
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.478
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.483
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.509
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.613
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.619
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.738
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.743
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.952
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.952
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:20.954
+!MESSAGE Reconciled 0, validated: 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:21.273
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:21.276
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:21.280
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:21.861
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.181
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.301
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.306
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.632
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.632
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.635
+!MESSAGE Reconciled 0, validated: 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.839
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.842
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.844
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.957
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:22.960
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:23.310
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:23.747
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:23.748
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:23.749
+!MESSAGE Reconciled 0, validated: 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:24.084
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:24.459
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:24.641
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:24.967
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.077
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.078
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.079
+!MESSAGE Reconciled 0, validated: 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.323
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.759
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.759
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:25.761
+!MESSAGE Reconciled 0, validated: 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:26.991
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.340
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.456
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.461
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.782
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.782
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.784
+!MESSAGE Reconciled 0, validated: 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:27.981
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.158
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.275
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.280
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.443
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.907
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.908
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:28.909
+!MESSAGE Reconciled 0, validated: 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.029
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.032
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.035
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.048
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.055
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.057
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.492
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.501
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.501
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.502
+!MESSAGE Reconciled 0, validated: 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.628
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:29.775
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:30.215
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:30.358
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:30.511
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:30.955
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:30.955
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:30.958
+!MESSAGE Reconciled 0, validated: 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.327
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.330
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.512
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.799
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.802
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.804
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.809
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.812
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:33.987
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:34.443
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:34.443
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:34.455
+!MESSAGE Reconciled 0, validated: 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:34.863
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:34.979
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:34.984
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.353
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.354
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.355
+!MESSAGE Reconciled 0, validated: 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.451
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.883
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.884
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:35.885
+!MESSAGE Reconciled 0, validated: 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:36.079
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:36.082
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:36.085
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.608
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.612
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.615
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.630
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.633
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:37.641
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:38.092
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:38.092
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:38.094
+!MESSAGE Reconciled 0, validated: 1. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:38.979
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.254
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.550
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.559
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.672
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.678
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.719
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.757
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.764
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.765
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.880
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:39.888
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.236
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.238
+!MESSAGE The method compactRule cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.243
+!MESSAGE The method compactInsts cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.243
+!MESSAGE The method compactInstructionList cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.243
+!MESSAGE The method compactInstructionListForSlimCode cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.244
+!MESSAGE The method genTest cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.244
+!MESSAGE The method expandBody cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.245
+!MESSAGE The method compactBody cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.245
+!MESSAGE The method renumberLocals cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.246
+!MESSAGE The method renumberLocalsSub cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.246
+!MESSAGE The method renumberLocalsSub2 cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.247
+!MESSAGE The method packUnifyLinks cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.248
+!MESSAGE The method delayAllocLinkInstruction cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.249
+!MESSAGE The method eliminateCommonSubexpressions cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.251
+!MESSAGE The method sameTypeAndSameInputArgs cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.253
+!MESSAGE The method eliminateRedundantInstructions cannot be declared static; static methods can only be declared in a static or top level type is of type UnexpectedStaticModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.253
+!MESSAGE 16 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.254
+!MESSAGE Reconciled 0, validated: 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.272
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.275
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.278
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.518
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.521
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.525
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.533
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.538
+!MESSAGE >> document/rangeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.617
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.620
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.623
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:40.628
+!MESSAGE >> document/rangeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:41.094
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:41.095
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:41.095
+!MESSAGE Reconciled 0, validated: 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:41.168
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.434
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.436
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.442
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.445
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.448
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.452
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.454
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.687
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.690
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.694
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.697
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.738
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.756
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.759
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.761
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.764
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.769
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.772
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.821
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.840
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.862
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.910
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.956
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:45.976
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.021
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.041
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.093
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.096
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.118
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.171
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.190
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.238
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.240
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.243
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.246
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.248
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.251
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.272
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.293
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.358
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.405
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.425
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.476
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.521
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.538
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.588
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.591
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.594
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.598
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.602
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.606
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.609
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.612
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.616
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.619
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.623
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.627
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.630
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.634
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.642
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.646
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.654
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.657
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.659
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.661
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.666
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.670
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.673
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.677
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.680
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:46.801
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.246
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.246
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.250
+!MESSAGE Reconciled 0, validated: 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.516
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.519
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.522
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.525
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.531
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.533
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.536
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.539
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.541
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.546
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.550
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.553
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.555
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.559
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.562
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.565
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.570
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.575
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.578
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.582
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.585
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.590
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.595
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.597
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.601
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.604
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.770
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.820
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.839
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.909
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.960
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:47.994
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.026
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.055
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.105
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.108
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.111
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.114
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.118
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.122
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.140
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.187
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.207
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.258
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.261
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.280
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.283
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.448
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.703
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.741
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.792
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.796
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.799
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.801
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.804
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.825
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.847
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.908
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.928
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.976
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:48.995
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.042
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.062
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.109
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.159
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.162
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.165
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.169
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.174
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.178
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.182
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.186
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.189
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.194
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.200
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.203
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.206
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.209
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.212
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.215
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.218
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.224
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.228
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.326
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.328
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.767
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.768
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:49.770
+!MESSAGE Reconciled 0, validated: 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.689
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.695
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.697
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.700
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.712
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:50.750
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:51.153
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:51.153
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:17:51.155
+!MESSAGE Reconciled 0, validated: 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:31.453
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:31.469
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///Users/shomasd/lmntal-compiler/src/compile/util/Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:32.007
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:32.008
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:32.024
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:32.025
+!MESSAGE 0 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:32.025
+!MESSAGE Reconciled 0, validated: 2. Took 144 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.441
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.546
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.786
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.786
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.804
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.805
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.806
+!MESSAGE Reconciled 0, validated: 2. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.903
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.906
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:36.908
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:37.439
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:37.443
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:37.445
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.042
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.045
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.048
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.067
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.070
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.074
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.077
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.080
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.083
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.532
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.532
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.546
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.547
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:38.547
+!MESSAGE Reconciled 0, validated: 2. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.101
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.108
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.111
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.114
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.118
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.122
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.126
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.132
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.589
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.590
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.605
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.606
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.607
+!MESSAGE Reconciled 0, validated: 2. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:39.856
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.307
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.308
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.321
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.324
+!MESSAGE 0 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.324
+!MESSAGE Reconciled 0, validated: 2. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.591
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.598
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.769
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.889
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:40.998
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.230
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.232
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.249
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.249
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.250
+!MESSAGE Reconciled 0, validated: 2. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.483
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.485
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.487
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.649
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.691
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.984
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.984
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.998
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.998
+!MESSAGE 1 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:41.998
+!MESSAGE Reconciled 0, validated: 2. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.303
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.306
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.594
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.597
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.616
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.618
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:42.625
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.071
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.072
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.084
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.085
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.085
+!MESSAGE Reconciled 0, validated: 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.511
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.958
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.958
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.973
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.973
+!MESSAGE 1 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:43.974
+!MESSAGE Reconciled 0, validated: 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:44.509
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:44.958
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:44.965
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:44.978
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:44.978
+!MESSAGE 1 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:44.979
+!MESSAGE Reconciled 0, validated: 2. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.286
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.332
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.335
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.339
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.342
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.345
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.361
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.411
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.429
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.465
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.510
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.579
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.628
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.646
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.694
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.711
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.760
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.764
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.782
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.831
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.946
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:45.963
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.011
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.014
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.031
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.083
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.127
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.144
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.181
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.625
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.625
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.638
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.638
+!MESSAGE 0 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:46.641
+!MESSAGE Reconciled 0, validated: 2. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:18:48.147
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:19:32.239
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:19:32.241
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:24:31.505
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:24:31.509
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:24:44.713
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:24:44.716
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:09.999
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.005
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.303
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.421
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.570
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.750
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.751
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.763
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.764
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:10.764
+!MESSAGE Reconciled 0, validated: 2. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.094
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.096
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.097
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.618
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.622
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.624
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.927
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.930
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.933
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.940
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.943
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.945
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.948
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.950
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:11.953
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:12.398
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:12.398
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:12.411
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:12.412
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:12.412
+!MESSAGE Reconciled 0, validated: 2. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:13.144
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:13.587
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:13.588
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:13.601
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:13.602
+!MESSAGE 2 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:13.602
+!MESSAGE Reconciled 0, validated: 2. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.130
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.134
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.168
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.423
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.426
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.429
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.432
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.434
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.438
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.441
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.444
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.461
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.511
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.958
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.959
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.970
+!MESSAGE begin problem for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.970
+!MESSAGE 0 problems reported for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:14.971
+!MESSAGE Reconciled 0, validated: 2. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:15.868
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:15.870
+!MESSAGE Clearing problems for /Collector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:20.648
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:20.652
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:20.934
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.046
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.124
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.375
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.375
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.376
+!MESSAGE Reconciled 0, validated: 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.957
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.960
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:21.962
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.037
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.473
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.474
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.475
+!MESSAGE Reconciled 0, validated: 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.668
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.671
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.673
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.751
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.753
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.756
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.765
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.767
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.770
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.773
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.776
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:22.780
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.216
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.217
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.220
+!MESSAGE Reconciled 0, validated: 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.236
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.725
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.727
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.728
+!MESSAGE Reconciled 0, validated: 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.765
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.769
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.770
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:23.909
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:24.340
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:24.340
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:24.341
+!MESSAGE Reconciled 0, validated: 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.453
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.540
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.655
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.701
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.984
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.984
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:25.986
+!MESSAGE Reconciled 0, validated: 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.364
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.367
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.634
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.637
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.655
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.658
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.660
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.664
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.666
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.669
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:26.671
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:27.105
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:27.106
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:27.110
+!MESSAGE Reconciled 0, validated: 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.950
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.953
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.956
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.959
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.961
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.964
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:28.968
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:29.403
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:29.404
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:29.407
+!MESSAGE Reconciled 0, validated: 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:30.989
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:31.418
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:31.418
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:31.419
+!MESSAGE Reconciled 0, validated: 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:31.678
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:31.681
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:31.682
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.264
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.270
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.273
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.276
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.278
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.281
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.283
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.285
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.718
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.719
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:32.720
+!MESSAGE Reconciled 0, validated: 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.571
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.574
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.578
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.582
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.585
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.588
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.591
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.593
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:35.597
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:36.036
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:36.037
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:36.038
+!MESSAGE Reconciled 0, validated: 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:36.641
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.078
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.079
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.082
+!MESSAGE Reconciled 0, validated: 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.359
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.831
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.832
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:37.835
+!MESSAGE Reconciled 0, validated: 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:38.048
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:38.051
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:42.601
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.032
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.032
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.034
+!MESSAGE Reconciled 0, validated: 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.126
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.129
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.139
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.142
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.146
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.149
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.153
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.156
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.158
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.590
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.590
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:43.591
+!MESSAGE Reconciled 0, validated: 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.911
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.914
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.918
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.920
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.924
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.926
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.929
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.931
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:45.934
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:46.368
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:46.369
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:46.371
+!MESSAGE Reconciled 0, validated: 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:50.878
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.030
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.263
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.698
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.699
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.700
+!MESSAGE Reconciled 0, validated: 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.970
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:51.973
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.468
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.471
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.507
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.510
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.513
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.516
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.520
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.523
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.526
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.969
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.970
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:53.971
+!MESSAGE Reconciled 0, validated: 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.698
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.701
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.704
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.708
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.711
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:55.714
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:56.148
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:56.149
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:56.150
+!MESSAGE Reconciled 0, validated: 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:33:59.898
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.093
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.522
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.522
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.524
+!MESSAGE Reconciled 0, validated: 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.557
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.658
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.668
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.805
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.896
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.906
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.915
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.926
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:00.927
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.038
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.047
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.354
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.355
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.356
+!MESSAGE Reconciled 0, validated: 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.623
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.626
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:01.628
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:02.057
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:02.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:02.765
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:02.765
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:02.767
+!MESSAGE Reconciled 0, validated: 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.256
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.407
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.522
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.624
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.633
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.957
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.958
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:03.959
+!MESSAGE Reconciled 0, validated: 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:04.165
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:04.169
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:04.171
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:05.206
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:05.644
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:05.644
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:05.644
+!MESSAGE Reconciled 0, validated: 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:06.430
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:06.433
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:06.436
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:06.863
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:06.864
+!MESSAGE 3 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:06.866
+!MESSAGE Reconciled 0, validated: 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:08.743
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:08.746
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:09.173
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:09.173
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:09.174
+!MESSAGE Reconciled 0, validated: 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:09.682
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:09.798
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:09.806
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.110
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.111
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.112
+!MESSAGE Reconciled 0, validated: 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.333
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.434
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.446
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.759
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.759
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.760
+!MESSAGE Reconciled 0, validated: 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:10.934
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.037
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.047
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.103
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.207
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.217
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.217
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.331
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.339
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.484
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.533
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.543
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.552
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.560
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.560
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.680
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.688
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:11.931
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:12.368
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:12.369
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:12.371
+!MESSAGE Reconciled 0, validated: 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:12.444
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.397
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.654
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.703
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.747
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.766
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.814
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.864
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.883
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:13.904
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.086
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.089
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.133
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.181
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.185
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.214
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.239
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.268
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.319
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.337
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.379
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.382
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.385
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.389
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.392
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.395
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.398
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.401
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.418
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.463
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.484
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.488
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.491
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.497
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.501
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.505
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.937
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.937
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:14.938
+!MESSAGE Reconciled 0, validated: 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.904
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.908
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.910
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.916
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.923
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.930
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:15.968
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:16.357
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:16.357
+!MESSAGE 0 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:34:16.359
+!MESSAGE Reconciled 0, validated: 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:40:11.877
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-04-13 14:40:11.882
+!MESSAGE >> document/codeAction

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: srcfile
+# key: srcfile
+# --
+\lstinputlisting[caption=$1,label=$2]{${3:file}}

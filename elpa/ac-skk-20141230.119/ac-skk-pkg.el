@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "ac-skk" "20141230.119" "auto-complete-mode source for DDSKK a.k.a Japanese input method" '((auto-complete "1.3.1") (ddskk "16.0.50") (tinysegmenter "0") (cl-lib "0.5")) :commit "d25a265930430d080329789fb253d786c01dfa24" :keywords '("convenience" "auto-complete") :authors '(("lugecy <https://twitter.com/lugecy>")) :maintainer '("myuhe") :url "https://github.com/myuhe/ac-skk.el")

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: intarray
+# key: arr
+# --
+int[] $1 = new int[$2];

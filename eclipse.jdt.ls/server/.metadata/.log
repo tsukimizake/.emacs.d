@@ -1,0 +1,2184 @@
+!SESSION 2018-09-30 17:47:14.492 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:16.060
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:16.209
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:16.228
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:16.230
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:16.326
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:16.389
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:17.824
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:20.133
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:24.220
+!MESSAGE Workspace initialized in 7977ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:24.269
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:24.286
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:24.677
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:24.813
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:29.703
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:29.705
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:29.718
+!MESSAGE Reconciled 0, validated: 1. Took 1290 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:29.731
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:29.989
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:30.749
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:30.751
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:30.755
+!MESSAGE Reconciled 0, validated: 1. Took 358 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:31.275
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:31.398
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:32.913
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:33.680
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:33.681
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:33.686
+!MESSAGE Reconciled 0, validated: 1. Took 367 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:35.085
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:35.762
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:35.763
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:35.766
+!MESSAGE Reconciled 0, validated: 1. Took 275 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:36.247
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:36.446
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:36.968
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.186
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.191
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.196
+!MESSAGE Reconciled 0, validated: 1. Took 343 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.202
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.835
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.836
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:37.839
+!MESSAGE Reconciled 0, validated: 1. Took 231 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.119
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.192
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.309
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.933
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.934
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.937
+!MESSAGE Reconciled 0, validated: 1. Took 220 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:38.996
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:39.502
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:39.884
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:39.885
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:39.894
+!MESSAGE Reconciled 0, validated: 1. Took 495 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:39.901
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:39.954
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.065
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.465
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.623
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.683
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.704
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.705
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:40.709
+!MESSAGE Reconciled 0, validated: 1. Took 240 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:41.317
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:41.318
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:41.321
+!MESSAGE Reconciled 0, validated: 1. Took 205 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:41.489
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.101
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.102
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.104
+!MESSAGE Reconciled 0, validated: 1. Took 208 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.290
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.617
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.925
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.927
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:47:42.931
+!MESSAGE Reconciled 0, validated: 1. Took 232 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:48.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:48.726
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:48.864
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:48.865
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:48.868
+!MESSAGE Reconciled 0, validated: 1. Took 213 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:49.067
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:49.332
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:49.438
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:49.608
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:49.720
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:50.322
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:50.323
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:50.325
+!MESSAGE Reconciled 0, validated: 1. Took 202 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:51.087
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:51.142
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:51.202
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:51.776
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:51.777
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:51.779
+!MESSAGE Reconciled 0, validated: 1. Took 173 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:54.060
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:54.600
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:54.710
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:54.711
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:54.714
+!MESSAGE Reconciled 0, validated: 1. Took 251 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:55.277
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:55.278
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:55.281
+!MESSAGE Reconciled 0, validated: 1. Took 161 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:56.659
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:57.264
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:57.265
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:57.268
+!MESSAGE Reconciled 0, validated: 1. Took 204 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:59.662
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:59.805
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:55:59.954
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.109
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.428
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.493
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.542
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.716
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.717
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:00.719
+!MESSAGE Reconciled 0, validated: 1. Took 207 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:01.288
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:01.289
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:01.292
+!MESSAGE Reconciled 0, validated: 1. Took 169 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:07.145
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:07.445
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:07.534
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.007
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.109
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.110
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.113
+!MESSAGE Reconciled 0, validated: 1. Took 176 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.171
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.753
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.755
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.757
+!MESSAGE Reconciled 0, validated: 1. Took 179 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:08.928
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:09.058
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:09.612
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:09.613
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:09.615
+!MESSAGE Reconciled 0, validated: 1. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:10.123
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:10.184
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:10.242
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:10.852
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:10.853
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:10.857
+!MESSAGE Reconciled 0, validated: 1. Took 211 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:11.361
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:11.929
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:11.930
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:11.932
+!MESSAGE Reconciled 0, validated: 1. Took 167 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:12.047
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:12.084
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:12.170
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:12.743
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:12.744
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:12.745
+!MESSAGE Reconciled 0, validated: 1. Took 170 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:14.102
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:14.692
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:14.692
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:14.695
+!MESSAGE Reconciled 0, validated: 1. Took 186 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:15.499
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:16.073
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:16.074
+!MESSAGE 106 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:16.076
+!MESSAGE Reconciled 0, validated: 1. Took 170 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:16.446
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:17.022
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:17.022
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:17.025
+!MESSAGE Reconciled 0, validated: 1. Took 175 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:17.110
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:18.331
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:18.629
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:18.976
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:18.976
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 17:56:18.980
+!MESSAGE Reconciled 0, validated: 1. Took 243 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:44:53.159
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:44:53.161
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:44:53.181
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-09-30 20:44:53.783
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-09-30 20:51:13.329 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-09-30 20:51:14.217
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:14.589
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:14.745
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:14.818
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:14.820
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:14.848
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:16.546
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:16.569
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:17.100
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:17.204
+!MESSAGE Workspace initialized in 773ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:17.219
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:17.269
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:17.759
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:18.599
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:18.689
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:22.561
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:22.563
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:22.570
+!MESSAGE Reconciled 0, validated: 1. Took 975 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:22.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:22.676
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:23.636
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:23.637
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:51:23.642
+!MESSAGE Reconciled 0, validated: 1. Took 562 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:58:23.059
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:58:23.064
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 20:58:23.085
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-09-30 20:58:23.663
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-09-30 21:36:07.977 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-09-30 21:36:08.835
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:09.179
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:09.390
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:09.415
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:09.416
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:09.453
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:11.285
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:11.330
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:11.930
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:12.171
+!MESSAGE Workspace initialized in 1031ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:12.181
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:12.212
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:19.844
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:19.846
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:19.856
+!MESSAGE Reconciled 0, validated: 1. Took 1846 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:22.333
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:22.411
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:23.189
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:23.293
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:23.769
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:23.773
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:23.781
+!MESSAGE Reconciled 0, validated: 1. Took 1027 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:24.745
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:24.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:25.652
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:25.653
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:25.660
+!MESSAGE Reconciled 0, validated: 1. Took 365 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:27.112
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:27.736
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:27.835
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:27.837
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:27.840
+!MESSAGE Reconciled 0, validated: 1. Took 269 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:28.016
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:28.646
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:28.647
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:36:28.650
+!MESSAGE Reconciled 0, validated: 1. Took 299 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:48.529
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:49.160
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:49.161
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:49.163
+!MESSAGE Reconciled 0, validated: 1. Took 225 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:49.462
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:49.608
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.057
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.243
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.244
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.247
+!MESSAGE Reconciled 0, validated: 1. Took 233 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.925
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.926
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:50.929
+!MESSAGE Reconciled 0, validated: 1. Took 277 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:51.495
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:51.558
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:51.615
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:52.203
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:52.204
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:52.207
+!MESSAGE Reconciled 0, validated: 1. Took 184 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:53.041
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:53.333
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:53.715
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:53.716
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-09-30 21:44:53.719
+!MESSAGE Reconciled 0, validated: 1. Took 270 ms
+!SESSION 2018-10-12 12:16:41.817 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-10-12 12:16:42.885
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:43.443
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:43.717
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:43.740
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:43.741
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:43.776
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:45.871
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:45.905
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.181
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.286
+!MESSAGE Workspace initialized in 673ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.317
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.325
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.328
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.333
+!MESSAGE >>New configuration: {initializationOptions={cacheDirectory=/tmp/cquery}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.348
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:46.760
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:50.732
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:50.743
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:52.452
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:52.453
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:16:52.455
+!MESSAGE Reconciled 0, validated: 1. Took 1304 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:22.400
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:22.908
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:23.309
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:24.549
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:24.551
+!MESSAGE 13 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:24.552
+!MESSAGE Reconciled 0, validated: 1. Took 838 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:30.773
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:30.960
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.121
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.268
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.410
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.492
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.527
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.564
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:31.713
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:32.178
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:32.286
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:32.393
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:32.544
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:32.545
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:32.547
+!MESSAGE Reconciled 0, validated: 1. Took 428 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:33.372
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:33.373
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:33.374
+!MESSAGE Reconciled 0, validated: 1. Took 368 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:33.905
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:34.246
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:34.398
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:34.503
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.104
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.195
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.196
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.197
+!MESSAGE Reconciled 0, validated: 1. Took 289 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.827
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.828
+!MESSAGE 13 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:35.829
+!MESSAGE Reconciled 0, validated: 1. Took 227 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:36.198
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:36.372
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:36.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:36.692
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:36.843
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:37.008
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:37.238
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:37.760
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:37.922
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:37.922
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:37.925
+!MESSAGE Reconciled 0, validated: 1. Took 281 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:38.088
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:38.705
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:38.706
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:38.707
+!MESSAGE Reconciled 0, validated: 1. Took 215 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:38.913
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:39.051
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:39.139
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:39.794
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:39.795
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:39.797
+!MESSAGE Reconciled 0, validated: 1. Took 200 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:40.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:40.770
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:40.771
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:40.772
+!MESSAGE Reconciled 0, validated: 1. Took 202 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:41.193
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:41.799
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:41.800
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:41.802
+!MESSAGE Reconciled 0, validated: 1. Took 205 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.053
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.182
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.300
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.673
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.784
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.895
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.941
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.942
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:42.944
+!MESSAGE Reconciled 0, validated: 1. Took 236 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:43.538
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:43.539
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:43.540
+!MESSAGE Reconciled 0, validated: 1. Took 193 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:43.880
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:44.180
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:44.761
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:44.762
+!MESSAGE 10 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:44.763
+!MESSAGE Reconciled 0, validated: 1. Took 177 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:45.703
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:46.293
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:46.294
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:17:46.296
+!MESSAGE Reconciled 0, validated: 1. Took 187 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 12:20:58.969
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:45.343
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:45.404
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:46.233
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:46.234
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:46.269
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:46.270
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:11:46.275
+!MESSAGE Reconciled 0, validated: 2. Took 467 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.084
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.684
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.685
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.803
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.805
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.837
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.838
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.839
+!MESSAGE Reconciled 0, validated: 3. Took 344 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:29.944
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.538
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.539
+!MESSAGE 2 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.642
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.643
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.667
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.668
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:30.669
+!MESSAGE Reconciled 0, validated: 3. Took 317 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:31.471
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:31.635
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:32.625
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.188
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.189
+!MESSAGE 2 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.292
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.293
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.316
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.318
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.320
+!MESSAGE Reconciled 0, validated: 3. Took 288 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:33.818
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.346
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.347
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.453
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.454
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.484
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.485
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 13:48:34.486
+!MESSAGE Reconciled 0, validated: 3. Took 261 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:14.820
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:14.837
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.542
+!MESSAGE begin problem for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.543
+!MESSAGE 14 problems reported for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.563
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.564
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.644
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.645
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.666
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.668
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 14:29:15.669
+!MESSAGE Reconciled 0, validated: 4. Took 430 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:28.503
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:28.545
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.335
+!MESSAGE begin problem for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.336
+!MESSAGE 14 problems reported for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.356
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.357
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.452
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.453
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.500
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.501
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.529
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.530
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:26:29.531
+!MESSAGE Reconciled 0, validated: 5. Took 582 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:40.960
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.077
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.791
+!MESSAGE begin problem for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.792
+!MESSAGE 14 problems reported for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.807
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.808
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.909
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.910
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.955
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.958
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.977
+!MESSAGE begin problem for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:41.982
+!MESSAGE 1 problems reported for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:42.016
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:42.016
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:42.017
+!MESSAGE Reconciled 0, validated: 6. Took 535 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:42.444
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.074
+!MESSAGE begin problem for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.075
+!MESSAGE 14 problems reported for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.088
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.090
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.250
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.251
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.284
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.284
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.302
+!MESSAGE begin problem for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.303
+!MESSAGE 0 problems reported for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.327
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.330
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:39:43.332
+!MESSAGE Reconciled 0, validated: 6. Took 482 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:44.632
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:44.642
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.266
+!MESSAGE begin problem for /Rule.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.267
+!MESSAGE 0 problems reported for /Rule.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.319
+!MESSAGE begin problem for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.320
+!MESSAGE 14 problems reported for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.330
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.331
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.393
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.394
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.424
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.425
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.433
+!MESSAGE begin problem for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.434
+!MESSAGE 0 problems reported for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.449
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.450
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:41:45.450
+!MESSAGE Reconciled 0, validated: 7. Took 404 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:06.631
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:20.811
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:20.820
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.478
+!MESSAGE begin problem for /Rule.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.478
+!MESSAGE 0 problems reported for /Rule.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.536
+!MESSAGE begin problem for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.537
+!MESSAGE 14 problems reported for /GuardCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.548
+!MESSAGE begin problem for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.548
+!MESSAGE 1 problems reported for /Util.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.619
+!MESSAGE begin problem for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.619
+!MESSAGE 18 problems reported for /RuleCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.641
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.642
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.688
+!MESSAGE begin problem for /HeadCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.689
+!MESSAGE 58 problems reported for /HeadCompiler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.702
+!MESSAGE begin problem for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.703
+!MESSAGE 0 problems reported for /Env.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.717
+!MESSAGE begin problem for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.717
+!MESSAGE 0 problems reported for /Module.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:21.718
+!MESSAGE Reconciled 0, validated: 8. Took 494 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:43:37.678
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:45:36.651
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-12 16:45:53.568
+!MESSAGE >> document/definition
+!SESSION 2018-10-13 17:45:33.758 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-10-13 17:45:36.032
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:37.218
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:37.791
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:37.821
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:37.833
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:37.973
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-13 17:45:46.955
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.082
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.134
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.339
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.531
+!MESSAGE Workspace initialized in 657ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.572
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.584
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.589
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.593
+!MESSAGE >>New configuration: {initializationOptions={cacheDirectory=/tmp/cquery}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:47.597
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:50.146
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:50.148
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:45:50.149
+!MESSAGE Reconciled 0, validated: 1. Took 1007 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:51.707
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:52.194
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:52.506
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:52.507
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:52.509
+!MESSAGE Reconciled 0, validated: 1. Took 334 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:52.514
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:52.993
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.129
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.131
+!MESSAGE 2 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.133
+!MESSAGE Reconciled 0, validated: 1. Took 214 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.287
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.719
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.804
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:53.837
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:54.094
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:54.096
+!MESSAGE 1 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:54.097
+!MESSAGE Reconciled 0, validated: 1. Took 356 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:54.712
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:54.713
+!MESSAGE 2 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:54.715
+!MESSAGE Reconciled 0, validated: 1. Took 208 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:55.611
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:55.946
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:56.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:56.679
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:56.996
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.548
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.549
+!MESSAGE 2 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.551
+!MESSAGE Reconciled 0, validated: 1. Took 150 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.919
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.958
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:57.997
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.042
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.062
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.112
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.147
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.178
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.215
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.245
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.281
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.338
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.854
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.855
+!MESSAGE 2 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:58.856
+!MESSAGE Reconciled 0, validated: 1. Took 111 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:59.026
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:59.173
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:46:59.505
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.059
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.063
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.064
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.065
+!MESSAGE Reconciled 0, validated: 1. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.660
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.662
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:00.663
+!MESSAGE Reconciled 0, validated: 1. Took 133 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:04.572
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:06.592
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:47:06.645
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:48:05.469
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:48:05.959
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:48:07.523
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:48:25.964
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 17:49:59.159
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:40.443
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:40.565
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:41.480
+!MESSAGE begin problem for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:41.481
+!MESSAGE 108 problems reported for /Optimizer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:41.543
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:41.544
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:01:41.545
+!MESSAGE Reconciled 0, validated: 2. Took 476 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:30:04.419
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 18:54:47.521
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-13 19:18:21.471
+!MESSAGE >> workspace/didChangeWatchedFiles 
+!SESSION 2018-10-15 15:26:53.036 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-10-15 15:26:54.072
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:54.637
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:54.925
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:54.950
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:54.952
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:54.992
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-15 15:26:56.880
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:56.964
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:56.993
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.432
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.506
+!MESSAGE Workspace initialized in 710ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.527
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.540
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.543
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.547
+!MESSAGE >>New configuration: {initializationOptions={cacheDirectory=/tmp/cquery}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:57.552
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:58.049
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:26:59.582
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:02.565
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.249
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.295
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.303
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.307
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.338
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.350
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:03.388
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:04.254
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:04.255
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:04.257
+!MESSAGE Reconciled 0, validated: 1. Took 550 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.086
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.090
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.127
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.151
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.395
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.530
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.670
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.670
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.672
+!MESSAGE Reconciled 0, validated: 1. Took 182 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.675
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.698
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.839
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.862
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.947
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:07.965
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.108
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.230
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.231
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.233
+!MESSAGE Reconciled 0, validated: 1. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.235
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.260
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.773
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.774
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:08.776
+!MESSAGE Reconciled 0, validated: 1. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:09.880
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:10.091
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:10.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:10.963
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:10.964
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:10.965
+!MESSAGE Reconciled 0, validated: 1. Took 115 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:11.331
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:11.833
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:11.834
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:11.835
+!MESSAGE Reconciled 0, validated: 1. Took 99 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:12.649
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:12.749
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:12.957
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:13.158
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:13.159
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:13.160
+!MESSAGE Reconciled 0, validated: 1. Took 107 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:14.414
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:14.791
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:14.926
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:15.428
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:15.429
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:15.430
+!MESSAGE Reconciled 0, validated: 1. Took 98 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:16.084
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:16.112
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.052
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.070
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.183
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.341
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.837
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.838
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:17.839
+!MESSAGE Reconciled 0, validated: 1. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:18.335
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:18.678
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:18.833
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.274
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.383
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.384
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.385
+!MESSAGE Reconciled 0, validated: 1. Took 139 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.905
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.906
+!MESSAGE 2 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:19.907
+!MESSAGE Reconciled 0, validated: 1. Took 107 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:20.870
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:20.967
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:21.186
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:21.253
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:21.764
+!MESSAGE begin problem for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:21.765
+!MESSAGE 1 problems reported for /Compactor.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:21.768
+!MESSAGE Reconciled 0, validated: 1. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:21.991
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:22.523
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:22.859
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-15 15:27:26.427
+!MESSAGE >> workspace/didChangeWatchedFiles 
+!SESSION 2018-10-22 15:39:07.541 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/shomasd/.emacs.d/eclipse.jdt.ls/server
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-10-22 15:39:09.145
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:10.161
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:10.457
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:10.489
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:10.491
+!MESSAGE Initializing Java Language Server 0.17.0.201804091442
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:10.640
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-22 15:39:10.759
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:10.894
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:14.884
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.422
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.571
+!MESSAGE Workspace initialized in 4989ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.608
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.623
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.627
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.637
+!MESSAGE >>New configuration: {initializationOptions={cacheDirectory=/tmp/cquery}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:15.642
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:25.290
+!MESSAGE begin problem for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:25.293
+!MESSAGE 0 problems reported for /FrontEnd.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-22 15:39:25.295
+!MESSAGE Reconciled 0, validated: 1. Took 1697 ms

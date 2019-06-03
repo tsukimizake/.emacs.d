@@ -1,0 +1,24 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Module
+# key: module
+# --
+{-# OPTIONS -Wall #-}
+{-# OPTIONS_GHC -fno-warn-name-shadowing #-}
+module `
+(progn
+  (require 'f)
+  (require 's)
+  (let ((modulename (f-no-ext (f-filename (buffer-file-name)))))
+    (upcase-initials modulename)))
+` where
+`
+(let ((module-name(progn
+  (require 'f)
+  (require 's)
+  (let ((modulename (f-no-ext (f-filename (buffer-file-name)))))
+    (s-capitalize modulename)))))
+    (if (string= module-name "Main")
+"main :: IO()\nmain = undefined"
+    ""
+    ))
+`

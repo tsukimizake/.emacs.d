@@ -1,0 +1,209 @@
+
+==================== FINAL INTERFACE ====================
+2016-10-01 02:07:47.610426 UTC
+
+interface main@main:Matrix 8001
+  interface hash: 5498528b2671abe1f9d9cfd62d21365b
+  ABI hash: 59e3288c3b64999ebe13fce0c092a09d
+  export-list hash: 070cfa30d641c892abfce85957bdeb6b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 2d9d6caf6aa63b15a6a93aaac794f489
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Matrix.dyadic
+  Matrix.identity
+  Matrix.isIdentity
+  Matrix.transpose
+module dependencies: Foreign.Emacs Foreign.Emacs.Internal
+package dependencies: array-0.5.1.1@array-0.5.1.1
+                      atto-lisp-0.2.2.2@atto-lisp-0.2.2.2-pADZfkG2vxA8PuvQIBBrO
+                      attoparsec-0.13.0.2@attoparsec-0.13.0.2-GLM6q4XQBSiI4fJOXoBxlu
+                      base-4.9.0.0 binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-KWDLbdBYSBoALiMW0LHIz1
+                      blaze-textual-0.2.1.0@blaze-textual-0.2.1.0-5TvXaG25I6S46sBk67LFXf
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      scientific-0.3.4.9@scientific-0.3.4.9-6oTYuCcx6H5BsTGU7D2Gk3
+                      text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4
+                      vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6
+orphans: attoparsec-0.13.0.2@attoparsec-0.13.0.2-GLM6q4XQBSiI4fJOXoBxlu:Data.Attoparsec.ByteString.Char8
+         base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G:Data.Hashable.Generic
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Fusion.Bundle
+family instance modules: attoparsec-0.13.0.2@attoparsec-0.13.0.2-GLM6q4XQBSiI4fJOXoBxlu:Data.Attoparsec.Internal.Types
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Functor.Identity base-4.9.0.0:Data.List.NonEmpty
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Semigroup
+                         base-4.9.0.0:Data.Type.Equality base-4.9.0.0:Data.Version
+                         base-4.9.0.0:Data.Void base-4.9.0.0:GHC.Exts
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector
+import  -/  base-4.9.0.0:Data.Foldable 8aeb682f6c74f97fcf0ace0d608a43ea
+import  -/  base-4.9.0.0:Data.List 49b86831b79b49ce5d4d9416ecba61df
+import  -/  base-4.9.0.0:Data.OldList 0058409f994fb13ae0616e3f1e5b4dae
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.List 13d2451194c1c6e53b4f4f07947736dd
+import  -/  base-4.9.0.0:GHC.Num 48f506a8f4ecf06285d0a0706594dcc0
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  Foreign.Emacs 82df764d9294b8f9ee1851a8151fb5ec
+  exports: d4db43fddc82cadcefbec7cffcb5ae41
+d77e7b2487585bc38cf45ab31510a625
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Matrix.$trModule2
+                   Matrix.$trModule1) -}
+8f1c05d2c8a821da03359ed40c6b8392
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Matrix"#) -}
+461449317e1b731bffa39902ba937d30
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+2cb4b5accdbc96dd1c86e50622f30914
+  $widentity :: GHC.Prim.Int# -> [[GHC.Types.Int]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># ww 1#) of wild {
+                   GHC.Types.False -> Matrix.identity2
+                   GHC.Types.True
+                   -> let {
+                        xs0 :: [GHC.Types.Int]
+                        = let {
+                            n :: GHC.Prim.Int# = GHC.Prim.-# ww 1#
+                          } in
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.<# 0# n) of wild1 {
+                            GHC.Types.False -> GHC.Types.[] @ GHC.Types.Int
+                            GHC.Types.True -> Matrix.$wxs n }
+                      } in
+                      let {
+                        xs1 :: [GHC.Types.Int]
+                        = GHC.Types.: @ GHC.Types.Int Matrix.identity1 xs0
+                      } in
+                      Data.OldList.nubBy
+                        @ [GHC.Types.Int]
+                        GHC.Classes.$fEq[]_$s$c==
+                        (GHC.Types.:
+                           @ [GHC.Types.Int]
+                           xs1
+                           (Data.OldList.permutations1
+                              @ GHC.Types.Int
+                              xs1
+                              (GHC.Types.[] @ GHC.Types.Int))) }) -}
+d796e879e65c395b5722da97b38c6a60
+  $wxs :: GHC.Prim.Int# -> [GHC.Types.Int]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+64f18bf1aacad0cb6c1f1de22e608cd6
+  dyadic :: [GHC.Types.Int] -> [GHC.Types.Int] -> [[GHC.Types.Int]]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (xs :: [GHC.Types.Int]) (ys :: [GHC.Types.Int]) ->
+                 GHC.Base.build
+                   @ [GHC.Types.Int]
+                   (\ @ b1
+                      (c :: [GHC.Types.Int] -> b1 -> b1)[OneShot]
+                      (n :: b1)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Int
+                      @ b1
+                      (GHC.Base.mapFB
+                         @ [GHC.Types.Int]
+                         @ b1
+                         @ GHC.Types.Int
+                         c
+                         (\ (x :: GHC.Types.Int) ->
+                          GHC.Base.build
+                            @ GHC.Types.Int
+                            (\ @ b2
+                               (c1 :: GHC.Types.Int -> b2 -> b2)[OneShot]
+                               (n1 :: b2)[OneShot] ->
+                             GHC.Base.foldr
+                               @ GHC.Types.Int
+                               @ b2
+                               (GHC.Base.mapFB
+                                  @ GHC.Types.Int
+                                  @ b2
+                                  @ GHC.Types.Int
+                                  c1
+                                  (GHC.Num.$fNumInt_$c* x))
+                               n1
+                               ys)))
+                      n
+                      xs)) -}
+6efd42949c437343033d15ba00a7e79b
+  identity :: GHC.Types.Int -> [[GHC.Types.Int]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 -> Matrix.$widentity ww1 }) -}
+fcf0fb9090ea0c27194caec993b6bc2c
+  identity1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1#) -}
+1adc58d7116ef98b0a9baba15598803e
+  identity2 :: [[GHC.Types.Int]]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Int]
+                   Matrix.identity3
+                   (GHC.Types.[] @ [GHC.Types.Int])) -}
+a320e0122c8481dff17ce97bf4c4fa1e
+  identity3 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Matrix.identity1
+                   (GHC.Types.[] @ GHC.Types.Int)) -}
+053a98840778de3ec8b2744632b542b7
+  isIdentity :: [[GHC.Types.Int]] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ (xs :: [[GHC.Types.Int]]) ->
+                 case GHC.List.$wlenAcc @ [GHC.Types.Int] xs 0# of ww2 { DEFAULT ->
+                 GHC.Classes.$fEq[]_$c==
+                   @ [GHC.Types.Int]
+                   GHC.Classes.$fEq[]_$s$fEq[]
+                   xs
+                   (Matrix.$widentity ww2) }) -}
+8a25002309e73685019c3ee1d7e7125f
+  transpose :: [[GHC.Types.Int]] -> [[GHC.Types.Int]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                (Data.OldList.transpose @ GHC.Types.Int) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

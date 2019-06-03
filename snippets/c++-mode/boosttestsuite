@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: boosttestsuite
+# key: boosttestsuite
+# --
+BOOST_AUTO_TEST_SUITE($1)
+$2
+BOOST_AUTO_TEST_SUITE_END()
