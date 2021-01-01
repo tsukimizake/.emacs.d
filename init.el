@@ -1,4 +1,5 @@
 
+
 ;; package --- summary:
 ;; my init.el.
 ;;; Commentary:
@@ -20,7 +21,6 @@
 
 (add-to-list 'load-path "~/.emacs.d/myel")
 (require 'package)
-(package-initialize)
 
 
 (require 'cl-lib)
@@ -65,7 +65,6 @@
  '(company-backends
    (quote
     (company-irony company-cabal company-elisp company-files company-cmake company-robe
-                   (company-lsp :with company-dabbrev)
                    company-coq company-jedi company-dcd company-dabbrev company-capf)))
  '(company-dabbrev-downcase nil)
  '(company-dabbrev-ignore-case nil)
@@ -130,7 +129,7 @@
  '(lmntal-graphene-executable "~/Desktop/lavit/lmntal/graphene/graphene.jar")
  '(lmntal-home-directory "~/Desktop/lavit/lmntal/")
  '(lmntal-slim-executable "installed/bin/slim")
- '(lsp-haskell-process-path-hie "hie")
+ '(lsp-haskell-process-path-hie "haskell-language-server-wrapper")
  '(lsp-project-whitelist (quote ("^/Users/shomasd/Desktop/hscaml/$")))
  '(navi2ch-article-exist-message-range nil)
  '(navi2ch-article-new-message-range nil)
@@ -193,12 +192,11 @@
  '(org-preview-latex-default-process (quote dvipng))
  '(package-selected-packages
    (quote
-    (proof-general cquery hy-mode tabbar direx neotree 0blayout vimrc-mode ssh ssh-agency helm-tramp racket-mode lex lsp-ui phi-autopair shm stream shell-pop multi-term term+ magic-latex-buffer flycheck-elm web-mode lsp-java lsp-rust company-lsp lsp-haskell fstar-mode flycheck-ocaml tuareg utop merlin ac-octave buffer-stack intero helm-elscreen bison-mode gradle-mode meghanada vhdl-capf eclim edbi-minor-mode sml-mode toml-mode docker docker-tramp dockerfile-mode ctags flycheck-kotlin kotlin-mode todotxt fsharp-mode omnisharp csharp-mode company-racer elm-mode flycheck-liquidhs company-ghc ghc helm-ghc csv-mode spotlight px plantuml-mode ediprolog prolog origami ac-skk lispxmp wolfram hasky-extensions haskell-emacs gnuplot haskell-emacs-base haskell-emacs-text evil-tutor-ja ac-js2 react-snippets js2-mode shakespeare-mode eshell-manual counsel-projectile demo-it ido-describe-bindings company-dcd suggest smex counsel-osx-app flycheck-ghcmod company-restclient restclient yaml-mode wgrep-helm web-beautify wandbox undohist twittering-mode tinysegmenter tabulated-list sx switch-window swift-mode surround sudo-ext sudden-death steam stack-mode slime-company shut-up scheme-complete scala-mode2 save-load-path rustfmt ruby-electric ruby-block real-auto-save r-autoyas quickrun quelpa qml-mode purescript-mode powerline play-routes-mode page-break-lines osx-dictionary open-junk-file noflet navi2ch names mykie modern-cpp-font-lock mew matlab-mode mag-menu logito key-combo key-chord init-loader inflections ido-vertical-mode ido-ubiquitous ido-skk ido-migemo ido-better-flex hippie-expand-haskell helm-swoop helm-projectile helm-itunes helm-img helm-hoogle helm-helm-commands helm-hayoo helm-gtags helm-git-grep helm-git-files helm-git helm-descbinds helm-c-yasnippet helm-ag helm-R guide-key graphviz-dot-mode goto-last-change google-translate google gmail-message-mode geiser free-keys form-feed flymake-python-pyflakes flymake-lua flymake-cursor flymake-coffee flymake flycheck-rust flycheck-irony flycheck-dmd-dub flycheck-d-unittest flycheck-ats2 flex-autopair findr fcopy eww-lnum evil-paredit evil-numbers evil-magit ert-expectations elscreen eldoc-extension el-spy el-spec ein edit-server disaster dired-open dired-narrow dired-k d-mode company-tern company-sourcekit company-shell company-quickhelp company-jedi company-irony-c-headers company-irony company-inf-ruby company-coq company-cmake company-cabal coffee-mode cmake-mode cmake-ide clang-format chess cargo bnfc bind-key auto-yasnippet auto-install auto-async-byte-compile apples-mode anything-git-files anaconda-mode ag ace-popup-menu ace-link ace-jump-mode ac-R)))
+    (proof-general cquery hy-mode tabbar direx neotree 0blayout vimrc-mode ssh ssh-agency helm-tramp racket-mode lex lsp-ui phi-autopair shm stream shell-pop multi-term term+ magic-latex-buffer flycheck-elm web-mode lsp-java lsp-rust lsp-haskell fstar-mode flycheck-ocaml tuareg utop merlin ac-octave buffer-stack intero helm-elscreen bison-mode gradle-mode meghanada vhdl-capf eclim edbi-minor-mode sml-mode toml-mode docker docker-tramp dockerfile-mode ctags flycheck-kotlin kotlin-mode todotxt fsharp-mode omnisharp csharp-mode company-racer elm-mode flycheck-liquidhs company-ghc ghc helm-ghc csv-mode spotlight px plantuml-mode ediprolog prolog origami ac-skk lispxmp wolfram hasky-extensions haskell-emacs gnuplot haskell-emacs-base haskell-emacs-text evil-tutor-ja ac-js2 react-snippets js2-mode shakespeare-mode eshell-manual counsel-projectile demo-it ido-describe-bindings company-dcd suggest smex counsel-osx-app flycheck-ghcmod company-restclient restclient yaml-mode wgrep-helm web-beautify wandbox undohist twittering-mode tinysegmenter tabulated-list sx switch-window swift-mode surround sudo-ext sudden-death steam stack-mode slime-company shut-up scheme-complete scala-mode2 save-load-path rustfmt ruby-electric ruby-block real-auto-save r-autoyas quickrun quelpa qml-mode purescript-mode powerline play-routes-mode page-break-lines osx-dictionary open-junk-file noflet navi2ch names mykie modern-cpp-font-lock mew matlab-mode mag-menu logito key-combo key-chord init-loader inflections ido-vertical-mode ido-ubiquitous ido-skk ido-migemo ido-better-flex hippie-expand-haskell helm-swoop helm-projectile helm-itunes helm-img helm-hoogle helm-helm-commands helm-hayoo helm-gtags helm-git-grep helm-git-files helm-git helm-descbinds helm-c-yasnippet helm-ag helm-R guide-key graphviz-dot-mode goto-last-change google-translate google gmail-message-mode geiser free-keys form-feed flymake-python-pyflakes flymake-lua flymake-cursor flymake-coffee flymake flycheck-rust flycheck-irony flycheck-dmd-dub flycheck-d-unittest flycheck-ats2 flex-autopair findr fcopy eww-lnum evil-paredit evil-numbers evil-magit ert-expectations elscreen eldoc-extension el-spy el-spec ein edit-server disaster dired-open dired-narrow dired-k d-mode company-tern company-sourcekit company-shell company-quickhelp company-jedi company-irony-c-headers company-irony company-inf-ruby company-coq company-cmake company-cabal coffee-mode cmake-mode cmake-ide clang-format chess cargo bnfc bind-key auto-yasnippet auto-install auto-async-byte-compile apples-mode anything-git-files anaconda-mode ag ace-popup-menu ace-link ace-jump-mode ac-R)))
  '(plantuml-jar-path "~/plantuml.jar")
  '(py-flake8-command-args "")
  '(python-shell-interpreter "python3" t)
  '(reb-auto-match-limit 100)
- '(reb-re-syntax (quote rx))
  '(remember-data-file "/Users/shomasd/notes.org")
  '(remember-leader-text "* ")
  '(remember-mode-hook nil)
@@ -257,7 +255,7 @@
  '(whitespace-indentation ((t nil)))
  '(whitespace-line ((t nil))))
 
-(set-frame-font "ricty")
+;; (set-frame-font "ricty")
 
 ;; Cocoa emacsの場合のみフレームのフォントを設定
 (defun set-font-size (n)
@@ -284,7 +282,6 @@
 (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 ;; (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-(package-initialize)
 
 
 ;;backup dir
@@ -562,60 +559,14 @@
 ;;haskell
 
 (require 'haskell-mode)
-(require 'haskell-cabal)
-(require 'stack-mode)
-
-;; HaRe
-;; (add-to-list 'load-path "/Users/shomasd/.stack/snapshots/x86_64-osx/lts-4.0/7.10.3/share/x86_64-osx-ghc-7.10.3/HaRe-0.8.2.1/elisp")
-;; (require 'hare)
 
 (require 'company)
-;; (require 'company-ghc)
 (require 'haskell-interactive-mode)
 
-;; (autoload 'hare-init "hare" nil t)
 (add-to-list 'auto-mode-alist  '("\\.y$" . haskell-mode))
 (add-to-list 'auto-mode-alist  '("\\.z$" . haskell-mode))
-;; (require 'intero)
-;; (add-hook 'intero-mode-hook (lambda () (flycheck-select-checker 'intero))))
-;; (define-key intero-mode-map (kbd "C-c .") 'intero-goto-definition)
 
 (add-hook 'haskell-mode-hook 'eldoc-mode)
-
-(require 'intero)
-(defun intero-company (command &optional arg &rest ignored)
-  "Company source for intero, with the standard COMMAND and ARG args.
-Other arguments are IGNORED."
-  (interactive (list 'interactive))
-  (cl-case command
-    (interactive (company-begin-backend 'intero-company))
-    (prefix
-     (unless (intero-gave-up 'backend)
-       (or (let ((hole (intero-grab-hole)))
-             (when hole
-               (save-excursion
-                 (goto-char (cdr hole))
-                 (buffer-substring (car hole) (cdr hole)))))
-           (let ((prefix-info (intero-completions-grab-prefix)))
-             (when prefix-info
-               (cl-destructuring-bind
-                   (beg end prefix _type) prefix-info
-                 prefix))))))
-    (candidates
-     (unless (intero-gave-up 'backend)
-       (let ((beg-end (intero-grab-hole)))
-         (if beg-end
-             (cons :async
-                   (-partial 'intero-async-fill-at
-                             (current-buffer)
-                             (car beg-end)))
-           (let ((prefix-info (intero-completions-grab-prefix)))
-             (when prefix-info
-               (cons :async
-                     (-partial 'intero-company-callback
-                               (current-buffer)
-                               prefix-info))))))))
-    (annotation " hs")))
 
 (setq
  haskell-compile-cabal-build-command "cd %s && stack build"
@@ -629,22 +580,15 @@ Other arguments are IGNORED."
 (autoload 'ghc-debug "/Users/shomasd/ghc-mod/elisp/ghc" nil t)
 ;; (defvar ghc-interactive-command "ghc-modi")
 (defun my-haskell-mode-hook ()
-  (intero-mode)
-  ;; (ghc-init)
-  ;; (company-ghc-turn-on-autoscan)
-  ;; (require 'lsp-ui)
-  ;; (require 'lsp-mode)
-  ;; (require 'lsp-haskell)
-  ;; (lsp-haskell-enable)
+  (require 'lsp-ui)
+  (require 'lsp-mode)
+  (require 'lsp-haskell)
+  (lsp)
   (smartparens-mode 1)
-  ;; (hare-init)
   (flycheck-mode 1)
-  (intero-flycheck-enable)
-  ;; (flycheck-select-checker 'haskell-stack-ghc)
-  ;; (setq-local company-backends '((company-ghc :with company-dabbrev)))
-  )
+ )
+
 (add-hook 'haskell-mode-hook 'my-haskell-mode-hook)
-(define-key haskell-mode-map (kbd "C-.") 'company-lsp)
 (setq company-transformers '(company-sort-by-backend-importance))
 
 ;; haskell-mode keymap
@@ -681,20 +625,6 @@ Other arguments are IGNORED."
 (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
 ;;flymakeでも同様のキーバインド
 (require 'flymake)
-
-(require 'd-mode)
-
-;;DCD
-(add-to-list 'load-path "/Users/shomasd/Desktop/company-dcd")
-(require 'company-dcd)
-
-
-(add-to-list 'exec-path "/Users/shomasd/.emacs.d/myel/DCD/bin")
-
-(add-hook 'd-mode-hook
-	        (lambda ()
-	          (flycheck-mode 1)
-	          (company-dcd-mode 1)))
 
 ;;-------------------;;.hファイルをc++-modeで開く
 (add-to-list 'auto-mode-alist '("\\.h$" . c++-mode))
@@ -779,7 +709,7 @@ Other arguments are IGNORED."
 (key-combo-define c++-mode-map (kbd "{") '(key-combo-execute-original "{\n\t`!!'\n
 }"))
 
-(loop for map in `(,haskell-mode-map ,haskell-interactive-mode-map)
+(cl-loop for map in `(,haskell-mode-map ,haskell-interactive-mode-map)
       do
       (key-combo-mode -1)
       (key-combo-define map (kbd ",") ", ")
@@ -1106,7 +1036,7 @@ Other arguments are IGNORED."
 
 (defun set-flycheck-options-from-irony ()
   (interactive)
-  (loop for path in irony--compile-options
+  (cl-loop for path in irony--compile-options
 	      collect (string-match (rx "^-I" (submatch (* nonl))) path)
 	      do (add-to-list flycheck-clang-includes (match-string 1 path))))
 
@@ -1137,9 +1067,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
   (emacs-lisp-mode))
 ;; (global-set-key (kbd "C-t C-s") 'scratch)
 
-;;royan.el
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/myel/royan"))
-(require 'royan)
 
 ;;rx-replace
 (defun rx-eval-and-replace ()
@@ -1962,9 +1889,10 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
   "eval current namespace"
   (interactive)
   (save-excursion
-    (re-search-backward (rx (and "(" (* " ") "define-namespace")))
+    (re-search-backward (rx (and "(" (* " ") "define-namespace"))
     (forward-sexp)
-    (eval-last-sexp t)))
+    (eval-last-sexp t))))
+
 (add-to-list 'company-backends 'company-cabal)
 (require 'company-cabal)
 (defun company-cabal-clear-cache ()
@@ -2072,11 +2000,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
 (cl-loop for ext in '("\\.tpl" "\\.scala.html")
 	       do (add-to-list 'auto-mode-alist `(,ext . web-mode)))
 
-;;-------------------
-(require 'coffee-mode)
-;; (require 'flymake-coffee)
-
-(add-to-list 'auto-mode-alist '("\\.coffee" . coffee-mode))
 
 ;;-------------------
 (require 'sql)
@@ -2220,7 +2143,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
 
                                         ;------------
 ;;coq
-(require 'proof-site "~/.emacs.d/lisp/PG/generic/proof-site.el")
 (add-to-list 'auto-mode-alist '("\\.v\\'" . coq-mode))
 (autoload 'coq-mode "coq" "Major mode for editing Coq vernacular." t)
 
@@ -2316,7 +2238,7 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
 
 (defun clean-mode-line ()
   (interactive)
-  (loop for (mode . mode-str) in mode-line-cleaner-alist
+  (cl-loop for (mode . mode-str) in mode-line-cleaner-alist
         do
         (let ((old-mode-str (cdr (assq mode minor-mode-alist))))
           (when old-mode-str
@@ -2327,7 +2249,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
 
 (add-hook 'after-change-major-mode-hook 'clean-mode-line)
 
-                                        ;------------
 ;; js2-mode
 (require 'js2-mode)
 (define-key js2-mode-map (kbd "M-n") 'js2-next-error)
@@ -2338,22 +2259,21 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
   (add-to-list 'company-backends 'company-tern)
   (setq indent-tabs-mode t))
 (add-hook 'js2-mode-hook 'my-js2-mode-hook)
-                                        ;------------
+
 ;; magit
 (require 'magit)
 (global-set-key [f5] 'magit-status)
 
 
-                                        ;------------
 ;; origami-mode
 (global-origami-mode 1)
 (with-eval-after-load 'evil-maps
   (define-key evil-normal-state-map (kbd "TAB") 'origami-toggle-node))
-                                        ;------------
+
 ;; plantuml
 (require 'plantuml-mode)
 
-                                        ;------------
+
 ;; 実験用
 (defun mega (x)
   (* x 1000.0 1000.0))
@@ -2429,15 +2349,7 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
 
 
                                         ;------------
-;; csharp
-(require 'csharp-mode)
-(require 'omnisharp)
-(add-hook 'csharp-mode-hook
-	        (lambda ()
-	          (omnisharp-mode 1)
-	          (setq-local company-backends '((company-omnisharp :with company-dabbrev)))))
-(define-key omnisharp-mode-map (kbd "C-.") 'company-omnisharp)
-                                        ;------------
+
 ;; new-frame elscreen
 
 (defun new-frame-to-elscreen (fn &rest args)
@@ -2467,16 +2379,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
       lmntal-graphene-executable "graphene/graphene.jar")
 (add-to-list 'auto-mode-alist  '("\\.lmn\\'" . lmntal-mode))
 (setq lmntal-graphene-executable "~/Desktop/lavit/lmntal/graphene/graphene.jar")
-                                        ;------------
-;; あるごり
-
-(defun algori-no-ba-ka ()
-  (interactive)
-  (save-excursion
-    (goto-char (point-min))
-    (while (re-search-forward (rx "for(int " (submatch (*? nonl) "=")) nil t)
-      (replace-match "for(\\1"))))
-
                                         ;------------
 
 ;; (require 'bison-mode)
