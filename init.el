@@ -131,12 +131,6 @@
  '(lmntal-slim-executable "installed/bin/slim")
  '(lsp-haskell-process-path-hie "haskell-language-server-wrapper")
  '(lsp-project-whitelist (quote ("^/Users/shomasd/Desktop/hscaml/$")))
- '(navi2ch-article-exist-message-range nil)
- '(navi2ch-article-new-message-range nil)
- '(navi2ch-article-use-jit t t)
- '(navi2ch-mona-enable t)
- '(navi2ch-mona-ipa-mona-font-family-name "mona-izmg16")
- '(navi2ch-mona-use-ipa-mona t)
  '(neo-theme (quote nerd))
  '(org-agenda-start-with-log-mode t)
  '(org-export-with-sub-superscripts (quote {}))
@@ -192,7 +186,7 @@
  '(org-preview-latex-default-process (quote dvipng))
  '(package-selected-packages
    (quote
-    (proof-general cquery hy-mode tabbar direx neotree 0blayout vimrc-mode ssh ssh-agency helm-tramp racket-mode lex lsp-ui phi-autopair shm stream shell-pop multi-term term+ magic-latex-buffer flycheck-elm web-mode lsp-java lsp-rust lsp-haskell fstar-mode flycheck-ocaml tuareg utop merlin ac-octave buffer-stack intero helm-elscreen bison-mode gradle-mode meghanada vhdl-capf eclim edbi-minor-mode sml-mode toml-mode docker docker-tramp dockerfile-mode ctags flycheck-kotlin kotlin-mode todotxt fsharp-mode omnisharp csharp-mode company-racer elm-mode flycheck-liquidhs company-ghc ghc helm-ghc csv-mode spotlight px plantuml-mode ediprolog prolog origami ac-skk lispxmp wolfram hasky-extensions haskell-emacs gnuplot haskell-emacs-base haskell-emacs-text evil-tutor-ja ac-js2 react-snippets js2-mode shakespeare-mode eshell-manual counsel-projectile demo-it ido-describe-bindings company-dcd suggest smex counsel-osx-app flycheck-ghcmod company-restclient restclient yaml-mode wgrep-helm web-beautify wandbox undohist twittering-mode tinysegmenter tabulated-list sx switch-window swift-mode surround sudo-ext sudden-death steam stack-mode slime-company shut-up scheme-complete scala-mode2 save-load-path rustfmt ruby-electric ruby-block real-auto-save r-autoyas quickrun quelpa qml-mode purescript-mode powerline play-routes-mode page-break-lines osx-dictionary open-junk-file noflet navi2ch names mykie modern-cpp-font-lock mew matlab-mode mag-menu logito key-combo key-chord init-loader inflections ido-vertical-mode ido-ubiquitous ido-skk ido-migemo ido-better-flex hippie-expand-haskell helm-swoop helm-projectile helm-itunes helm-img helm-hoogle helm-helm-commands helm-hayoo helm-gtags helm-git-grep helm-git-files helm-git helm-descbinds helm-c-yasnippet helm-ag helm-R guide-key graphviz-dot-mode goto-last-change google-translate google gmail-message-mode geiser free-keys form-feed flymake-python-pyflakes flymake-lua flymake-cursor flymake-coffee flymake flycheck-rust flycheck-irony flycheck-dmd-dub flycheck-d-unittest flycheck-ats2 flex-autopair findr fcopy eww-lnum evil-paredit evil-numbers evil-magit ert-expectations elscreen eldoc-extension el-spy el-spec ein edit-server disaster dired-open dired-narrow dired-k d-mode company-tern company-sourcekit company-shell company-quickhelp company-jedi company-irony-c-headers company-irony company-inf-ruby company-coq company-cmake company-cabal coffee-mode cmake-mode cmake-ide clang-format chess cargo bnfc bind-key auto-yasnippet auto-install auto-async-byte-compile apples-mode anything-git-files anaconda-mode ag ace-popup-menu ace-link ace-jump-mode ac-R)))
+    (proof-general cquery hy-mode tabbar direx neotree 0blayout vimrc-mode ssh ssh-agency helm-tramp racket-mode lex lsp-ui phi-autopair shm stream shell-pop multi-term term+ magic-latex-buffer flycheck-elm web-mode lsp-java lsp-rust lsp-haskell fstar-mode flycheck-ocaml tuareg utop merlin ac-octave buffer-stack intero helm-elscreen bison-mode gradle-mode meghanada vhdl-capf eclim edbi-minor-mode sml-mode toml-mode docker docker-tramp dockerfile-mode ctags flycheck-kotlin kotlin-mode todotxt fsharp-mode omnisharp csharp-mode company-racer elm-mode flycheck-liquidhs company-ghc ghc helm-ghc csv-mode spotlight px plantuml-mode ediprolog prolog origami ac-skk lispxmp wolfram hasky-extensions haskell-emacs gnuplot haskell-emacs-base haskell-emacs-text evil-tutor-ja ac-js2 react-snippets js2-mode shakespeare-mode eshell-manual counsel-projectile demo-it ido-describe-bindings company-dcd suggest smex counsel-osx-app flycheck-ghcmod company-restclient restclient yaml-mode wgrep-helm web-beautify wandbox undohist twittering-mode tinysegmenter tabulated-list sx switch-window swift-mode surround sudo-ext sudden-death steam stack-mode slime-company shut-up scheme-complete scala-mode2 save-load-path rustfmt ruby-electric ruby-block real-auto-save r-autoyas quickrun quelpa qml-mode purescript-mode powerline play-routes-mode page-break-lines osx-dictionary open-junk-file noflet names mykie modern-cpp-font-lock mew matlab-mode mag-menu logito key-combo key-chord init-loader inflections ido-vertical-mode ido-ubiquitous ido-skk ido-migemo ido-better-flex hippie-expand-haskell helm-swoop helm-projectile helm-itunes helm-img helm-hoogle helm-helm-commands helm-hayoo helm-gtags helm-git-grep helm-git-files helm-git helm-descbinds helm-c-yasnippet helm-ag helm-R guide-key graphviz-dot-mode goto-last-change google-translate google gmail-message-mode geiser free-keys form-feed flymake-python-pyflakes flymake-lua flymake-cursor flymake-coffee flymake flycheck-rust flycheck-irony flycheck-dmd-dub flycheck-d-unittest flycheck-ats2 flex-autopair findr fcopy eww-lnum evil-paredit evil-numbers evil-magit ert-expectations elscreen eldoc-extension el-spy el-spec ein edit-server disaster dired-open dired-narrow dired-k d-mode company-tern company-sourcekit company-shell company-quickhelp company-jedi company-irony-c-headers company-irony company-inf-ruby company-coq company-cmake company-cabal coffee-mode cmake-mode cmake-ide clang-format chess cargo bnfc bind-key auto-yasnippet auto-install auto-async-byte-compile apples-mode anything-git-files anaconda-mode ag ace-popup-menu ace-link ace-jump-mode ac-R)))
  '(plantuml-jar-path "~/plantuml.jar")
  '(py-flake8-command-args "")
  '(python-shell-interpreter "python3" t)
@@ -281,7 +275,7 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-;; (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 
 
 ;;backup dir
@@ -1513,8 +1507,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
 (ido-vertical-mode t)
 (setq ido-vertical-define-keys 'C-n-and-C-p-only)
 (ido-migemo-mode t)
-(require 'navi2ch)
-(require 'navi2ch-mona)
 
 (setq ido-everywhere nil)
 (setq ido-create-new-buffer 'always)
@@ -1725,7 +1717,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
           line-end))
   :modes (scheme-mode))
 (add-to-list 'flycheck-checkers 'flycheck-guile)
-()
 
 (require 'geiser-mode)
 (add-hook 'geiser-mode-hook 'paredit-mode)

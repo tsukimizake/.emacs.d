@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "flycheck-dmd-dub" "20180625.1635" "Sets flycheck-dmd-include-paths from dub package information" '((flycheck "0.24") (f "0.18.2")) :commit "148ea4ba3e4c46c8edc616f947f796e98bcad0de" :keywords '("languages") :authors '(("Atila Neves" . "atila.neves@gmail.com")) :maintainer '("Atila Neves" . "atila.neves@gmail.com") :url "http://github.com/atilaneves/flycheck-dmd-dub")
