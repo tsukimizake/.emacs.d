@@ -17,7 +17,11 @@
   (setq shell-file-name "/bin/zsh")
   (setenv "PATH" (concat "/Library/TeX/texbin:" (getenv "PATH")))
   (setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
-  (setenv "PATH" (concat "~/.local/bin:" (getenv "PATH"))))
+  (setenv "PATH" (concat (expand-file-name "~/.local/bin:") (getenv "PATH")))
+  (setenv "PATH" (concat (expand-file-name "~/.ghcup/bin:") (getenv "PATH")))
+  )
+
+(add-to-list 'exec-path (expand-file-name "~/.ghcup/bin"))
 
 (add-to-list 'load-path "~/.emacs.d/myel")
 (require 'package)
@@ -1704,7 +1708,7 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
   :error-patterns
   ((error line-start
 	        "ERROR: " (message) ": " (file-name) ":" line ":" column ":" (message)
-          line-end)
+          line-end
    (warning line-start
 	          ";;; "(file-name) ":" line ":" column ": " "warning: "(message)
 
@@ -1715,7 +1719,8 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
    (error line-start
 	        (file-name) ":" line ":" column ":" (message)
           line-end))
-  :modes (scheme-mode))
+   :modes (scheme-mode)))
+
 (add-to-list 'flycheck-checkers 'flycheck-guile)
 
 (require 'geiser-mode)
@@ -2514,17 +2519,6 @@ It try (regex-match `REG' `STR'), and return `NUM'th match."
             (lambda () (setq neo-persist-show nil)))
   (add-hook 'popwin:after-popup-hook
             (lambda () (setq neo-persist-show t))))
-
-;;; thesis
-(defun thesis-replace-commas-and-dots ()
-  (interactive)
-  (save-excursion
-    (goto-char (point-min))
-    (while (re-search-forward "。" nil t)
-      (replace-match ". "))
-    (goto-char (point-min))
-    (while (re-search-forward "、" nil t)
-      (replace-match ", "))))
 
 (defun toggle-dump ()
   (interactive)
